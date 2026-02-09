@@ -1,0 +1,86 @@
+8.6467 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001ED4CF09E80>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001ED4CF09E20>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-0.7, -0.7, -0.7]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001ED4CF09B20>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001ED4DE7F160>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.6468 	EXP 	window1: mouseVisible = True
+8.6468 	EXP 	window1: backgroundImage = ''
+8.6468 	EXP 	window1: backgroundFit = 'none'
+8.6469 	EXP 	window1: mouseVisible = False
+8.6469 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.6469 	EXP 	window1: recordFrameIntervals = False
+8.8118 	EXP 	window1: recordFrameIntervals = True
+8.9955 	EXP 	Screen (0) actual frame rate measured at 59.96Hz
+8.9955 	EXP 	window1: recordFrameIntervals = False
+11.4633 	EXP 	Created welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='welcome_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4638 	EXP 	window1: mouseVisible = True
+11.4720 	EXP 	Created next_run_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='next_run_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Ready for next run?', units='height', win=Window(...), wrapWidth=1)
+11.4730 	EXP 	Created validation_complete_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='validation_complete_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.4755 	EXP 	Created fixation_text_trigger = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='fixation_text_trigger', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.6499 	EXP 	Created inter_stim_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='inter_stim_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.6509 	EXP 	Created end_run_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_run_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.6519 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='end_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.6596 	EXP 	Created conclusion_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='conclusion_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.6676 	EXP 	sentence: autoLog = True
+11.6676 	EXP 	question_fulltext: autoLog = True
+11.6676 	EXP 	question_option_1: autoLog = True
+11.6676 	EXP 	question_option_2: autoLog = True
+11.6676 	EXP 	question_option_3: autoLog = True
+11.6676 	EXP 	question_option_4: autoLog = True
+11.6676 	EXP 	welcome_text: autoDraw = True
+20.2739 	DATA 	Mouse: Left button down, pos=(569,765)
+20.3055 	EXP 	Imported Participant_01/runs.csv as conditions, 4 conditions, 3 params
+20.3061 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+20.3063 	EXP 	New trial (rep=0, index=0): OrderedDict([('run_file', 'C:\\Users\\psychopy\\Desktop\\2023 Fodor Dataset\\Participant_01\\run_5.csv'), ('intro_text', 'Eye-tracking validation complete. \nRun 5 of 8 will begin shortly.'), ('final_fixation_time', 13.851408000000049)])
+20.3141 	EXP 	welcome_text: autoDraw = False
+20.3141 	EXP 	next_run_text: autoDraw = True
+20.4242 	DATA 	Mouse:  Left button up, pos=(569,765)
+21.7584 	EXP 	eyetracker.clearEvents()
+22.2591 	EXP 	eyetracker.setRecordingState(True)
+22.2655 	EXP 	Created calibrationTarget = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='calibrationTarget', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.2687 	EXP 	Created calibrationTargetInner = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='calibrationTargetInner', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.007, 0.007]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.8918 	DATA 	Keypress: s
+49.8998 	EXP 	next_run_text: autoDraw = False
+49.9273 	EXP 	validation_complete_text: height = 0.05
+49.9273 	EXP 	validation_complete_text: height = 0.05
+49.9273 	EXP 	validation_complete_text: height = 0.05
+49.9273 	EXP 	validation_complete_text: text = 'Eye-tracking validation complete. \nRun 5 of 8 will begin shortly.'
+49.9273 	EXP 	validation_complete_text: autoDraw = True
+50.7500 	DATA 	Mouse: Left button down, pos=(824,696)
+50.8820 	DATA 	Mouse:  Left button up, pos=(824,696)
+53.9329 	EXP 	validation_complete_text: autoDraw = False
+53.9329 	EXP 	fixation_text_trigger: height = 0.07
+53.9329 	EXP 	fixation_text_trigger: height = 0.07
+53.9329 	EXP 	fixation_text_trigger: height = 0.07
+53.9329 	EXP 	fixation_text_trigger: text = '+'
+53.9329 	EXP 	fixation_text_trigger: autoDraw = True
+56.7026 	EXP 	Imported C:\Users\psychopy\Desktop\2023 Fodor Dataset\Participant_01\run_5.csv as conditions, 48 conditions, 11 params
+56.7030 	EXP 	Created sequence: sequential, trialTypes=48, nReps=1, seed=None
+56.7033 	EXP 	New trial (rep=0, index=0): OrderedDict([('sentence_id', 114), ('sentence_text', "The children objected to the dog's disagreeable smell."), ('sentence_duration', 3.4499519999999997), ('interstim_duration', 6.664), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+56.7542 	DATA 	Keypress: t
+56.7603 	EXP 	fixation_text_trigger: autoDraw = False
+56.7603 	EXP 	sentence: autoDraw = True
+60.3689 	EXP 	sentence: autoDraw = False
+60.3689 	EXP 	sentence: autoDraw = False
+60.3689 	EXP 	question_fulltext: autoDraw = True
+60.3689 	EXP 	question_fulltext: autoDraw = False
+60.3689 	EXP 	question_option_1: autoDraw = True
+60.3689 	EXP 	question_option_1: autoDraw = False
+60.3689 	EXP 	question_option_2: autoDraw = True
+60.3689 	EXP 	question_option_2: autoDraw = False
+60.3689 	EXP 	question_option_3: autoDraw = True
+60.3689 	EXP 	question_option_3: autoDraw = False
+60.3689 	EXP 	question_option_4: autoDraw = True
+60.3689 	EXP 	question_option_4: autoDraw = False
+60.3689 	EXP 	question_fulltext: autoDraw = False
+60.3689 	EXP 	question_option_1: autoDraw = False
+60.3689 	EXP 	question_option_2: autoDraw = False
+60.3689 	EXP 	question_option_3: autoDraw = False
+60.3689 	EXP 	question_option_4: autoDraw = False
+60.3689 	EXP 	inter_stim_text: height = 0.07
+60.3689 	EXP 	inter_stim_text: height = 0.07
+60.3689 	EXP 	inter_stim_text: height = 0.07
+60.3689 	EXP 	inter_stim_text: text = '+'
+60.3689 	EXP 	inter_stim_text: autoDraw = True
+67.0270 	EXP 	New trial (rep=0, index=1): OrderedDict([('sentence_id', 184), ('sentence_text', 'The customer watched over the model for the shopkeeper.'), ('sentence_duration', 3.5178), ('interstim_duration', 6.982), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+67.0587 	EXP 	inter_stim_text: autoDraw = False
+67.0587 	EXP 	inter_stim_text: autoDraw = False
+67.0587 	EXP 	sentence: autoDraw = True
+70.0808 	DATA 	Keypress: escape
+70.7121 	EXP 	window1: mouseVisible = True

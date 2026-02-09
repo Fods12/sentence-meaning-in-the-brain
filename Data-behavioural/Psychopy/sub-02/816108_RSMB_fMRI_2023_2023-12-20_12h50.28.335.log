@@ -1,0 +1,296 @@
+7.3374 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000010BFFD88100>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000010BFFD880A0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-0.7, -0.7, -0.7]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000010BFFD76DC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000010B80D2B460>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.3376 	EXP 	window1: mouseVisible = True
+7.3376 	EXP 	window1: backgroundImage = ''
+7.3376 	EXP 	window1: backgroundFit = 'none'
+7.3377 	EXP 	window1: mouseVisible = False
+7.3377 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.3377 	EXP 	window1: recordFrameIntervals = False
+7.5031 	EXP 	window1: recordFrameIntervals = True
+7.6867 	EXP 	Screen (0) actual frame rate measured at 59.95Hz
+7.6867 	EXP 	window1: recordFrameIntervals = False
+10.0158 	EXP 	Created welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='welcome_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.0163 	EXP 	window1: mouseVisible = True
+10.0254 	EXP 	Created next_run_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='next_run_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Ready for next run?', units='height', win=Window(...), wrapWidth=1)
+10.0264 	EXP 	Created validation_complete_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='validation_complete_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.0285 	EXP 	Created fixation_text_trigger = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='fixation_text_trigger', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1735 	EXP 	Created inter_stim_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='inter_stim_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1745 	EXP 	Created end_run_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_run_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1755 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='end_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1836 	EXP 	Created conclusion_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='conclusion_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.1917 	EXP 	sentence: autoLog = True
+10.1917 	EXP 	question_fulltext: autoLog = True
+10.1917 	EXP 	question_option_1: autoLog = True
+10.1917 	EXP 	question_option_2: autoLog = True
+10.1917 	EXP 	question_option_3: autoLog = True
+10.1917 	EXP 	question_option_4: autoLog = True
+10.1917 	EXP 	welcome_text: autoDraw = True
+10.7916 	DATA 	Mouse: Left button down, pos=(753,572)
+10.8011 	EXP 	Imported Participant_02/runs.csv as conditions, 8 conditions, 3 params
+10.8016 	EXP 	Created sequence: sequential, trialTypes=8, nReps=1, seed=None
+10.8019 	EXP 	New trial (rep=0, index=0): OrderedDict([('run_file', 'C:\\Users\\psychopy\\Desktop\\2023 Fodor Dataset\\Participant_02\\run_1.csv'), ('intro_text', 'Eye-tracking validation complete. \nRun 1 of 8 will begin shortly.'), ('final_fixation_time', 14.23298399999993)])
+10.8136 	EXP 	welcome_text: autoDraw = False
+10.8136 	EXP 	next_run_text: autoDraw = True
+10.8922 	DATA 	Mouse:  Left button up, pos=(753,572)
+11.4608 	DATA 	Mouse: Left button down, pos=(1104,484)
+11.5605 	DATA 	Mouse:  Left button up, pos=(1104,484)
+12.7108 	EXP 	eyetracker.clearEvents()
+13.2121 	EXP 	eyetracker.setRecordingState(True)
+13.2213 	EXP 	Created calibrationTarget = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='calibrationTarget', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.2291 	EXP 	Created calibrationTargetInner = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='calibrationTargetInner', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.007, 0.007]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+34.5262 	DATA 	Keypress: s
+34.5293 	EXP 	next_run_text: autoDraw = False
+34.5530 	EXP 	validation_complete_text: height = 0.05
+34.5530 	EXP 	validation_complete_text: height = 0.05
+34.5530 	EXP 	validation_complete_text: height = 0.05
+34.5530 	EXP 	validation_complete_text: text = 'Eye-tracking validation complete. \nRun 1 of 8 will begin shortly.'
+34.5530 	EXP 	validation_complete_text: autoDraw = True
+35.5978 	DATA 	Mouse: Left button down, pos=(960,361)
+35.6960 	DATA 	Mouse:  Left button up, pos=(960,361)
+38.5639 	EXP 	validation_complete_text: autoDraw = False
+38.5639 	EXP 	fixation_text_trigger: height = 0.07
+38.5639 	EXP 	fixation_text_trigger: height = 0.07
+38.5639 	EXP 	fixation_text_trigger: height = 0.07
+38.5639 	EXP 	fixation_text_trigger: text = '+'
+38.5639 	EXP 	fixation_text_trigger: autoDraw = True
+39.1782 	EXP 	Imported C:\Users\psychopy\Desktop\2023 Fodor Dataset\Participant_02\run_1.csv as conditions, 48 conditions, 11 params
+39.1787 	EXP 	Created sequence: sequential, trialTypes=48, nReps=1, seed=None
+39.1789 	EXP 	New trial (rep=0, index=0): OrderedDict([('sentence_id', 67), ('sentence_text', 'The company purchased the apartment block from the wealthy family.'), ('sentence_duration', 4.273632), ('interstim_duration', 5.498), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+39.2339 	DATA 	Keypress: t
+39.2402 	EXP 	fixation_text_trigger: autoDraw = False
+39.2402 	EXP 	sentence: autoDraw = True
+43.6230 	EXP 	sentence: autoDraw = False
+43.6230 	EXP 	sentence: autoDraw = False
+43.6230 	EXP 	question_fulltext: autoDraw = True
+43.6230 	EXP 	question_fulltext: autoDraw = False
+43.6230 	EXP 	question_option_1: autoDraw = True
+43.6230 	EXP 	question_option_1: autoDraw = False
+43.6230 	EXP 	question_option_2: autoDraw = True
+43.6230 	EXP 	question_option_2: autoDraw = False
+43.6230 	EXP 	question_option_3: autoDraw = True
+43.6230 	EXP 	question_option_3: autoDraw = False
+43.6230 	EXP 	question_option_4: autoDraw = True
+43.6230 	EXP 	question_option_4: autoDraw = False
+43.6230 	EXP 	question_fulltext: autoDraw = False
+43.6230 	EXP 	question_option_1: autoDraw = False
+43.6230 	EXP 	question_option_2: autoDraw = False
+43.6230 	EXP 	question_option_3: autoDraw = False
+43.6230 	EXP 	question_option_4: autoDraw = False
+43.6230 	EXP 	inter_stim_text: height = 0.07
+43.6230 	EXP 	inter_stim_text: height = 0.07
+43.6230 	EXP 	inter_stim_text: height = 0.07
+43.6230 	EXP 	inter_stim_text: text = '+'
+43.6230 	EXP 	inter_stim_text: autoDraw = True
+49.1191 	EXP 	New trial (rep=0, index=1): OrderedDict([('sentence_id', 21), ('sentence_text', 'The director brought his cameraman some important documents.'), ('sentence_duration', 3.8591999999999995), ('interstim_duration', 5.074), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+49.1410 	EXP 	inter_stim_text: autoDraw = False
+49.1410 	EXP 	inter_stim_text: autoDraw = False
+49.1410 	EXP 	sentence: autoDraw = True
+53.0055 	EXP 	sentence: autoDraw = False
+53.0055 	EXP 	sentence: autoDraw = False
+53.0055 	EXP 	question_fulltext: autoDraw = True
+53.0055 	EXP 	question_fulltext: autoDraw = False
+53.0055 	EXP 	question_option_1: autoDraw = True
+53.0055 	EXP 	question_option_1: autoDraw = False
+53.0055 	EXP 	question_option_2: autoDraw = True
+53.0055 	EXP 	question_option_2: autoDraw = False
+53.0055 	EXP 	question_option_3: autoDraw = True
+53.0055 	EXP 	question_option_3: autoDraw = False
+53.0055 	EXP 	question_option_4: autoDraw = True
+53.0055 	EXP 	question_option_4: autoDraw = False
+53.0055 	EXP 	question_fulltext: autoDraw = False
+53.0055 	EXP 	question_option_1: autoDraw = False
+53.0055 	EXP 	question_option_2: autoDraw = False
+53.0055 	EXP 	question_option_3: autoDraw = False
+53.0055 	EXP 	question_option_4: autoDraw = False
+53.0055 	EXP 	inter_stim_text: text = '+'
+53.0055 	EXP 	inter_stim_text: autoDraw = True
+58.0756 	EXP 	New trial (rep=0, index=2): OrderedDict([('sentence_id', 141), ('sentence_text', "The experienced lobbyist wrote a painstakingly detailed email\nto the politician about the reporter's recent activities."), ('sentence_duration', 8.159592), ('interstim_duration', 3.166), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+58.1010 	EXP 	inter_stim_text: autoDraw = False
+58.1010 	EXP 	inter_stim_text: autoDraw = False
+58.1010 	EXP 	sentence: autoDraw = True
+66.2649 	EXP 	sentence: autoDraw = False
+66.2649 	EXP 	sentence: autoDraw = False
+66.2649 	EXP 	question_fulltext: autoDraw = True
+66.2649 	EXP 	question_fulltext: autoDraw = False
+66.2649 	EXP 	question_option_1: autoDraw = True
+66.2649 	EXP 	question_option_1: autoDraw = False
+66.2649 	EXP 	question_option_2: autoDraw = True
+66.2649 	EXP 	question_option_2: autoDraw = False
+66.2649 	EXP 	question_option_3: autoDraw = True
+66.2649 	EXP 	question_option_3: autoDraw = False
+66.2649 	EXP 	question_option_4: autoDraw = True
+66.2649 	EXP 	question_option_4: autoDraw = False
+66.2649 	EXP 	question_fulltext: autoDraw = False
+66.2649 	EXP 	question_option_1: autoDraw = False
+66.2649 	EXP 	question_option_2: autoDraw = False
+66.2649 	EXP 	question_option_3: autoDraw = False
+66.2649 	EXP 	question_option_4: autoDraw = False
+66.2649 	EXP 	inter_stim_text: text = '+'
+66.2649 	EXP 	inter_stim_text: autoDraw = True
+69.4171 	EXP 	New trial (rep=0, index=3): OrderedDict([('sentence_id', 77), ('sentence_text', 'Shortly before the election the company unwittingly\npurchased a defective apartment block from the family.'), ('sentence_duration', 7.168991999999999), ('interstim_duration', 3.802), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+69.4380 	EXP 	inter_stim_text: autoDraw = False
+69.4380 	EXP 	inter_stim_text: autoDraw = False
+69.4380 	EXP 	sentence: autoDraw = True
+76.6227 	EXP 	sentence: autoDraw = False
+76.6227 	EXP 	sentence: autoDraw = False
+76.6227 	EXP 	question_fulltext: autoDraw = True
+76.6227 	EXP 	question_fulltext: autoDraw = False
+76.6227 	EXP 	question_option_1: autoDraw = True
+76.6227 	EXP 	question_option_1: autoDraw = False
+76.6227 	EXP 	question_option_2: autoDraw = True
+76.6227 	EXP 	question_option_2: autoDraw = False
+76.6227 	EXP 	question_option_3: autoDraw = True
+76.6227 	EXP 	question_option_3: autoDraw = False
+76.6227 	EXP 	question_option_4: autoDraw = True
+76.6227 	EXP 	question_option_4: autoDraw = False
+76.6227 	EXP 	question_fulltext: autoDraw = False
+76.6227 	EXP 	question_option_1: autoDraw = False
+76.6227 	EXP 	question_option_2: autoDraw = False
+76.6227 	EXP 	question_option_3: autoDraw = False
+76.6227 	EXP 	question_option_4: autoDraw = False
+76.6227 	EXP 	inter_stim_text: text = '+'
+76.6227 	EXP 	inter_stim_text: autoDraw = True
+80.4084 	EXP 	New trial (rep=0, index=4): OrderedDict([('sentence_id', 47), ('sentence_text', 'One per week the psychologist spoke delicately to\nher experienced secretary about her most difficult patients.'), ('sentence_duration', 7.4712), ('interstim_duration', 5.816), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+80.4295 	EXP 	inter_stim_text: autoDraw = False
+80.4295 	EXP 	inter_stim_text: autoDraw = False
+80.4295 	EXP 	sentence: autoDraw = True
+87.9157 	EXP 	sentence: autoDraw = False
+87.9157 	EXP 	sentence: autoDraw = False
+87.9157 	EXP 	question_fulltext: autoDraw = True
+87.9157 	EXP 	question_fulltext: autoDraw = False
+87.9157 	EXP 	question_option_1: autoDraw = True
+87.9157 	EXP 	question_option_1: autoDraw = False
+87.9157 	EXP 	question_option_2: autoDraw = True
+87.9157 	EXP 	question_option_2: autoDraw = False
+87.9157 	EXP 	question_option_3: autoDraw = True
+87.9157 	EXP 	question_option_3: autoDraw = False
+87.9157 	EXP 	question_option_4: autoDraw = True
+87.9157 	EXP 	question_option_4: autoDraw = False
+87.9157 	EXP 	question_fulltext: autoDraw = False
+87.9157 	EXP 	question_option_1: autoDraw = False
+87.9157 	EXP 	question_option_2: autoDraw = False
+87.9157 	EXP 	question_option_3: autoDraw = False
+87.9157 	EXP 	question_option_4: autoDraw = False
+87.9157 	EXP 	inter_stim_text: text = '+'
+87.9157 	EXP 	inter_stim_text: autoDraw = True
+93.7178 	EXP 	New trial (rep=0, index=5): OrderedDict([('sentence_id', 15), ('sentence_text', 'At dawn the industrious cameraman brought the essential\nequipment to the director in his downtown office.'), ('sentence_duration', 7.0938), ('interstim_duration', 6.77), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+93.7389 	EXP 	inter_stim_text: autoDraw = False
+93.7389 	EXP 	inter_stim_text: autoDraw = False
+93.7389 	EXP 	sentence: autoDraw = True
+100.8400 	EXP 	sentence: autoDraw = False
+100.8400 	EXP 	sentence: autoDraw = False
+100.8400 	EXP 	question_fulltext: autoDraw = True
+100.8400 	EXP 	question_fulltext: autoDraw = False
+100.8400 	EXP 	question_option_1: autoDraw = True
+100.8400 	EXP 	question_option_1: autoDraw = False
+100.8400 	EXP 	question_option_2: autoDraw = True
+100.8400 	EXP 	question_option_2: autoDraw = False
+100.8400 	EXP 	question_option_3: autoDraw = True
+100.8400 	EXP 	question_option_3: autoDraw = False
+100.8400 	EXP 	question_option_4: autoDraw = True
+100.8400 	EXP 	question_option_4: autoDraw = False
+100.8400 	EXP 	question_fulltext: autoDraw = False
+100.8400 	EXP 	question_option_1: autoDraw = False
+100.8400 	EXP 	question_option_2: autoDraw = False
+100.8400 	EXP 	question_option_3: autoDraw = False
+100.8400 	EXP 	question_option_4: autoDraw = False
+100.8400 	EXP 	inter_stim_text: text = '+'
+100.8400 	EXP 	inter_stim_text: autoDraw = True
+107.5945 	EXP 	New trial (rep=0, index=6): OrderedDict([('sentence_id', 134), ('sentence_text', 'The lobbyist warned the politician about the reporter.'), ('sentence_duration', 3.4499519999999997), ('interstim_duration', 2.212), ('question_duration', 5), ('question_text', 'Who warned the politician?'), ('answer_index', 'B'), ('option_1', 'A) The reporter'), ('option_2', 'B) The lobbyist'), ('option_3', 'C) The journalist'), ('option_4', 'D) The policeman')])
+107.6128 	EXP 	inter_stim_text: autoDraw = False
+107.6128 	EXP 	inter_stim_text: autoDraw = False
+107.6128 	EXP 	sentence: autoDraw = True
+111.0872 	EXP 	sentence: autoDraw = False
+111.0872 	EXP 	sentence: autoDraw = False
+111.0872 	EXP 	question_fulltext: autoDraw = True
+111.0872 	EXP 	question_option_1: autoDraw = True
+111.0872 	EXP 	question_option_2: autoDraw = True
+111.0872 	EXP 	question_option_3: autoDraw = True
+111.0872 	EXP 	question_option_4: autoDraw = True
+116.1015 	EXP 	question_fulltext: autoDraw = False
+116.1015 	EXP 	question_option_1: autoDraw = False
+116.1015 	EXP 	question_option_2: autoDraw = False
+116.1015 	EXP 	question_option_3: autoDraw = False
+116.1015 	EXP 	question_option_4: autoDraw = False
+116.1015 	EXP 	question_fulltext: autoDraw = False
+116.1015 	EXP 	question_option_1: autoDraw = False
+116.1015 	EXP 	question_option_2: autoDraw = False
+116.1015 	EXP 	question_option_3: autoDraw = False
+116.1015 	EXP 	question_option_4: autoDraw = False
+116.1015 	EXP 	inter_stim_text: text = '+'
+116.1015 	EXP 	inter_stim_text: autoDraw = True
+116.5024 	DATA 	Keypress: d
+118.3021 	EXP 	New trial (rep=0, index=7): OrderedDict([('sentence_id', 157), ('sentence_text', 'Using pen and paper the reporter meticulously wrote\na personal letter to the lobbyist about the politician.'), ('sentence_duration', 7.244328), ('interstim_duration', 4.968), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+118.3240 	EXP 	inter_stim_text: autoDraw = False
+118.3240 	EXP 	inter_stim_text: autoDraw = False
+118.3240 	EXP 	sentence: autoDraw = True
+125.5744 	EXP 	sentence: autoDraw = False
+125.5744 	EXP 	sentence: autoDraw = False
+125.5744 	EXP 	question_fulltext: autoDraw = True
+125.5744 	EXP 	question_fulltext: autoDraw = False
+125.5744 	EXP 	question_option_1: autoDraw = True
+125.5744 	EXP 	question_option_1: autoDraw = False
+125.5744 	EXP 	question_option_2: autoDraw = True
+125.5744 	EXP 	question_option_2: autoDraw = False
+125.5744 	EXP 	question_option_3: autoDraw = True
+125.5744 	EXP 	question_option_3: autoDraw = False
+125.5744 	EXP 	question_option_4: autoDraw = True
+125.5744 	EXP 	question_option_4: autoDraw = False
+125.5744 	EXP 	question_fulltext: autoDraw = False
+125.5744 	EXP 	question_option_1: autoDraw = False
+125.5744 	EXP 	question_option_2: autoDraw = False
+125.5744 	EXP 	question_option_3: autoDraw = False
+125.5744 	EXP 	question_option_4: autoDraw = False
+125.5744 	EXP 	inter_stim_text: text = '+'
+125.5744 	EXP 	inter_stim_text: autoDraw = True
+130.5278 	EXP 	New trial (rep=0, index=8): OrderedDict([('sentence_id', 139), ('sentence_text', 'From his spacious office the professional\nlobbyist wrote to politician about the reporter.'), ('sentence_duration', 5.983199999999999), ('interstim_duration', 2.954), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+130.5486 	EXP 	inter_stim_text: autoDraw = False
+130.5486 	EXP 	inter_stim_text: autoDraw = False
+130.5486 	EXP 	sentence: autoDraw = True
+136.5321 	EXP 	sentence: autoDraw = False
+136.5321 	EXP 	sentence: autoDraw = False
+136.5321 	EXP 	question_fulltext: autoDraw = True
+136.5321 	EXP 	question_fulltext: autoDraw = False
+136.5321 	EXP 	question_option_1: autoDraw = True
+136.5321 	EXP 	question_option_1: autoDraw = False
+136.5321 	EXP 	question_option_2: autoDraw = True
+136.5321 	EXP 	question_option_2: autoDraw = False
+136.5321 	EXP 	question_option_3: autoDraw = True
+136.5321 	EXP 	question_option_3: autoDraw = False
+136.5321 	EXP 	question_option_4: autoDraw = True
+136.5321 	EXP 	question_option_4: autoDraw = False
+136.5321 	EXP 	question_fulltext: autoDraw = False
+136.5321 	EXP 	question_option_1: autoDraw = False
+136.5321 	EXP 	question_option_2: autoDraw = False
+136.5321 	EXP 	question_option_3: autoDraw = False
+136.5321 	EXP 	question_option_4: autoDraw = False
+136.5321 	EXP 	inter_stim_text: text = '+'
+136.5321 	EXP 	inter_stim_text: autoDraw = True
+139.4841 	EXP 	New trial (rep=0, index=9): OrderedDict([('sentence_id', 167), ('sentence_text', 'The shopkeeper acquired the watch for his customers.'), ('sentence_duration', 3.3146880000000003), ('interstim_duration', 3.06), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+139.5022 	EXP 	inter_stim_text: autoDraw = False
+139.5022 	EXP 	inter_stim_text: autoDraw = False
+139.5022 	EXP 	sentence: autoDraw = True
+142.8204 	EXP 	sentence: autoDraw = False
+142.8204 	EXP 	sentence: autoDraw = False
+142.8204 	EXP 	question_fulltext: autoDraw = True
+142.8204 	EXP 	question_fulltext: autoDraw = False
+142.8204 	EXP 	question_option_1: autoDraw = True
+142.8204 	EXP 	question_option_1: autoDraw = False
+142.8204 	EXP 	question_option_2: autoDraw = True
+142.8204 	EXP 	question_option_2: autoDraw = False
+142.8204 	EXP 	question_option_3: autoDraw = True
+142.8204 	EXP 	question_option_3: autoDraw = False
+142.8204 	EXP 	question_option_4: autoDraw = True
+142.8204 	EXP 	question_option_4: autoDraw = False
+142.8204 	EXP 	question_fulltext: autoDraw = False
+142.8204 	EXP 	question_option_1: autoDraw = False
+142.8204 	EXP 	question_option_2: autoDraw = False
+142.8204 	EXP 	question_option_3: autoDraw = False
+142.8204 	EXP 	question_option_4: autoDraw = False
+142.8204 	EXP 	inter_stim_text: text = '+'
+142.8204 	EXP 	inter_stim_text: autoDraw = True
+145.8720 	EXP 	New trial (rep=0, index=10): OrderedDict([('sentence_id', 53), ('sentence_text', 'The support group spoke to the patient about her psychologist.'), ('sentence_duration', 3.996768), ('interstim_duration', 2.53), ('question_duration', 0), ('question_text', 'Who spoke to the patient?'), ('answer_index', 'None'), ('option_1', 'A) The support group'), ('option_2', 'B) The support group'), ('option_3', 'C) The psychologist'), ('option_4', 'D) The child')])
+145.8901 	EXP 	inter_stim_text: autoDraw = False
+145.8901 	EXP 	inter_stim_text: autoDraw = False
+145.8901 	EXP 	sentence: autoDraw = True
+149.5768 	DATA 	Keypress: escape
+150.3643 	EXP 	window1: mouseVisible = True

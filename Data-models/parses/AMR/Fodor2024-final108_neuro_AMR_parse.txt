@@ -1,0 +1,1117 @@
+# ::snt-1 The cameraman brought the equipment to the director.
+(z1 / bring-01
+      :ARG0 (z2 / cameraman)
+      :ARG1 (z3 / equipment)
+      :ARG2 (z4 / person
+            :ARG0-of (z5 / have-org-role-91
+                  :ARG2 (z6 / director))))
+
+# ::snt-2 The cameraman brought the new equipment to the director.
+(z1 / bring-01
+      :ARG0 (z2 / cameraman)
+      :ARG1 (z3 / equipment
+            :ARG1-of (z4 / new-01))
+      :ARG2 (z5 / person
+            :ARG0-of (z6 / have-org-role-91
+                  :ARG2 (z7 / director))))
+
+# ::snt-3 A painter brought the equipment to the director.
+(z1 / bring-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / paint-02))
+      :ARG1 (z4 / equipment)
+      :ARG2 (z5 / director))
+
+# ::snt-4 The cameraman sold the equipment to the director.
+(z1 / sell-01
+      :ARG0 (z2 / cameraman)
+      :ARG1 (z3 / equipment)
+      :ARG2 (z4 / person
+            :ARG0-of (z5 / have-org-role-91
+                  :ARG2 (z6 / director))))
+
+# ::snt-5 The cameraman brought a hot lunch for the director.
+(z1 / bring-01
+      :ARG0 (z2 / cameraman)
+      :ARG1 (z3 / lunch
+            :ARG1-of (z4 / hot-05))
+      :ARG2 (z5 / person
+            :ARG0-of (z6 / have-org-role-91
+                  :ARG2 (z7 / director))))
+
+# ::snt-6 Every morning the cameraman brought the equipment to the impatient director.
+(z1 / bring-01
+      :ARG0 (z2 / cameraman)
+      :ARG1 (z3 / equipment)
+      :ARG2 (z4 / director
+            :mod (z5 / patience
+                  :polarity -))
+      :frequency (z6 / rate-entity-91
+            :ARG4 (z7 / date-entity
+                  :dayperiod (z8 / morning)
+                  :mod (z9 / every))))
+
+# ::snt-7 A team of cameramen brought all the necessary equipment to the busy director.
+(z1 / bring-01
+      :ARG0 (z2 / team
+            :consist-of (z3 / cameraman))
+      :ARG1 (z4 / equipment
+            :ARG1-of (z5 / need-01)
+            :mod (z6 / all))
+      :ARG2 (z7 / director
+            :ARG1-of (z8 / busy-01)))
+
+# ::snt-8 The cameraman begrudgingly brought the awkward equipment up from the basement to the director.
+(z1 / bring-up-02
+      :ARG0 (z2 / cameraman)
+      :ARG1 (z3 / equipment
+            :mod (z4 / awkward))
+      :ARG3 (z5 / basement)
+      :ARG4 (z6 / person
+            :ARG0-of (z7 / have-org-role-91
+                  :ARG2 (z8 / director)))
+      :manner (z9 / begrudge-01
+            :ARG0 z2))
+
+# ::snt-9 At dawn the industrious cameraman brought the essential equipment to the director in his downtown office.
+(z1 / bring-01
+      :ARG0 (z2 / cameraman
+            :mod (z3 / industrious))
+      :ARG1 (z4 / equipment
+            :mod (z5 / essential))
+      :ARG2 (z6 / person
+            :ARG0-of (z7 / have-org-role-91
+                  :ARG2 (z8 / director)))
+      :time (z9 / date-entity
+            :dayperiod (z10 / dawn))
+      :location (z11 / office
+            :poss z6
+            :location (z12 / downtown)))
+
+# ::snt-10 The director brought the cameraman to the equipment.
+(z1 / bring-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / director)))
+      :ARG1 (z5 / cameraman)
+      :ARG2 (z6 / equipment))
+
+# ::snt-11 The director brought the cameraman to his equipment.
+(z1 / bring-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / director)))
+      :ARG1 (z5 / cameraman)
+      :ARG2 (z6 / equipment
+            :poss z2))
+
+# ::snt-12 The director brought his cameraman a hot lunch.
+(z1 / bring-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / director)))
+      :ARG1 (z5 / lunch
+            :ARG1-of (z6 / hot-05))
+      :ARG2 (z7 / cameraman
+            :poss z2))
+
+# ::snt-13 The director sold the cameraman's equipment.
+(z1 / sell-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / director)))
+      :ARG1 (z5 / equipment
+            :poss (z6 / cameraman)))
+
+# ::snt-14 The director brought the painter to his equipment.
+(z1 / bring-01
+      :ARG0 (z2 / director)
+      :ARG1 (z3 / person
+            :ARG0-of (z4 / paint-02))
+      :ARG2 (z5 / equipment
+            :poss z3))
+
+# ::snt-15 Every morning the director brought the cameraman to the expensive equipment.
+(z1 / bring-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / director)))
+      :ARG1 (z5 / cameraman)
+      :ARG2 (z6 / equipment
+            :mod (z7 / expensive))
+      :frequency (z8 / rate-entity-91
+            :ARG4 (z9 / date-entity
+                  :dayperiod (z10 / morning))))
+
+# ::snt-16 The director inexplicably brought the cameraman to the useless old equipment in the storeroom.
+(z1 / bring-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / director)))
+      :ARG1 (z5 / cameraman)
+      :ARG2 (z6 / equipment
+            :ARG1-of (z7 / use-01
+                  :ARG1-of (z8 / possible-01
+                        :polarity -))
+            :mod (z9 / old)
+            :location (z10 / room
+                  :location-of (z11 / store-01)))
+      :ARG1-of (z12 / explain-01
+            :polarity -))
+
+# ::snt-17 The renowned director brought the impatient cameraman to the equipment from his last project.
+(z1 / bring-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / director))
+            :ARG1-of (z5 / renown-01))
+      :ARG1 (z6 / cameraman
+            :ARG1-of (z7 / patient-01
+                  :polarity -))
+      :ARG2 (z8 / equipment
+            :source (z9 / project
+                  :mod (z10 / last)
+                  :poss z2)))
+
+# ::snt-18 On the weekend the helpful film director brought the inexperienced cameraman to his equipment in the storeroom.
+(z1 / bring-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / director
+                        :topic (z5 / film)))
+            :ARG0-of (z6 / helpful-04))
+      :ARG1 (z7 / cameraman
+            :ARG0-of (z8 / experience-01
+                  :polarity -))
+      :ARG2 (z9 / equipment
+            :poss z7
+            :location (z10 / room
+                  :location-of (z11 / store-01)))
+      :time (z12 / weekend))
+
+# ::snt-19 The psychologist spoke to the secretary about the patient.
+(z1 / speak-01
+      :ARG0 (z2 / psychologist)
+      :ARG1 (z3 / patient)
+      :ARG2 (z4 / secretary))
+
+# ::snt-20 The psychologist often spoke to the secretary about the patient.
+(z1 / speak-01
+      :ARG0 (z2 / psychologist)
+      :ARG1 (z3 / patient)
+      :ARG2 (z4 / secretary)
+      :frequency (z5 / often))
+
+# ::snt-21 The cleaner spoke to the secretary about the patient.
+(z1 / speak-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / clean-01))
+      :ARG1 (z4 / patient)
+      :ARG2 (z5 / secretary))
+
+# ::snt-22 The psychologist warned the secretary about the patient.
+(z1 / warn-01
+      :ARG0 (z2 / psychologist)
+      :ARG1 (z3 / patient)
+      :ARG2 (z4 / secretary))
+
+# ::snt-23 A psychologist spoke to her gardener about the patient.
+(z1 / speak-01
+      :ARG0 (z2 / psychologist)
+      :ARG1 (z3 / patient)
+      :ARG2 (z4 / person
+            :ARG0-of (z5 / garden-01)
+            :poss z2))
+
+# ::snt-24 The psychologist sometimes spoke to her secretary about the problematic patient.
+(z1 / speak-01
+      :ARG0 (z2 / psychologist)
+      :ARG1 (z3 / patient
+            :ARG1-of (z4 / problematic-03))
+      :ARG2 (z5 / person
+            :ARG0-of (z6 / have-rel-role-91
+                  :ARG1 z2
+                  :ARG2 (z7 / secretary)))
+      :frequency (z8 / sometimes))
+
+# ::snt-25 The distinguished psychologist spoke in her office to the diligent secretary about her patients.
+(z1 / speak-01
+      :ARG0 (z2 / psychologist
+            :ARG1-of (z3 / distinguish-01))
+      :ARG1 (z4 / patient
+            :poss z2)
+      :ARG2 (z5 / secretary
+            :mod (z6 / diligent))
+      :location (z7 / office
+            :poss z2))
+
+# ::snt-26 Occasionally the psychologist accidently spoke to his secretary about one patient within earshot of other patients.
+(z1 / speak-01
+      :ARG0 (z2 / psychologist)
+      :ARG1 (z3 / patient
+            :quant 1
+            :ARG1-of (z4 / be-located-at-91
+                  :ARG2 (z5 / within
+                        :op1 (z6 / earshot
+                              :poss (z7 / patient
+                                    :mod (z8 / other))))))
+      :ARG2 (z9 / person
+            :ARG0-of (z10 / have-rel-role-91
+                  :ARG1 z2
+                  :ARG2 (z11 / secretary)))
+      :frequency (z12 / occasional)
+      :manner (z13 / accident))
+
+# ::snt-27 One per week the psychologist spoke delicately to her experienced secretary about her most difficult patients.
+(z1 / speak-01
+      :ARG0 (z2 / psychologist)
+      :ARG1 (z3 / patient
+            :poss z2
+            :ARG1-of (z4 / have-degree-91
+                  :ARG2 (z5 / difficult)
+                  :ARG3 (z6 / most)))
+      :ARG2 (z7 / secretary
+            :ARG0-of (z8 / experience-01)
+            :poss z2)
+      :manner (z9 / delicate)
+      :frequency (z10 / rate-entity-91
+            :ARG1 1
+            :ARG2 (z11 / temporal-quantity
+                  :quant 1
+                  :unit (z12 / week))))
+
+# ::snt-28 The secretary spoke to the patient about the psychologist.
+(z1 / speak-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / secretary)))
+      :ARG1 (z5 / psychologist)
+      :ARG2 (z6 / patient))
+
+# ::snt-29 The secretary often spoke to the patient about the psychologist.
+(z1 / speak-01
+      :ARG0 (z2 / secretary)
+      :ARG1 (z3 / psychologist)
+      :ARG2 (z4 / patient)
+      :frequency (z5 / often))
+
+# ::snt-30 The gardener spoke to the patient about her psychologist.
+(z1 / speak-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / garden-01))
+      :ARG1 (z4 / psychologist
+            :poss (z5 / patient
+                  :ARG2-of z1)))
+
+# ::snt-31 The secretary recommended the patient to the psychologist.
+(z1 / recommend-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / secretary)))
+      :ARG1 (z5 / patient)
+      :ARG2 (z6 / psychologist))
+
+# ::snt-32 The secretary spoke to the patient about the cleaner.
+(z1 / speak-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / secretary)))
+      :ARG1 (z5 / thing
+            :ARG1-of (z6 / have-degree-91
+                  :ARG2 (z7 / clean-04)
+                  :ARG3 (z8 / more)))
+      :ARG2 (z9 / patient))
+
+# ::snt-33 The secretary sometimes spoke rudely to patients about the psychologist.
+(z1 / speak-01
+      :ARG0 (z2 / secretary)
+      :ARG1 (z3 / psychologist)
+      :ARG2 (z4 / patient)
+      :frequency (z5 / sometimes)
+      :manner (z6 / rude))
+
+# ::snt-34 The secretary at the desk spoke clearly with the disabled patient about their next psychologist appointment.
+(z1 / speak-01
+      :ARG0 (z2 / secretary
+            :location (z3 / desk))
+      :ARG1 (z4 / appointment-02
+            :ARG0 (z5 / patient
+                  :ARG1-of (z6 / disable-01))
+            :ARG1 (z7 / psychologist)
+            :mod (z8 / next))
+      :ARG2 z5
+      :ARG1-of (z9 / clear-06))
+
+# ::snt-35 The exhausted secretary spoke slowly to the patient about their psychologist late in the evening.
+(z1 / speak-01
+      :ARG0 (z2 / secretary
+            :ARG1-of (z3 / exhaust-01))
+      :ARG1 (z4 / psychologist
+            :poss (z5 / they))
+      :ARG2 (z6 / patient)
+      :ARG1-of (z7 / slow-05)
+      :time (z8 / late
+            :op1 (z9 / date-entity
+                  :dayperiod (z10 / evening))))
+
+# ::snt-36 The concerned secretary spoke gently to the anxious patient in a private consultation room about the psychologist.
+(z1 / speak-01
+      :ARG0 (z2 / secretary
+            :ARG0-of (z3 / concern-01))
+      :ARG1 (z4 / psychologist)
+      :ARG2 (z5 / patient
+            :mod (z6 / anxious))
+      :manner (z7 / gentle)
+      :location (z8 / room
+            :location-of (z9 / consult-01)
+            :ARG1-of (z10 / private-02)))
+
+# ::snt-37 The company purchased the apartment block from the family.
+(z1 / purchase-01
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / block
+            :mod (z4 / apartment))
+      :ARG2 (z5 / family))
+
+# ::snt-38 The company bought the apartment block from the family.
+(z1 / buy-01
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / block
+            :mod (z4 / apartment))
+      :ARG2 (z5 / family))
+
+# ::snt-39 The government purchased the apartment block from the family.
+(z1 / purchase-01
+      :ARG0 (z2 / government-organization
+            :ARG0-of (z3 / govern-01))
+      :ARG1 (z4 / block
+            :mod (z5 / apartment))
+      :ARG2 (z6 / family))
+
+# ::snt-40 The company leased the apartment block to the family.
+(z1 / lease-02
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / block
+            :mod (z4 / apartment))
+      :ARG2 (z5 / family))
+
+# ::snt-41 The company purchased a valuable painting from the family.
+(z1 / purchase-01
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / painting
+            :ARG1-of (z4 / value-02))
+      :ARG2 (z5 / family))
+
+# ::snt-42 In a calculated manoeuvre the company swiftly purchased the apartment block from the family.
+(z1 / purchase-01
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / block
+            :mod (z4 / apartment))
+      :ARG2 (z5 / family)
+      :manner (z6 / swift)
+      :manner (z7 / maneuver-01
+            :ARG0 z2
+            :ARG1-of (z8 / calculate-01)))
+
+# ::snt-43 A small company purchased the drab concrete apartment block from the family for later redevelopment.
+(z1 / purchase-01
+      :ARG0 (z2 / company
+            :mod (z3 / small))
+      :ARG1 (z4 / block
+            :mod (z5 / apartment)
+            :mod (z6 / concrete)
+            :mod (z7 / drab))
+      :ARG2 (z8 / family)
+      :ARG3 (z9 / redevelop-01
+            :ARG0 z2
+            :ARG1 z4
+            :time (z10 / after
+                  :op1 z1)))
+
+# ::snt-44 Shortly before the election the company unwittingly purchased a defective apartment block from the family.
+(z1 / purchase-01
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / block
+            :mod (z4 / apartment)
+            :mod (z5 / defective))
+      :ARG2 (z6 / family)
+      :manner (z7 / witty
+            :polarity -)
+      :time (z8 / before
+            :op1 (z9 / elect-01)
+            :ARG1-of (z10 / short-07)))
+
+# ::snt-45 The foreign company purchased a decrepit apartment block from the wealthy family for an outrageous price.
+(z1 / purchase-01
+      :ARG0 (z2 / company
+            :mod (z3 / foreign))
+      :ARG1 (z4 / block
+            :mod (z5 / apartment)
+            :mod (z6 / decrepit))
+      :ARG2 (z7 / family
+            :mod (z8 / wealth))
+      :ARG3 (z9 / thing
+            :ARG2-of (z10 / price-01)
+            :ARG1-of (z11 / outrageous-02)))
+
+# ::snt-46 The family blocked the purchase of the apartment by the company.
+(z1 / block-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / purchase-01
+            :ARG0 (z4 / company)
+            :ARG1 (z5 / apartment)))
+
+# ::snt-47 The family blocked the purchase of the apartment building by the company.
+(z1 / block-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / purchase-01
+            :ARG0 (z4 / company)
+            :ARG1 (z5 / building
+                  :mod (z6 / apartment))))
+
+# ::snt-48 The family blocked the purchase of their vintage car by the company.
+(z1 / block-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / purchase-01
+            :ARG0 (z4 / company)
+            :ARG1 (z5 / car
+                  :mod (z6 / vintage)
+                  :poss z2)))
+
+# ::snt-49 The family secured the purchase of their apartment by the company.
+(z1 / secure-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / purchase-01
+            :ARG0 (z4 / company)
+            :ARG1 (z5 / apartment
+                  :poss z2)))
+
+# ::snt-50 The government blocked the purchase of the apartment by the company.
+(z1 / block-01
+      :ARG0 (z2 / government-organization
+            :ARG0-of (z3 / govern-01))
+      :ARG1 (z4 / purchase-01
+            :ARG0 (z5 / company)
+            :ARG1 (z6 / apartment)))
+
+# ::snt-51 The stubborn family blocked the purchase of the apartment by the company for six months.
+(z1 / block-01
+      :ARG0 (z2 / family
+            :mod (z3 / stubborn))
+      :ARG1 (z4 / purchase-01
+            :ARG0 (z5 / company)
+            :ARG1 (z6 / apartment))
+      :duration (z7 / temporal-quantity
+            :quant 6
+            :unit (z8 / month)))
+
+# ::snt-52 The family from across town blocked the purchase of the modern apartment by the unpopular company.
+(z1 / block-01
+      :ARG0 (z2 / family
+            :source (z3 / across
+                  :op1 (z4 / town)))
+      :ARG1 (z5 / purchase-01
+            :ARG0 (z6 / company
+                  :ARG1-of (z7 / popular-02
+                        :polarity -))
+            :ARG1 (z8 / apartment
+                  :ARG1-of (z9 / modern-02))))
+
+# ::snt-53 After a long court battle the family finally blocked the purchase of the apartment by the unscrupulous corporation.
+(z1 / block-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / purchase-01
+            :ARG0 (z4 / corporation
+                  :mod (z5 / unscrupulous
+                        :polarity -))
+            :ARG1 (z6 / apartment))
+      :time (z7 / final)
+      :time (z8 / after
+            :op1 (z9 / battle-01
+                  :ARG0 z2
+                  :ARG1 z4
+                  :ARG2 (z10 / court)
+                  :ARG1-of (z11 / long-03))))
+
+# ::snt-54 For no good reason the family blocked the purchase of an old apartment by the local company for six months.
+(z1 / block-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / purchase-01
+            :ARG0 (z4 / company
+                  :ARG1-of (z5 / local-02))
+            :ARG1 (z6 / apartment
+                  :mod (z7 / old)))
+      :ARG1-of (z8 / cause-01
+            :ARG0 (z9 / reason
+                  :ARG1-of (z10 / good-02
+                        :polarity -)))
+      :duration (z11 / temporal-quantity
+            :quant 6
+            :unit (z12 / month)))
+
+# ::snt-55 The dog smelled the strange object near the children.
+(z1 / smell-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / object
+            :mod (z4 / strange)
+            :ARG1-of (z5 / near-02
+                  :ARG2 (z6 / child))))
+
+# ::snt-56 The dog sniffed the strange object near the children.
+(z1 / sniff-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / object
+            :mod (z4 / strange)
+            :ARG1-of (z5 / near-02
+                  :ARG2 (z6 / child))))
+
+# ::snt-57 The cat smelled the strange object near the children.
+(z1 / smell-01
+      :ARG0 (z2 / cat)
+      :ARG1 (z3 / object
+            :mod (z4 / strange)
+            :ARG1-of (z5 / near-02
+                  :ARG2 (z6 / child))))
+
+# ::snt-58 The dog noticed the strange object near the children.
+(z1 / notice-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / object
+            :mod (z4 / strange)
+            :ARG1-of (z5 / near-02
+                  :ARG2 (z6 / child))))
+
+# ::snt-59 The dog smelled smoke near the children.
+(z1 / smell-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / smoke)
+      :ARG1-of (z4 / near-02
+            :ARG2 (z5 / child)))
+
+# ::snt-60 The dog cautiously sniffed the mysterious object adjacent to the group of children.
+(z1 / sniff-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / object
+            :mod (z4 / mystery)
+            :ARG1-of (z5 / border-01
+                  :ARG2 (z6 / group
+                        :consist-of (z7 / child))))
+      :manner (z8 / cautious))
+
+# ::snt-61 The cute little dog smelled a strange object near the young children in the grass.
+(z1 / smell-01
+      :ARG0 (z2 / dog
+            :mod (z3 / cute)
+            :mod (z4 / little))
+      :ARG1 (z5 / object
+            :mod (z6 / strange)
+            :ARG1-of (z7 / near-02
+                  :ARG2 (z8 / child
+                        :mod (z9 / young)
+                        :location (z10 / grass)))))
+
+# ::snt-62 The feral dog smelled a strange rusty object near the children at the beach.
+(z1 / smell-01
+      :ARG0 (z2 / dog
+            :mod (z3 / feral))
+      :ARG1 (z4 / object
+            :mod (z5 / strange)
+            :ARG1-of (z6 / rust-01)
+            :ARG1-of (z7 / near-02
+                  :ARG2 (z8 / child
+                        :location (z9 / beach)))))
+
+# ::snt-63 With its heightened sensory perception the dog smelled an unusual object near the large group of children at the school.
+(z1 / smell-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / object
+            :mod (z4 / usual
+                  :polarity -)
+            :ARG1-of (z5 / near-02
+                  :ARG2 (z6 / group
+                        :mod (z7 / large)
+                        :consist-of (z8 / child)
+                        :location (z9 / school))))
+      :instrument (z10 / perceive-01
+            :ARG0 z2
+            :ARG1 (z11 / sensory)
+            :ARG1-of (z12 / heighten-01)))
+
+# ::snt-64 The children objected to the unpleasant smell of the dog.
+(z1 / object-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / smell-02
+            :ARG1 (z4 / dog)
+            :ARG2 (z5 / pleasant-02
+                  :polarity -)))
+
+# ::snt-65 The children objected to the dog's disagreeable smell.
+(z1 / object-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / smell-02
+            :ARG1 (z4 / dog)
+            :ARG2 (z5 / disagree-01
+                  :ARG0 z4)))
+
+# ::snt-66 The father objected to the unpleasant smell of the dog.
+(z1 / object-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / father)))
+      :ARG1 (z5 / smell-02
+            :ARG1 (z6 / dog)
+            :ARG2 (z7 / pleasant-02
+                  :polarity -)))
+
+# ::snt-67 The children noticed the unpleasant smell of the dog.
+(z1 / notice-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / smell-02
+            :ARG1 (z4 / dog)
+            :ARG2 (z5 / pleasant-02
+                  :polarity -)))
+
+# ::snt-68 The children objected to the unpleasant smell of the cat.
+(z1 / object-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / smell-02
+            :ARG1 (z4 / cat)
+            :ARG2 (z5 / pleasant-02
+                  :polarity -)))
+
+# ::snt-69 The children rarely objected to the unpleasant smell of their neighbour's dog.
+(z1 / object-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / smell-02
+            :ARG1 (z4 / dog
+                  :poss (z5 / neighbor
+                        :poss z2))
+            :ARG2 (z6 / pleasant-02
+                  :polarity -))
+      :ARG1-of (z7 / rare-02))
+
+# ::snt-70 The group of children objected to the unpleasant smell of the large black dog from the park.
+(z1 / object-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / child))
+      :ARG1 (z4 / smell-02
+            :ARG1 (z5 / dog
+                  :mod (z6 / large)
+                  :ARG1-of (z7 / black-04))
+            :ARG2 (z8 / pleasant-02
+                  :polarity -)
+            :source (z9 / park)))
+
+# ::snt-71 The uncaring children objected to the smell of the sick dog at the vet.
+(z1 / object-01
+      :ARG0 (z2 / child
+            :ARG0-of (z3 / care-01
+                  :polarity -))
+      :ARG1 (z4 / smell-01
+            :ARG1 (z5 / dog
+                  :ARG1-of (z6 / sick-05))
+            :location (z7 / vet)))
+
+# ::snt-72 After five long days the disappointed children finally objected to the unpleasant smell of their favourite new dog.
+(z1 / object-01
+      :ARG0 (z2 / child
+            :ARG1-of (z3 / disappoint-01))
+      :ARG1 (z4 / smell-02
+            :ARG1 (z5 / dog
+                  :ARG1-of (z6 / new-01)
+                  :ARG1-of (z7 / favor-01
+                        :ARG0 z2))
+            :ARG2 (z8 / pleasant-02
+                  :polarity -))
+      :time (z9 / final)
+      :time (z10 / after
+            :quant (z11 / temporal-quantity
+                  :quant 5
+                  :unit (z12 / day)
+                  :ARG1-of (z13 / long-03))))
+
+# ::snt-73 The lobbyist wrote to the politician about the reporter.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / lobby-01))
+      :ARG2 (z4 / politician)
+      :ARG3 (z5 / person
+            :ARG0-of (z6 / report-01)))
+
+# ::snt-74 The lobbyist wrote to the politician about the journalist.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / lobby-01))
+      :ARG1 (z4 / journalist)
+      :ARG2 (z5 / politician))
+
+# ::snt-75 The nonprofit organisation wrote to the politician about the reporter.
+(z1 / write-01
+      :ARG0 (z2 / organization
+            :ARG0-of (z3 / profit-01
+                  :polarity -))
+      :ARG2 (z4 / politician)
+      :ARG3 (z5 / person
+            :ARG0-of (z6 / report-01)))
+
+# ::snt-76 The lobbyist warned the politician about the reporter.
+(z1 / warn-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / lobby-01))
+      :ARG1 (z4 / about
+            :op1 (z5 / person
+                  :ARG0-of (z6 / report-01)))
+      :ARG2 (z7 / politician))
+
+# ::snt-77 The lobbyist wrote to the newspaper about the reporter.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / lobby-01))
+      :ARG2 (z4 / newspaper)
+      :ARG3 (z5 / person
+            :ARG0-of (z6 / report-01)))
+
+# ::snt-78 In response to recent events the lobbyist quickly wrote to the politician about the reporter.
+(z1 / respond-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / lobby-01))
+      :ARG1 (z4 / event
+            :time (z5 / recent))
+      :ARG2 (z6 / write-01
+            :ARG0 z2
+            :ARG1 (z7 / about
+                  :op1 (z8 / person
+                        :ARG0-of (z9 / report-01)))
+            :ARG2 (z10 / politician)
+            :ARG1-of (z11 / quick-02)))
+
+# ::snt-79 Over the weekend the lobbyist wrote a comprehensive report to the politician about the disgraced reporter.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / lobby-01))
+      :ARG1 (z4 / report-01
+            :ARG0 z2
+            :ARG1 (z5 / person
+                  :ARG0-of (z6 / report-01)
+                  :ARG1-of (z7 / disgrace-01))
+            :mod (z8 / comprehensive))
+      :ARG2 (z9 / politician)
+      :time (z10 / weekend))
+
+# ::snt-80 The experienced lobbyist wrote a painstakingly detailed email to the politician about the reporter's recent activities.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / lobby-01)
+            :ARG0-of (z4 / experience-01))
+      :ARG1 (z5 / email-01
+            :ARG0 z2
+            :ARG1 (z6 / activity-06
+                  :ARG0 (z7 / person
+                        :ARG0-of (z8 / report-01))
+                  :time (z9 / recent))
+            :ARG2 (z10 / politician)
+            :ARG1-of (z11 / detail-01
+                  :manner (z12 / painstaking))))
+
+# ::snt-81 The lobbyist composed an eloquent message to the politician on behalf of his client about the reporter.
+(z1 / compose-02
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / lobby-01))
+      :ARG1 (z4 / message-01
+            :ARG0 z2
+            :ARG1 (z5 / about
+                  :op1 (z6 / person
+                        :ARG0-of (z7 / report-01)))
+            :ARG2 (z8 / politician)
+            :mod (z9 / eloquent)
+            :beneficiary (z10 / client
+                  :poss z2)))
+
+# ::snt-82 The reporter wrote to the lobbyist about the politician.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / report-01))
+      :ARG1 (z4 / politician)
+      :ARG2 (z5 / person
+            :ARG0-of (z6 / lobby-01)))
+
+# ::snt-83 The journalist wrote to the lobbyist about the politician.
+(z1 / write-01
+      :ARG0 (z2 / journalist)
+      :ARG1 (z3 / politician)
+      :ARG2 (z4 / person
+            :ARG0-of (z5 / lobby-01)))
+
+# ::snt-84 The academic wrote to the lobbyist about the politician.
+(z1 / write-01
+      :ARG0 (z2 / academia)
+      :ARG1 (z3 / about
+            :op1 (z4 / politician))
+      :ARG2 (z5 / person
+            :ARG0-of (z6 / lobby-01)))
+
+# ::snt-85 The reporter interviewed the lobbyist about the politician.
+(z1 / interview-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / report-01))
+      :ARG1 (z4 / person
+            :ARG0-of (z5 / lobby-01))
+      :ARG2 (z6 / politician))
+
+# ::snt-86 The reporter wrote to the nonprofit organisation about the politician.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / report-01))
+      :ARG2 (z4 / organization
+            :ARG0-of (z5 / profit-01
+                  :polarity -))
+      :ARG3 (z6 / politician))
+
+# ::snt-87 On her new laptop the reporter wrote a short blog post for the lobbyist regarding the politician.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / report-01))
+      :ARG1 (z4 / thing
+            :ARG1-of (z5 / post-01
+                  :mod (z6 / blog)
+                  :ARG1-of (z7 / short-07))
+            :topic (z8 / politician))
+      :ARG2 (z9 / person
+            :ARG0-of (z10 / lobby-01))
+      :medium (z11 / laptop
+            :ARG1-of (z12 / new-01)
+            :poss z2))
+
+# ::snt-88 The reporter regularly wrote to the lobbyist about the powerful politician via an encrypted message system.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / report-01))
+      :ARG1 (z4 / about
+            :op1 (z5 / politician
+                  :ARG1-of (z6 / powerful-02)))
+      :ARG2 (z7 / person
+            :ARG0-of (z8 / lobby-01))
+      :ARG1-of (z9 / regular-02)
+      :medium (z10 / system
+            :mod (z11 / message)
+            :ARG1-of (z12 / encrypt-01)))
+
+# ::snt-89 Using pen and paper the reporter meticulously wrote a personal letter to the lobbyist about the politician.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / report-01))
+      :ARG1 (z4 / letter
+            :ARG1-of (z5 / personal-02)
+            :topic (z6 / politician))
+      :ARG2 (z7 / person
+            :ARG0-of (z8 / lobby-01))
+      :manner (z9 / meticulous)
+      :instrument (z10 / and
+            :op1 (z11 / pen)
+            :op2 (z12 / paper)))
+
+# ::snt-90 Out of concern for the public the reporter wrote to the lobbyist about the politician's recent decisions.
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / report-01))
+      :ARG1 (z4 / decide-01
+            :ARG0 (z5 / politician)
+            :time (z6 / recent))
+      :ARG2 (z7 / person
+            :ARG0-of (z8 / lobby-01))
+      :ARG1-of (z9 / cause-01
+            :ARG0 (z10 / concern-01
+                  :ARG0 (z11 / public))))
+
+# ::snt-91 The shopkeeper displayed the watch for customers.
+(z1 / display-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / keep-01
+                  :ARG1 (z4 / shop)))
+      :ARG1 (z5 / watch)
+      :beneficiary (z6 / customer))
+
+# ::snt-92 The shopkeeper displayed the watch for his customers.
+(z1 / display-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / keep-01
+                  :ARG1 (z4 / shop)))
+      :ARG1 (z5 / watch)
+      :ARG2 (z6 / customer
+            :poss z2))
+
+# ::snt-93 The salesperson displayed the watch for customers.
+(z1 / display-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / sell-01))
+      :ARG1 (z4 / watch)
+      :ARG2 (z5 / customer))
+
+# ::snt-94 The shopkeeper marketed the watch to customers.
+(z1 / market-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / keep-01
+                  :ARG1 (z4 / shop)))
+      :ARG1 (z5 / watch)
+      :ARG2 (z6 / customer))
+
+# ::snt-95 The shopkeeper displayed books for customers.
+(z1 / display-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / keep-01
+                  :ARG1 (z4 / shop)))
+      :ARG1 (z5 / book)
+      :ARG2 (z6 / customer))
+
+# ::snt-96 Each day the shopkeeper displayed the watch to customers in his store.
+(z1 / display-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / keep-01
+                  :ARG1 (z4 / shop)))
+      :ARG1 (z5 / watch)
+      :ARG2 (z6 / customer
+            :location (z7 / store
+                  :poss z2))
+      :frequency (z8 / rate-entity-91
+            :ARG3 (z9 / temporal-quantity
+                  :quant 1
+                  :unit (z10 / day))))
+
+# ::snt-97 During busy periods the shopkeeper prominently displayed the watch for customers.
+(z1 / display-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / keep-01
+                  :ARG1 (z4 / shop)))
+      :ARG1 (z5 / watch)
+      :ARG2 (z6 / customer)
+      :manner (z7 / prominent)
+      :time (z8 / period
+            :ARG1-of (z9 / busy-02)))
+
+# ::snt-98 The incompetent shopkeeper foolishly displayed the watch to customers in an obscure location.
+(z1 / display-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / keep-01
+                  :ARG1 (z4 / shop))
+            :ARG1-of (z5 / competent-01
+                  :polarity -))
+      :ARG1 (z6 / watch)
+      :ARG2 (z7 / customer)
+      :manner (z8 / foolish)
+      :location (z9 / location
+            :ARG1-of (z10 / obscure-02)))
+
+# ::snt-99 As a marketing technique the shopkeeper prominently placed the watch on a dedicated stand for customers.
+(z1 / place-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / keep-01
+                  :ARG1 (z4 / shop)))
+      :ARG1 (z5 / watch)
+      :ARG2 (z6 / stand
+            :ARG1-of (z7 / dedicate-01)
+            :beneficiary (z8 / customer))
+      :manner (z9 / prominent)
+      :purpose (z10 / technique
+            :instrument-of (z11 / market-01)))
+
+# ::snt-100 The customer watched over the display for the shopkeeper.
+(z1 / watch-over-06
+      :ARG0 (z2 / customer)
+      :ARG1 (z3 / display)
+      :beneficiary (z4 / person
+            :ARG0-of (z5 / keep-01
+                  :ARG1 (z6 / shop))))
+
+# ::snt-101 A customer watched over the display for the shopkeeper.
+(z1 / watch-over-06
+      :ARG0 (z2 / customer)
+      :ARG1 (z3 / display)
+      :beneficiary (z4 / person
+            :ARG0-of (z5 / keep-01
+                  :ARG1 (z6 / shop))))
+
+# ::snt-102 The surveillance camera watched over the display for the shopkeeper.
+(z1 / watch-over-06
+      :ARG0 (z2 / camera
+            :ARG0-of (z3 / surveil-01))
+      :ARG1 (z4 / display)
+      :beneficiary (z5 / person
+            :ARG0-of (z6 / keep-01
+                  :ARG1 (z7 / shop))))
+
+# ::snt-103 The customer critiqued the display for the shopkeeper.
+(z1 / criticize-01
+      :ARG0 (z2 / customer)
+      :ARG1 (z3 / display)
+      :ARG2 (z4 / person
+            :ARG0-of (z5 / keep-01
+                  :ARG1 (z6 / shop))))
+
+# ::snt-104 The customer watched over the model for the shopkeeper.
+(z1 / watch-over-04
+      :ARG0 (z2 / customer)
+      :ARG1 (z3 / model
+            :topic (z4 / person
+                  :ARG0-of (z5 / keep-01
+                        :ARG1 (z6 / shop)))))
+
+# ::snt-105 Every day the customer watched over the display for the shopkeeper during lunch.
+(z1 / watch-over-04
+      :ARG0 (z2 / customer)
+      :ARG1 (z3 / display)
+      :beneficiary (z4 / person
+            :ARG0-of (z5 / keep-01
+                  :ARG1 (z6 / shop)))
+      :frequency (z7 / rate-entity-91
+            :ARG3 (z8 / temporal-quantity
+                  :quant 1
+                  :unit (z9 / day)))
+      :time (z10 / lunch))
+
+# ::snt-106 The customer patiently watched over the well-organized display for the shopkeeper for hours on end.
+(z1 / watch-over-04
+      :ARG0 (z2 / customer)
+      :ARG1 (z3 / display
+            :ARG1-of (z4 / organize-01
+                  :ARG1-of (z5 / well-09)))
+      :ARG2 (z6 / person
+            :ARG0-of (z7 / keep-01
+                  :ARG1 (z8 / shop)))
+      :ARG1-of (z9 / patient-01)
+      :duration (z10 / multiple
+            :op1 (z11 / temporal-quantity
+                  :quant 1
+                  :unit (z12 / hour))))
+
+# ::snt-107 The unscrupulous customer greedily watched the display behind the shopkeeper's back during the busiest time of day.
+(z1 / watch-01
+      :ARG0 (z2 / customer
+            :mod (z3 / unscrupulous))
+      :ARG1 (z4 / display)
+      :manner (z5 / greed)
+      :manner (z6 / back
+            :mod (z7 / behind
+                  :op1 (z8 / person
+                        :ARG0-of (z9 / keep-01
+                              :ARG1 (z10 / shop)))))
+      :time (z11 / time
+            :part-of (z12 / day)
+            :ARG1-of (z13 / have-degree-91
+                  :ARG2 (z14 / busy-01
+                        :ARG1 z11)
+                  :ARG3 (z15 / most))))
+
+# ::snt-108 In the back room the nosey customer watched over the goods display for the shopkeeper on the security monitor.
+(z1 / watch-over-06
+      :ARG0 (z2 / customer
+            :mod (z3 / nosey))
+      :ARG1 (z4 / display
+            :mod (z5 / good))
+      :location (z6 / room
+            :mod (z7 / back))
+      :beneficiary (z8 / person
+            :ARG0-of (z9 / keep-01
+                  :ARG1 (z10 / shop)))
+      :instrument (z11 / monitor
+            :mod (z12 / security)))
+

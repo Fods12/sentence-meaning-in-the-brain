@@ -1,0 +1,1 @@
+fmriprep-docker /data/fMRIprep_input /data/fMRIprep_output participant --participant-label 30 --fs-license-file /data/freesurfer_license.txt -w /data/fMRIprep_working --clean-workdir

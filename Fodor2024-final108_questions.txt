@@ -1,0 +1,109 @@
+Index;Duration;Question;Answer;Option1;Option2;Option3;Option4;Sentence
+1;0;None;None;None;None;None;None;The cameraman brought the equipment to the director.
+2;0;None;None;None;None;None;None;The cameraman brought the new equipment to the director.
+3;4;Who brought the equipment?;A painter;A painter;The director;The cameraman;A stage hand;A painter brought the equipment to the director.
+4;4;What did the cameraman do with the equipment?;He sold it;He sold it;He gave it to the director;He used it;He threw it away;The cameraman sold the equipment to the director.
+5;0;None;None;None;None;None;None;The cameraman brought a hot lunch for the director.
+6;0;None;None;None;None;None;None;Every morning the cameraman brought the equipment to the impatient director.
+7;0;None;None;None;None;None;None;A team of cameramen brought all the necessary equipment to the busy director.
+8;4;Where was the equipment brought from?;The basement;The basement;The office;The storeroom;The film studio;The cameraman begrudgingly brought the awkward equipment up from the basement to the director.
+9;0;None;None;None;None;None;None;At dawn the industrious cameraman brought the essential equipment to the director in his downtown office.
+10;4;What did the director bring?;The cameraman;The cameraman;The actor;The equipment;The new script;The director brought the cameraman to the equipment.
+11;4;Who brought the cameraman?;The director;The director;The secretary;The cameraman;The painter;The director brought the cameraman to his equipment.
+12;4;What did the director bring?;A hot lunch;A hot lunch;His child;An extra assistant;Special equipment;The director brought his cameraman a hot lunch.
+13;0;None;None;None;None;None;None;The director sold the cameraman's equipment.
+14;0;None;None;None;None;None;None;The director brought the painter to his equipment.
+15;0;None;None;None;None;None;None;Every morning the director brought the cameraman to the expensive equipment.
+16;4;What type of equipment was in the storeroom?;Useless old equipment;Useless old equipment;Expensive equipment;Specialised equipment;Very unusual equipment;The director inexplicably brought the cameraman to the useless old equipment in the storeroom.
+17;4;What was the cameraman's attitude?;Impatient;Impatient;Excited;Bored;Nervous;The renowned director brought the impatient cameraman to the equipment from his last project.
+18;4;Where was the equipment?;The storeroom;The storeroom;The studio;The attic;The garage;On the weekend the helpful film director brought the inexperienced cameraman to his equipment in the storeroom.
+19;0;None;None;None;None;None;None;The psychologist spoke to the secretary about the patient.
+20;4;Whom did the psychologist speak to?;The secretary;The secretary;The patient;The doctor;The gardener;The psychologist often spoke to the secretary about the patient.
+21;0;None;None;None;None;None;None;The cleaner spoke to the secretary about the patient.
+22;4;What did the psychologist do to the secretary?;Warned them;Warned them;Called them;Spoke to them;Ignored them;The psychologist warned the secretary about the patient.
+23;0;None;None;None;None;None;None;A psychologist spoke to her gardener about the patient.
+24;0;None;None;None;None;None;None;The psychologist sometimes spoke to her secretary about the problematic patient.
+25;4;Where did the psychologist speak?;Her office;Her office;The waiting room;At reception;In the garden;The distinguished psychologist spoke in her office to the diligent secretary about her patients.
+26;4;How often did the psychologist allow themselves to be overheard?;Occasionally;Occasionally;Every day;Sometimes;Twice per day;Occasionally the psychologist accidently spoke to his secretary about one patient within earshot of other patients.
+27;0;None;None;None;None;None;None;One per week the psychologist spoke delicately to her experienced secretary about her most difficult patients.
+28;4;Who spoke to the patient?;The secretary;The secretary;The psychologist;Another patient;The doctor;The secretary spoke to the patient about the psychologist.
+29;0;None;None;None;None;None;None;The secretary often spoke to the patient about the psychologist.
+30;4;Who did the gardener speak with?;The patient;The patient;The psychologist;The doctor;The children;The gardener spoke to the patient about her psychologist.
+31;0;None;None;None;None;None;None;The secretary recommended the patient to the psychologist.
+32;4;What did the secretary and patient speak about?;The cleaner;The cleaner;The receptionist;The psychologist;The secretary;The secretary spoke to the patient about the cleaner.
+33;0;None;None;None;None;None;None;The secretary sometimes spoke rudely to patients about the psychologist.
+34;0;None;None;None;None;None;None;The secretary at the desk spoke clearly with the disabled patient about their next psychologist appointment.
+35;0;None;None;None;None;None;None;The exhausted secretary spoke slowly to the patient about their psychologist late in the evening.
+36;0;None;None;None;None;None;None;The concerned secretary spoke gently to the anxious patient in a private consultation room about the psychologist.
+37;4;Who purchased the apartment block?;The compnay;The investor;The family;The company;The government;The company purchased the apartment block from the family.
+38;0;None;None;None;None;None;None;The company bought the apartment block from the family.
+39;0;None;None;None;None;None;None;The government purchased the apartment block from the family.
+40;0;None;None;None;None;None;None;The company leased the apartment block to the family.
+41;0;None;None;None;None;None;None;The company purchased a valuable painting from the family.
+42;4;How was the purchase made?;Swiftly;Swiftly;Carefully;Unnecessarily;Illegally;In a calculated manoeuvre the company swiftly purchased the apartment block from the family.
+43;0;None;None;None;None;None;None;A small company purchased the drab concrete apartment block from the family for later redevelopment.
+44;0;None;None;None;None;None;None;Shortly before the election the company unwittingly purchased a defective apartment block from the family.
+45;0;None;None;None;None;None;None;The foreign company purchased a decrepit apartment block from the wealthy family for an outrageous price.
+46;4;What was the company trying to buy?;The apartment;The apartment;The house;The painting;The vintage car;The family blocked the purchase of the apartment by the company.
+47;0;None;None;None;None;None;None;The family blocked the purchase of the apartment building by the company.
+48;0;None;None;None;None;None;None;The family blocked the purchase of their vintage car by the company.
+49;0;None;None;None;None;None;None;The family secured the purchase of their apartment by the company.
+50;4;Who blocked the purchase of the apartment?;The government;The government;The court;The owner;An angry mob;The government blocked the purchase of the apartment by the company.
+51;4;For how long did the family block the purchase?;Six months;Six months;Six years;Ten months;Ten years;The stubborn family blocked the purchase of the apartment by the company for six months.
+52;4;Where was the family from?;Across town;Across town;Overseas;The nearby suburb;Down the road;The family from across town blocked the purchase of the modern apartment by the unpopular company.
+53;4;What did the corporation want to purchase?;The apartment;The apartment;The shop;The park;The house;After a long court battle the family finally blocked the purchase of the apartment by the unscrupulous corporation.
+54;0;None;None;None;None;None;None;For no good reason the family blocked the purchase of an old apartment by the local company for six months.
+55;0;None;None;None;None;None;None;The dog smelled the strange object near the children.
+56;0;None;None;None;None;None;None;The dog sniffed the strange object near the children.
+57;0;None;None;None;None;None;None;The cat smelled the strange object near the children.
+58;4;Who saw the strange object?;The dog;The dog;The children;The mother;The teacher;The dog noticed the strange object near the children.
+59;0;None;None;None;None;None;None;The dog smelled smoke near the children.
+60;0;None;None;None;None;None;None;The dog cautiously sniffed the mysterious object adjacent to the group of children.
+61;4;What was the dog like?;Cute;Cute;Young;Brown;Smelly;The cute little dog smelled a strange object near the young children in the grass.
+62;0;None;None;None;None;None;None;The feral dog smelled a strange rusty object near the children at the beach.
+63;4;Where did the dog smell an unusual object?;At the school;At the school;At the playground;At the beach;At the carpark;With its heightened sensory perception the dog smelled an unusual object near the large group of children at the school.
+64;0;None;None;None;None;None;None;The children objected to the unpleasant smell of the dog.
+65;0;None;None;None;None;None;None;The children objected to the dog's disagreeable smell.
+66;4;Who objected to the smell?;The father;The father;The children;The cat;The dog;The father objected to the unpleasant smell of the dog.
+67;0;None;None;None;None;None;None;The children noticed the unpleasant smell of the dog.
+68;0;None;None;None;None;None;None;The children objected to the unpleasant smell of the cat.
+69;0;None;None;None;None;None;None;The children rarely objected to the unpleasant smell of their neighbour's dog.
+70;4;Where was the dog from?;The park;The park;The beach;The store;The school;The group of children objected to the unpleasant smell of the large black dog from the park.
+71;0;None;None;None;None;None;None;The uncaring children objected to the smell of the sick dog at the vet.
+72;4;How did the children feel?;Disappointed;Disappointed;Excited;Bored;Angry;After five long days the disappointed children finally objected to the unpleasant smell of their favourite new dog.
+73;4;Whom did the lobbyist write about?;The reporter;The reporter;The politician;The corporation;The foreign government;The lobbyist wrote to the politician about the reporter.
+74;0;None;None;None;None;None;None;The lobbyist wrote to the politician about the journalist.
+75;0;None;None;None;None;None;None;The nonprofit organisation wrote to the politician about the reporter.
+76;0;None;None;None;None;None;None;The lobbyist wrote to the politician about the reporter.
+77;4;Who warned the politician?;The lobbyist;The lobbyist;The reporter;The journalist;The policeman;The lobbyist warned the politician about the reporter.
+78;0;None;None;None;None;None;None;The lobbyist wrote to the newspaper about the reporter.
+79;0;None;None;None;None;None;None;In response to recent events the lobbyist quickly wrote to the politician about the reporter.
+80;4;What did the lobbyist write about?;The disgraced reporter;The disgraced reporter;The journalist;The politician;The government;Over the weekend the lobbyist wrote a comprehensive report to the politician about the disgraced reporter.
+81;0;None;None;None;None;None;None;The experienced lobbyist wrote a painstakingly detailed email to the politician about the reporter's recent activities.
+82;0;None;None;None;None;None;None;The lobbyist composed an eloquent message to the politician on behalf of his client about the reporter.
+83;0;None;None;None;None;None;None;The reporter wrote to the lobbyist about the politician.
+84;0;None;None;None;None;None;None;The journalist wrote to the lobbyist about the politician.
+85;4;Who wrote to the lobbyist?;The academic;The academic;The reporter;The concerned citizen;The politician;The academic wrote to the lobbyist about the politician.
+86;0;None;None;None;None;None;None;The reporter interviewed the lobbyist about the politician.
+87;0;None;None;None;None;None;None;The reporter wrote to the nonprofit organisation about the politician.
+88;0;None;None;None;None;None;None;On her new laptop the reporter wrote a short blog post for the lobbyist regarding the politician.
+89;4;Whom did the reporter write to?;The lobbyist;The lobbyist;The powerful politician;The newspaper editor;Another journalist;The reporter regularly wrote to the lobbyist about the powerful politician via an encrypted message system.
+90;0;None;None;None;None;None;None;Using pen and paper the reporter meticulously wrote a personal letter to the lobbyist about the politician.
+91;0;None;None;None;None;None;None;The shopkeeper displayed the watch for customers.
+92;0;None;None;None;None;None;None;The shopkeeper displayed the watch for his customers.
+93;4;Whom was the watch displayed for?;Customers;Customers;The manager;A coworker;The security guard;The salesperson displayed the watch for customers.
+94;4;What was the shopkeeper marketing?;The watch;The watch;The laptop;The shoes;The phone;The shopkeeper marketed the watch to customers.
+95;0;None;None;None;None;None;None;The shopkeeper displayed books for customers.
+96;4;What did the shopkeeper display?;The watch;The watch;The necklace;The laptop;The phone;Each day the shopkeeper displayed the watch to customers in his store.
+97;0;None;None;None;None;None;None;During busy periods the shopkeeper prominently displayed the watch for customers.
+98;4;Where was the watch displayed?;An obscure location;An obscure location;At the counter;On a special stand;In the front window;The incompetent shopkeeper foolishly displayed the watch to customers in an obscure location.
+99;0;None;None;None;None;None;None;As a marketing technique the shopkeeper prominently placed the watch on a dedicated stand for customers.
+100;0;None;None;None;None;None;None;The customer watched over the display for the shopkeeper.
+101;0;None;None;None;None;None;None;A customer watched over the display for the shopkeeper.
+102;0;None;None;None;None;None;None;The surveillance camera watched over the display for the shopkeeper.
+103;0;None;None;None;None;None;None;The customer critiqued the display for the shopkeeper.
+104;0;None;None;None;None;None;None;The customer watched over the model for the shopkeeper.
+105;4;At what time of day did the customer watch over the display?;During lunch;During lunch;Before opening;After closing;In the morning;Every day the customer watched over the display for the shopkeeper during lunch.
+106;0;None;None;None;None;None;None;The customer patiently watched over the well-organized display for the shopkeeper for hours on end.
+107;0;None;None;None;None;None;None;The unscrupulous customer greedily watched the display behind the shopkeeper's back during the busiest time of day.
+108;4;Where did the customer watch the monitor?;In the back room;In the back room;Behind the counter;Near the entrance;Upstairs;In the back room the nosey customer watched over the goods display for the shopkeeper on the security monitor.

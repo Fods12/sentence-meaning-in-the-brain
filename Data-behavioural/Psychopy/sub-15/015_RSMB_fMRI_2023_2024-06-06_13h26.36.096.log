@@ -1,0 +1,1960 @@
+13.4902 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021803064220>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000218030641C0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-0.7, -0.7, -0.7]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021803052F40>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021804144370>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.4903 	EXP 	window1: mouseVisible = True
+13.4903 	EXP 	window1: backgroundImage = ''
+13.4903 	EXP 	window1: backgroundFit = 'none'
+13.4903 	EXP 	window1: mouseVisible = False
+13.4904 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+13.4904 	EXP 	window1: recordFrameIntervals = False
+13.5730 	EXP 	window1: recordFrameIntervals = True
+13.6648 	EXP 	Screen (0) actual frame rate measured at 120.18Hz
+13.6648 	EXP 	window1: recordFrameIntervals = False
+15.4638 	EXP 	Created welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='welcome_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the experiment!', units='height', win=Window(...), wrapWidth=1)
+15.4639 	EXP 	window1: mouseVisible = True
+15.4645 	EXP 	Created next_run_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='next_run_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.4660 	EXP 	Created fixation_text_trigger = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='fixation_text_trigger', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.5464 	EXP 	Created inter_stim_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='inter_stim_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.5469 	EXP 	Created end_run_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_run_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.5473 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Georgia', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='end_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.5551 	EXP 	Created conclusion_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='conclusion_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.5579 	EXP 	sentence: autoLog = True
+15.5579 	EXP 	question_fulltext: autoLog = True
+15.5579 	EXP 	question_option_1: autoLog = True
+15.5579 	EXP 	question_option_2: autoLog = True
+15.5579 	EXP 	question_option_3: autoLog = True
+15.5579 	EXP 	question_option_4: autoLog = True
+15.5579 	EXP 	welcome_text: autoDraw = True
+18.6736 	DATA 	Mouse: Left button down, pos=(1919,642)
+18.6800 	EXP 	Imported subject_15/runs.csv as conditions, 8 conditions, 3 params
+18.6805 	EXP 	Created sequence: sequential, trialTypes=8, nReps=1, seed=None
+18.6807 	EXP 	New trial (rep=0, index=0): OrderedDict([('run_file', 'C:\\Users\\psychopy\\Desktop\\2024 Fodor Dataset\\subject_15\\run_1.csv'), ('intro_text', 'Run 1 of 8 will begin shortly.'), ('final_fixation_time', 8.043707299999994)])
+18.6888 	EXP 	welcome_text: autoDraw = False
+18.6888 	EXP 	next_run_text: height = 0.05
+18.6888 	EXP 	next_run_text: height = 0.05
+18.6888 	EXP 	next_run_text: height = 0.05
+18.6888 	EXP 	next_run_text: text = 'Run 1 of 8 will begin shortly.'
+18.6888 	EXP 	next_run_text: autoDraw = True
+18.7650 	DATA 	Mouse:  Left button up, pos=(1919,642)
+23.6885 	EXP 	next_run_text: autoDraw = False
+23.6885 	EXP 	fixation_text_trigger: height = 0.07
+23.6885 	EXP 	fixation_text_trigger: height = 0.07
+23.6885 	EXP 	fixation_text_trigger: height = 0.07
+23.6885 	EXP 	fixation_text_trigger: text = '+'
+23.6885 	EXP 	fixation_text_trigger: autoDraw = True
+51.2032 	DATA 	Keypress: d
+51.4320 	EXP 	Imported C:\Users\psychopy\Desktop\2024 Fodor Dataset\subject_15\run_1.csv as conditions, 54 conditions, 11 params
+51.4322 	EXP 	Created sequence: sequential, trialTypes=54, nReps=1, seed=None
+51.4324 	EXP 	New trial (rep=0, index=0): OrderedDict([('sentence_id', 57), ('sentence_text', 'The cat smelled the strange object near the children.'), ('sentence_duration', 3.0169667000000002), ('interstim_duration', 5.113207547169812), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+51.4729 	DATA 	Keypress: lshift
+51.4730 	DATA 	Keypress: t
+51.4751 	EXP 	fixation_text_trigger: autoDraw = False
+51.4751 	EXP 	sentence: autoDraw = True
+53.0197 	DATA 	Keypress: lshift
+53.0198 	DATA 	Keypress: t
+54.5743 	EXP 	sentence: autoDraw = False
+54.5743 	EXP 	sentence: autoDraw = False
+54.5743 	EXP 	question_fulltext: autoDraw = True
+54.5743 	EXP 	question_fulltext: autoDraw = False
+54.5743 	EXP 	question_option_1: autoDraw = True
+54.5743 	EXP 	question_option_1: autoDraw = False
+54.5743 	EXP 	question_option_2: autoDraw = True
+54.5743 	EXP 	question_option_2: autoDraw = False
+54.5743 	EXP 	question_option_3: autoDraw = True
+54.5743 	EXP 	question_option_3: autoDraw = False
+54.5743 	EXP 	question_option_4: autoDraw = True
+54.5743 	EXP 	question_option_4: autoDraw = False
+54.5743 	EXP 	question_fulltext: autoDraw = False
+54.5743 	EXP 	question_option_1: autoDraw = False
+54.5743 	EXP 	question_option_2: autoDraw = False
+54.5743 	EXP 	question_option_3: autoDraw = False
+54.5743 	EXP 	question_option_4: autoDraw = False
+54.5743 	EXP 	inter_stim_text: height = 0.07
+54.5743 	EXP 	inter_stim_text: height = 0.07
+54.5743 	EXP 	inter_stim_text: height = 0.07
+54.5743 	EXP 	inter_stim_text: text = '+'
+54.5743 	EXP 	inter_stim_text: autoDraw = True
+54.6192 	DATA 	Keypress: lshift
+54.6192 	DATA 	Keypress: t
+56.2191 	DATA 	Keypress: lshift
+56.2191 	DATA 	Keypress: t
+57.8190 	DATA 	Keypress: lshift
+57.8191 	DATA 	Keypress: t
+59.4188 	DATA 	Keypress: lshift
+59.4189 	DATA 	Keypress: t
+59.6847 	EXP 	New trial (rep=0, index=1): OrderedDict([('sentence_id', 62), ('sentence_text', 'The feral dog smelled a strange rusty\nobject near the children at the beach.'), ('sentence_duration', 4.389668800000001), ('interstim_duration', 2.3773584905660377), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+59.6935 	EXP 	inter_stim_text: autoDraw = False
+59.6935 	EXP 	inter_stim_text: autoDraw = False
+59.6935 	EXP 	sentence: autoDraw = True
+61.0190 	DATA 	Keypress: lshift
+61.0191 	DATA 	Keypress: t
+62.6184 	DATA 	Keypress: lshift
+62.6184 	DATA 	Keypress: t
+64.0834 	EXP 	sentence: autoDraw = False
+64.0834 	EXP 	sentence: autoDraw = False
+64.0834 	EXP 	question_fulltext: autoDraw = True
+64.0834 	EXP 	question_fulltext: autoDraw = False
+64.0834 	EXP 	question_option_1: autoDraw = True
+64.0834 	EXP 	question_option_1: autoDraw = False
+64.0834 	EXP 	question_option_2: autoDraw = True
+64.0834 	EXP 	question_option_2: autoDraw = False
+64.0834 	EXP 	question_option_3: autoDraw = True
+64.0834 	EXP 	question_option_3: autoDraw = False
+64.0834 	EXP 	question_option_4: autoDraw = True
+64.0834 	EXP 	question_option_4: autoDraw = False
+64.0834 	EXP 	question_fulltext: autoDraw = False
+64.0834 	EXP 	question_option_1: autoDraw = False
+64.0834 	EXP 	question_option_2: autoDraw = False
+64.0834 	EXP 	question_option_3: autoDraw = False
+64.0834 	EXP 	question_option_4: autoDraw = False
+64.0834 	EXP 	inter_stim_text: text = '+'
+64.0834 	EXP 	inter_stim_text: autoDraw = True
+64.2180 	DATA 	Keypress: lshift
+64.2181 	DATA 	Keypress: t
+65.8181 	DATA 	Keypress: lshift
+65.8181 	DATA 	Keypress: t
+66.4588 	EXP 	New trial (rep=0, index=2): OrderedDict([('sentence_id', 86), ('sentence_text', 'The reporter wrote to the nonprofit organisation about the politician.'), ('sentence_duration', 4.02787), ('interstim_duration', 5.679245283018869), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+66.4675 	EXP 	inter_stim_text: autoDraw = False
+66.4675 	EXP 	inter_stim_text: autoDraw = False
+66.4675 	EXP 	sentence: autoDraw = True
+67.4182 	DATA 	Keypress: lshift
+67.4183 	DATA 	Keypress: t
+69.0178 	DATA 	Keypress: lshift
+69.0179 	DATA 	Keypress: t
+70.4993 	EXP 	sentence: autoDraw = False
+70.4993 	EXP 	sentence: autoDraw = False
+70.4993 	EXP 	question_fulltext: autoDraw = True
+70.4993 	EXP 	question_fulltext: autoDraw = False
+70.4993 	EXP 	question_option_1: autoDraw = True
+70.4993 	EXP 	question_option_1: autoDraw = False
+70.4993 	EXP 	question_option_2: autoDraw = True
+70.4993 	EXP 	question_option_2: autoDraw = False
+70.4993 	EXP 	question_option_3: autoDraw = True
+70.4993 	EXP 	question_option_3: autoDraw = False
+70.4993 	EXP 	question_option_4: autoDraw = True
+70.4993 	EXP 	question_option_4: autoDraw = False
+70.4993 	EXP 	question_fulltext: autoDraw = False
+70.4993 	EXP 	question_option_1: autoDraw = False
+70.4993 	EXP 	question_option_2: autoDraw = False
+70.4993 	EXP 	question_option_3: autoDraw = False
+70.4993 	EXP 	question_option_4: autoDraw = False
+70.4993 	EXP 	inter_stim_text: text = '+'
+70.4993 	EXP 	inter_stim_text: autoDraw = True
+70.6178 	DATA 	Keypress: lshift
+70.6178 	DATA 	Keypress: t
+72.2175 	DATA 	Keypress: lshift
+72.2175 	DATA 	Keypress: t
+73.8174 	DATA 	Keypress: lshift
+73.8175 	DATA 	Keypress: t
+75.4169 	DATA 	Keypress: lshift
+75.4169 	DATA 	Keypress: t
+76.1742 	EXP 	New trial (rep=0, index=3): OrderedDict([('sentence_id', 92), ('sentence_text', 'The shopkeeper displayed the watch for his customers.'), ('sentence_duration', 3.0169667000000002), ('interstim_duration', 5.584905660377359), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+76.1829 	EXP 	inter_stim_text: autoDraw = False
+76.1829 	EXP 	inter_stim_text: autoDraw = False
+76.1829 	EXP 	sentence: autoDraw = True
+77.0166 	DATA 	Keypress: lshift
+77.0166 	DATA 	Keypress: t
+78.6167 	DATA 	Keypress: lshift
+78.6167 	DATA 	Keypress: t
+79.2066 	EXP 	sentence: autoDraw = False
+79.2066 	EXP 	sentence: autoDraw = False
+79.2066 	EXP 	question_fulltext: autoDraw = True
+79.2066 	EXP 	question_fulltext: autoDraw = False
+79.2066 	EXP 	question_option_1: autoDraw = True
+79.2066 	EXP 	question_option_1: autoDraw = False
+79.2066 	EXP 	question_option_2: autoDraw = True
+79.2066 	EXP 	question_option_2: autoDraw = False
+79.2066 	EXP 	question_option_3: autoDraw = True
+79.2066 	EXP 	question_option_3: autoDraw = False
+79.2066 	EXP 	question_option_4: autoDraw = True
+79.2066 	EXP 	question_option_4: autoDraw = False
+79.2066 	EXP 	question_fulltext: autoDraw = False
+79.2066 	EXP 	question_option_1: autoDraw = False
+79.2066 	EXP 	question_option_2: autoDraw = False
+79.2066 	EXP 	question_option_3: autoDraw = False
+79.2066 	EXP 	question_option_4: autoDraw = False
+79.2066 	EXP 	inter_stim_text: text = '+'
+79.2066 	EXP 	inter_stim_text: autoDraw = True
+80.2163 	DATA 	Keypress: lshift
+80.2164 	DATA 	Keypress: t
+81.8159 	DATA 	Keypress: lshift
+81.8161 	DATA 	Keypress: t
+83.4157 	DATA 	Keypress: lshift
+83.4158 	DATA 	Keypress: t
+84.7899 	EXP 	New trial (rep=0, index=4): OrderedDict([('sentence_id', 66), ('sentence_text', 'The father objected to the unpleasant smell of the dog.'), ('sentence_duration', 3.1348075), ('interstim_duration', 3.509433962264151), ('question_duration', 5), ('question_text', 'Who objected to the smell?'), ('answer_index', 'A'), ('option_1', 'A) The father'), ('option_2', 'B) The dog'), ('option_3', 'C) The cat'), ('option_4', 'D) The children')])
+84.7976 	EXP 	inter_stim_text: autoDraw = False
+84.7976 	EXP 	inter_stim_text: autoDraw = False
+84.7976 	EXP 	sentence: autoDraw = True
+85.0157 	DATA 	Keypress: lshift
+85.0158 	DATA 	Keypress: t
+86.6153 	DATA 	Keypress: lshift
+86.6154 	DATA 	Keypress: t
+87.9511 	EXP 	sentence: autoDraw = False
+87.9511 	EXP 	sentence: autoDraw = False
+87.9511 	EXP 	question_fulltext: autoDraw = True
+87.9511 	EXP 	question_option_1: autoDraw = True
+87.9511 	EXP 	question_option_2: autoDraw = True
+87.9511 	EXP 	question_option_3: autoDraw = True
+87.9511 	EXP 	question_option_4: autoDraw = True
+88.2180 	DATA 	Keypress: lshift
+88.2181 	DATA 	Keypress: t
+89.5505 	DATA 	Keypress: a
+89.8168 	DATA 	Keypress: lshift
+89.8169 	DATA 	Keypress: t
+91.2504 	DATA 	Keypress: a
+91.4167 	DATA 	Keypress: lshift
+91.4168 	DATA 	Keypress: t
+92.9549 	EXP 	question_fulltext: autoDraw = False
+92.9549 	EXP 	question_option_1: autoDraw = False
+92.9549 	EXP 	question_option_2: autoDraw = False
+92.9549 	EXP 	question_option_3: autoDraw = False
+92.9549 	EXP 	question_option_4: autoDraw = False
+92.9549 	EXP 	question_fulltext: autoDraw = False
+92.9549 	EXP 	question_option_1: autoDraw = False
+92.9549 	EXP 	question_option_2: autoDraw = False
+92.9549 	EXP 	question_option_3: autoDraw = False
+92.9549 	EXP 	question_option_4: autoDraw = False
+92.9549 	EXP 	inter_stim_text: text = '+'
+92.9549 	EXP 	inter_stim_text: autoDraw = True
+93.0143 	DATA 	Keypress: lshift
+93.0228 	DATA 	Keypress: t
+94.6229 	DATA 	Keypress: lshift
+94.6229 	DATA 	Keypress: t
+96.2226 	DATA 	Keypress: lshift
+96.2226 	DATA 	Keypress: t
+96.4633 	EXP 	New trial (rep=0, index=5): OrderedDict([('sentence_id', 55), ('sentence_text', 'The dog smelled the strange object near the children.'), ('sentence_duration', 3.0169667000000002), ('interstim_duration', 2.4716981132075473), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+96.4712 	EXP 	inter_stim_text: autoDraw = False
+96.4712 	EXP 	inter_stim_text: autoDraw = False
+96.4712 	EXP 	sentence: autoDraw = True
+97.8225 	DATA 	Keypress: lshift
+97.8226 	DATA 	Keypress: t
+99.4227 	DATA 	Keypress: lshift
+99.4227 	DATA 	Keypress: t
+99.4875 	EXP 	sentence: autoDraw = False
+99.4875 	EXP 	sentence: autoDraw = False
+99.4875 	EXP 	question_fulltext: autoDraw = True
+99.4875 	EXP 	question_fulltext: autoDraw = False
+99.4875 	EXP 	question_option_1: autoDraw = True
+99.4875 	EXP 	question_option_1: autoDraw = False
+99.4875 	EXP 	question_option_2: autoDraw = True
+99.4875 	EXP 	question_option_2: autoDraw = False
+99.4875 	EXP 	question_option_3: autoDraw = True
+99.4875 	EXP 	question_option_3: autoDraw = False
+99.4875 	EXP 	question_option_4: autoDraw = True
+99.4875 	EXP 	question_option_4: autoDraw = False
+99.4875 	EXP 	question_fulltext: autoDraw = False
+99.4875 	EXP 	question_option_1: autoDraw = False
+99.4875 	EXP 	question_option_2: autoDraw = False
+99.4875 	EXP 	question_option_3: autoDraw = False
+99.4875 	EXP 	question_option_4: autoDraw = False
+99.4875 	EXP 	inter_stim_text: text = '+'
+99.4875 	EXP 	inter_stim_text: autoDraw = True
+101.0219 	DATA 	Keypress: lshift
+101.0220 	DATA 	Keypress: t
+101.9543 	EXP 	New trial (rep=0, index=6): OrderedDict([('sentence_id', 68), ('sentence_text', 'The children objected to the unpleasant smell of the cat.'), ('sentence_duration', 3.2529387), ('interstim_duration', 5.773584905660377), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+101.9621 	EXP 	inter_stim_text: autoDraw = False
+101.9621 	EXP 	inter_stim_text: autoDraw = False
+101.9621 	EXP 	sentence: autoDraw = True
+102.6219 	DATA 	Keypress: lshift
+102.6219 	DATA 	Keypress: t
+104.2219 	DATA 	Keypress: lshift
+104.2220 	DATA 	Keypress: t
+105.2203 	EXP 	sentence: autoDraw = False
+105.2203 	EXP 	sentence: autoDraw = False
+105.2203 	EXP 	question_fulltext: autoDraw = True
+105.2203 	EXP 	question_fulltext: autoDraw = False
+105.2203 	EXP 	question_option_1: autoDraw = True
+105.2203 	EXP 	question_option_1: autoDraw = False
+105.2203 	EXP 	question_option_2: autoDraw = True
+105.2203 	EXP 	question_option_2: autoDraw = False
+105.2203 	EXP 	question_option_3: autoDraw = True
+105.2203 	EXP 	question_option_3: autoDraw = False
+105.2203 	EXP 	question_option_4: autoDraw = True
+105.2203 	EXP 	question_option_4: autoDraw = False
+105.2203 	EXP 	question_fulltext: autoDraw = False
+105.2203 	EXP 	question_option_1: autoDraw = False
+105.2203 	EXP 	question_option_2: autoDraw = False
+105.2203 	EXP 	question_option_3: autoDraw = False
+105.2203 	EXP 	question_option_4: autoDraw = False
+105.2203 	EXP 	inter_stim_text: text = '+'
+105.2203 	EXP 	inter_stim_text: autoDraw = True
+105.8214 	DATA 	Keypress: lshift
+105.8215 	DATA 	Keypress: t
+107.4211 	DATA 	Keypress: lshift
+107.4211 	DATA 	Keypress: t
+109.0207 	DATA 	Keypress: lshift
+109.0207 	DATA 	Keypress: t
+110.6210 	DATA 	Keypress: lshift
+110.6211 	DATA 	Keypress: t
+110.9867 	EXP 	New trial (rep=0, index=7): OrderedDict([('sentence_id', 97), ('sentence_text', 'During busy periods the shopkeeper\nprominently displayed the watch for customers.'), ('sentence_duration', 4.6931643), ('interstim_duration', 5.396226415094339), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+110.9944 	EXP 	inter_stim_text: autoDraw = False
+110.9944 	EXP 	inter_stim_text: autoDraw = False
+110.9944 	EXP 	sentence: autoDraw = True
+112.2207 	DATA 	Keypress: lshift
+112.2208 	DATA 	Keypress: t
+113.8203 	DATA 	Keypress: lshift
+113.8204 	DATA 	Keypress: t
+115.4205 	DATA 	Keypress: lshift
+115.4206 	DATA 	Keypress: t
+115.6938 	EXP 	sentence: autoDraw = False
+115.6938 	EXP 	sentence: autoDraw = False
+115.6938 	EXP 	question_fulltext: autoDraw = True
+115.6938 	EXP 	question_fulltext: autoDraw = False
+115.6938 	EXP 	question_option_1: autoDraw = True
+115.6938 	EXP 	question_option_1: autoDraw = False
+115.6938 	EXP 	question_option_2: autoDraw = True
+115.6938 	EXP 	question_option_2: autoDraw = False
+115.6938 	EXP 	question_option_3: autoDraw = True
+115.6938 	EXP 	question_option_3: autoDraw = False
+115.6938 	EXP 	question_option_4: autoDraw = True
+115.6938 	EXP 	question_option_4: autoDraw = False
+115.6938 	EXP 	question_fulltext: autoDraw = False
+115.6938 	EXP 	question_option_1: autoDraw = False
+115.6938 	EXP 	question_option_2: autoDraw = False
+115.6938 	EXP 	question_option_3: autoDraw = False
+115.6938 	EXP 	question_option_4: autoDraw = False
+115.6938 	EXP 	inter_stim_text: text = '+'
+115.6938 	EXP 	inter_stim_text: autoDraw = True
+117.0201 	DATA 	Keypress: lshift
+117.0202 	DATA 	Keypress: t
+118.6200 	DATA 	Keypress: lshift
+118.6200 	DATA 	Keypress: t
+120.2197 	DATA 	Keypress: lshift
+120.2197 	DATA 	Keypress: t
+121.0856 	EXP 	New trial (rep=0, index=8): OrderedDict([('sentence_id', 85), ('sentence_text', 'The reporter interviewed the lobbyist about the politician.'), ('sentence_duration', 3.3713603), ('interstim_duration', 2.566037735849057), ('question_duration', 5), ('question_text', 'Who wrote to the lobbyist?'), ('answer_index', 'A'), ('option_1', 'A) The academic'), ('option_2', 'B) The concerned citizen'), ('option_3', 'C) The politician'), ('option_4', 'D) The reporter')])
+121.1087 	EXP 	inter_stim_text: autoDraw = False
+121.1087 	EXP 	inter_stim_text: autoDraw = False
+121.1087 	EXP 	sentence: autoDraw = True
+121.8195 	DATA 	Keypress: lshift
+121.8195 	DATA 	Keypress: t
+123.4195 	DATA 	Keypress: lshift
+123.4195 	DATA 	Keypress: t
+124.4871 	EXP 	sentence: autoDraw = False
+124.4871 	EXP 	sentence: autoDraw = False
+124.4871 	EXP 	question_fulltext: autoDraw = True
+124.4871 	EXP 	question_option_1: autoDraw = True
+124.4871 	EXP 	question_option_2: autoDraw = True
+124.4871 	EXP 	question_option_3: autoDraw = True
+124.4871 	EXP 	question_option_4: autoDraw = True
+125.0133 	DATA 	Keypress: lshift
+125.0221 	DATA 	Keypress: t
+126.6215 	DATA 	Keypress: lshift
+126.6215 	DATA 	Keypress: t
+128.2211 	DATA 	Keypress: lshift
+128.2211 	DATA 	Keypress: t
+129.4921 	EXP 	question_fulltext: autoDraw = False
+129.4921 	EXP 	question_option_1: autoDraw = False
+129.4921 	EXP 	question_option_2: autoDraw = False
+129.4921 	EXP 	question_option_3: autoDraw = False
+129.4921 	EXP 	question_option_4: autoDraw = False
+129.4921 	EXP 	question_fulltext: autoDraw = False
+129.4921 	EXP 	question_option_1: autoDraw = False
+129.4921 	EXP 	question_option_2: autoDraw = False
+129.4921 	EXP 	question_option_3: autoDraw = False
+129.4921 	EXP 	question_option_4: autoDraw = False
+129.4921 	EXP 	inter_stim_text: text = '+'
+129.4921 	EXP 	inter_stim_text: autoDraw = True
+129.7022 	DATA 	Keypress: c
+129.8189 	DATA 	Keypress: lshift
+129.8189 	DATA 	Keypress: t
+131.4183 	DATA 	Keypress: lshift
+131.4183 	DATA 	Keypress: t
+132.0507 	EXP 	New trial (rep=0, index=9): OrderedDict([('sentence_id', 99), ('sentence_text', 'As a marketing technique the shopkeeper prominently placed\nthe watch on a dedicated stand for customers.'), ('sentence_duration', 6.112620799999999), ('interstim_duration', 4.3584905660377355), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+132.0597 	EXP 	inter_stim_text: autoDraw = False
+132.0597 	EXP 	inter_stim_text: autoDraw = False
+132.0597 	EXP 	sentence: autoDraw = True
+133.0184 	DATA 	Keypress: lshift
+133.0185 	DATA 	Keypress: t
+134.6185 	DATA 	Keypress: lshift
+134.6186 	DATA 	Keypress: t
+136.2181 	DATA 	Keypress: lshift
+136.2181 	DATA 	Keypress: t
+137.8178 	DATA 	Keypress: lshift
+137.8179 	DATA 	Keypress: t
+138.1743 	EXP 	sentence: autoDraw = False
+138.1743 	EXP 	sentence: autoDraw = False
+138.1743 	EXP 	question_fulltext: autoDraw = True
+138.1743 	EXP 	question_fulltext: autoDraw = False
+138.1743 	EXP 	question_option_1: autoDraw = True
+138.1743 	EXP 	question_option_1: autoDraw = False
+138.1743 	EXP 	question_option_2: autoDraw = True
+138.1743 	EXP 	question_option_2: autoDraw = False
+138.1743 	EXP 	question_option_3: autoDraw = True
+138.1743 	EXP 	question_option_3: autoDraw = False
+138.1743 	EXP 	question_option_4: autoDraw = True
+138.1743 	EXP 	question_option_4: autoDraw = False
+138.1743 	EXP 	question_fulltext: autoDraw = False
+138.1743 	EXP 	question_option_1: autoDraw = False
+138.1743 	EXP 	question_option_2: autoDraw = False
+138.1743 	EXP 	question_option_3: autoDraw = False
+138.1743 	EXP 	question_option_4: autoDraw = False
+138.1743 	EXP 	inter_stim_text: text = '+'
+138.1743 	EXP 	inter_stim_text: autoDraw = True
+139.4172 	DATA 	Keypress: lshift
+139.4172 	DATA 	Keypress: t
+141.0171 	DATA 	Keypress: lshift
+141.0171 	DATA 	Keypress: t
+142.5244 	EXP 	New trial (rep=0, index=10): OrderedDict([('sentence_id', 25), ('sentence_text', 'The distinguished psychologist spoke in her office\nto the diligent secretary about her patients.'), ('sentence_duration', 5.6145408), ('interstim_duration', 2.0), ('question_duration', 0), ('question_text', 'Where did the psychologist speak?'), ('answer_index', 'None'), ('option_1', 'A) Her office'), ('option_2', 'B) Her office'), ('option_3', 'C) The waiting room'), ('option_4', 'D) At reception')])
+142.5322 	EXP 	inter_stim_text: autoDraw = False
+142.5322 	EXP 	inter_stim_text: autoDraw = False
+142.5322 	EXP 	sentence: autoDraw = True
+142.6171 	DATA 	Keypress: lshift
+142.6172 	DATA 	Keypress: t
+144.2168 	DATA 	Keypress: lshift
+144.2169 	DATA 	Keypress: t
+145.8170 	DATA 	Keypress: lshift
+145.8171 	DATA 	Keypress: t
+147.4166 	DATA 	Keypress: lshift
+147.4167 	DATA 	Keypress: t
+148.1627 	EXP 	sentence: autoDraw = False
+148.1627 	EXP 	sentence: autoDraw = False
+148.1627 	EXP 	question_fulltext: autoDraw = True
+148.1627 	EXP 	question_fulltext: autoDraw = False
+148.1627 	EXP 	question_option_1: autoDraw = True
+148.1627 	EXP 	question_option_1: autoDraw = False
+148.1627 	EXP 	question_option_2: autoDraw = True
+148.1627 	EXP 	question_option_2: autoDraw = False
+148.1627 	EXP 	question_option_3: autoDraw = True
+148.1627 	EXP 	question_option_3: autoDraw = False
+148.1627 	EXP 	question_option_4: autoDraw = True
+148.1627 	EXP 	question_option_4: autoDraw = False
+148.1627 	EXP 	question_fulltext: autoDraw = False
+148.1627 	EXP 	question_option_1: autoDraw = False
+148.1627 	EXP 	question_option_2: autoDraw = False
+148.1627 	EXP 	question_option_3: autoDraw = False
+148.1627 	EXP 	question_option_4: autoDraw = False
+148.1627 	EXP 	inter_stim_text: text = '+'
+148.1627 	EXP 	inter_stim_text: autoDraw = True
+149.0165 	DATA 	Keypress: lshift
+149.0165 	DATA 	Keypress: t
+150.1568 	EXP 	New trial (rep=0, index=11): OrderedDict([('sentence_id', 14), ('sentence_text', 'The director brought the painter to his equipment.'), ('sentence_duration', 2.84075), ('interstim_duration', 3.0377358490566038), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+150.1645 	EXP 	inter_stim_text: autoDraw = False
+150.1645 	EXP 	inter_stim_text: autoDraw = False
+150.1645 	EXP 	sentence: autoDraw = True
+150.6160 	DATA 	Keypress: lshift
+150.6161 	DATA 	Keypress: t
+152.2161 	DATA 	Keypress: lshift
+152.2161 	DATA 	Keypress: t
+153.0058 	EXP 	sentence: autoDraw = False
+153.0058 	EXP 	sentence: autoDraw = False
+153.0058 	EXP 	question_fulltext: autoDraw = True
+153.0058 	EXP 	question_fulltext: autoDraw = False
+153.0058 	EXP 	question_option_1: autoDraw = True
+153.0058 	EXP 	question_option_1: autoDraw = False
+153.0058 	EXP 	question_option_2: autoDraw = True
+153.0058 	EXP 	question_option_2: autoDraw = False
+153.0058 	EXP 	question_option_3: autoDraw = True
+153.0058 	EXP 	question_option_3: autoDraw = False
+153.0058 	EXP 	question_option_4: autoDraw = True
+153.0058 	EXP 	question_option_4: autoDraw = False
+153.0058 	EXP 	question_fulltext: autoDraw = False
+153.0058 	EXP 	question_option_1: autoDraw = False
+153.0058 	EXP 	question_option_2: autoDraw = False
+153.0058 	EXP 	question_option_3: autoDraw = False
+153.0058 	EXP 	question_option_4: autoDraw = False
+153.0058 	EXP 	inter_stim_text: text = '+'
+153.0058 	EXP 	inter_stim_text: autoDraw = True
+153.8154 	DATA 	Keypress: lshift
+153.8154 	DATA 	Keypress: t
+155.4152 	DATA 	Keypress: lshift
+155.4153 	DATA 	Keypress: t
+156.0394 	EXP 	New trial (rep=0, index=12): OrderedDict([('sentence_id', 11), ('sentence_text', 'The director brought the cameraman to his equipment.'), ('sentence_duration', 2.9581551999999998), ('interstim_duration', 3.3207547169811322), ('question_duration', 0), ('question_text', 'Who brought the cameraman?'), ('answer_index', 'None'), ('option_1', 'A) The director'), ('option_2', 'B) The director'), ('option_3', 'C) The secretary'), ('option_4', 'D) The cameraman')])
+156.0472 	EXP 	inter_stim_text: autoDraw = False
+156.0472 	EXP 	inter_stim_text: autoDraw = False
+156.0472 	EXP 	sentence: autoDraw = True
+157.0152 	DATA 	Keypress: lshift
+157.0153 	DATA 	Keypress: t
+158.6151 	DATA 	Keypress: lshift
+158.6151 	DATA 	Keypress: t
+159.0051 	EXP 	sentence: autoDraw = False
+159.0051 	EXP 	sentence: autoDraw = False
+159.0051 	EXP 	question_fulltext: autoDraw = True
+159.0051 	EXP 	question_fulltext: autoDraw = False
+159.0051 	EXP 	question_option_1: autoDraw = True
+159.0051 	EXP 	question_option_1: autoDraw = False
+159.0051 	EXP 	question_option_2: autoDraw = True
+159.0051 	EXP 	question_option_2: autoDraw = False
+159.0051 	EXP 	question_option_3: autoDraw = True
+159.0051 	EXP 	question_option_3: autoDraw = False
+159.0051 	EXP 	question_option_4: autoDraw = True
+159.0051 	EXP 	question_option_4: autoDraw = False
+159.0051 	EXP 	question_fulltext: autoDraw = False
+159.0051 	EXP 	question_option_1: autoDraw = False
+159.0051 	EXP 	question_option_2: autoDraw = False
+159.0051 	EXP 	question_option_3: autoDraw = False
+159.0051 	EXP 	question_option_4: autoDraw = False
+159.0051 	EXP 	inter_stim_text: text = '+'
+159.0051 	EXP 	inter_stim_text: autoDraw = True
+160.2147 	DATA 	Keypress: lshift
+160.2147 	DATA 	Keypress: t
+161.8142 	DATA 	Keypress: lshift
+161.8143 	DATA 	Keypress: t
+162.3220 	EXP 	New trial (rep=0, index=13): OrderedDict([('sentence_id', 23), ('sentence_text', 'A psychologist spoke to her gardener about the patient.'), ('sentence_duration', 3.1348075), ('interstim_duration', 2.188679245283019), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+162.3299 	EXP 	inter_stim_text: autoDraw = False
+162.3299 	EXP 	inter_stim_text: autoDraw = False
+162.3299 	EXP 	sentence: autoDraw = True
+163.4145 	DATA 	Keypress: lshift
+163.4146 	DATA 	Keypress: t
+165.0146 	DATA 	Keypress: lshift
+165.0147 	DATA 	Keypress: t
+165.4710 	EXP 	sentence: autoDraw = False
+165.4710 	EXP 	sentence: autoDraw = False
+165.4710 	EXP 	question_fulltext: autoDraw = True
+165.4710 	EXP 	question_fulltext: autoDraw = False
+165.4710 	EXP 	question_option_1: autoDraw = True
+165.4710 	EXP 	question_option_1: autoDraw = False
+165.4710 	EXP 	question_option_2: autoDraw = True
+165.4710 	EXP 	question_option_2: autoDraw = False
+165.4710 	EXP 	question_option_3: autoDraw = True
+165.4710 	EXP 	question_option_3: autoDraw = False
+165.4710 	EXP 	question_option_4: autoDraw = True
+165.4710 	EXP 	question_option_4: autoDraw = False
+165.4710 	EXP 	question_fulltext: autoDraw = False
+165.4710 	EXP 	question_option_1: autoDraw = False
+165.4710 	EXP 	question_option_2: autoDraw = False
+165.4710 	EXP 	question_option_3: autoDraw = False
+165.4710 	EXP 	question_option_4: autoDraw = False
+165.4710 	EXP 	inter_stim_text: text = '+'
+165.4710 	EXP 	inter_stim_text: autoDraw = True
+166.6137 	DATA 	Keypress: lshift
+166.6218 	DATA 	Keypress: t
+167.6549 	EXP 	New trial (rep=0, index=14): OrderedDict([('sentence_id', 6), ('sentence_text', 'Every morning the cameraman brought\nthe equipment to the impatient director.'), ('sentence_duration', 4.389668800000001), ('interstim_duration', 2.660377358490566), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+167.6749 	EXP 	inter_stim_text: autoDraw = False
+167.6749 	EXP 	inter_stim_text: autoDraw = False
+167.6749 	EXP 	sentence: autoDraw = True
+168.2140 	DATA 	Keypress: lshift
+168.2141 	DATA 	Keypress: t
+169.8141 	DATA 	Keypress: lshift
+169.8141 	DATA 	Keypress: t
+171.4135 	DATA 	Keypress: lshift
+171.4136 	DATA 	Keypress: t
+172.0701 	EXP 	sentence: autoDraw = False
+172.0701 	EXP 	sentence: autoDraw = False
+172.0701 	EXP 	question_fulltext: autoDraw = True
+172.0701 	EXP 	question_fulltext: autoDraw = False
+172.0701 	EXP 	question_option_1: autoDraw = True
+172.0701 	EXP 	question_option_1: autoDraw = False
+172.0701 	EXP 	question_option_2: autoDraw = True
+172.0701 	EXP 	question_option_2: autoDraw = False
+172.0701 	EXP 	question_option_3: autoDraw = True
+172.0701 	EXP 	question_option_3: autoDraw = False
+172.0701 	EXP 	question_option_4: autoDraw = True
+172.0701 	EXP 	question_option_4: autoDraw = False
+172.0701 	EXP 	question_fulltext: autoDraw = False
+172.0701 	EXP 	question_option_1: autoDraw = False
+172.0701 	EXP 	question_option_2: autoDraw = False
+172.0701 	EXP 	question_option_3: autoDraw = False
+172.0701 	EXP 	question_option_4: autoDraw = False
+172.0701 	EXP 	inter_stim_text: text = '+'
+172.0701 	EXP 	inter_stim_text: autoDraw = True
+173.0130 	DATA 	Keypress: lshift
+173.0213 	DATA 	Keypress: t
+174.6126 	DATA 	Keypress: lshift
+174.6215 	DATA 	Keypress: t
+174.7290 	EXP 	New trial (rep=0, index=15): OrderedDict([('sentence_id', 51), ('sentence_text', 'The stubborn family blocked the purchase of\nthe apartment by the company for six months.'), ('sentence_duration', 5.1211072), ('interstim_duration', 3.6037735849056602), ('question_duration', 0), ('question_text', 'For how long did the family block the purchase?'), ('answer_index', 'None'), ('option_1', 'A) Six months'), ('option_2', 'B) Six months'), ('option_3', 'C) Six years'), ('option_4', 'D) Ten months')])
+174.7522 	EXP 	inter_stim_text: autoDraw = False
+174.7522 	EXP 	inter_stim_text: autoDraw = False
+174.7522 	EXP 	sentence: autoDraw = True
+176.2131 	DATA 	Keypress: lshift
+176.2213 	DATA 	Keypress: t
+177.8217 	DATA 	Keypress: lshift
+177.8217 	DATA 	Keypress: t
+179.4122 	DATA 	Keypress: lshift
+179.4206 	DATA 	Keypress: t
+179.8953 	EXP 	sentence: autoDraw = False
+179.8953 	EXP 	sentence: autoDraw = False
+179.8953 	EXP 	question_fulltext: autoDraw = True
+179.8953 	EXP 	question_fulltext: autoDraw = False
+179.8953 	EXP 	question_option_1: autoDraw = True
+179.8953 	EXP 	question_option_1: autoDraw = False
+179.8953 	EXP 	question_option_2: autoDraw = True
+179.8953 	EXP 	question_option_2: autoDraw = False
+179.8953 	EXP 	question_option_3: autoDraw = True
+179.8953 	EXP 	question_option_3: autoDraw = False
+179.8953 	EXP 	question_option_4: autoDraw = True
+179.8953 	EXP 	question_option_4: autoDraw = False
+179.8953 	EXP 	question_fulltext: autoDraw = False
+179.8953 	EXP 	question_option_1: autoDraw = False
+179.8953 	EXP 	question_option_2: autoDraw = False
+179.8953 	EXP 	question_option_3: autoDraw = False
+179.8953 	EXP 	question_option_4: autoDraw = False
+179.8953 	EXP 	inter_stim_text: text = '+'
+179.8953 	EXP 	inter_stim_text: autoDraw = True
+181.0119 	DATA 	Keypress: lshift
+181.0207 	DATA 	Keypress: t
+182.6205 	DATA 	Keypress: lshift
+182.6206 	DATA 	Keypress: t
+183.4944 	EXP 	New trial (rep=0, index=16): OrderedDict([('sentence_id', 30), ('sentence_text', 'The gardener spoke to the patient about her psychologist.'), ('sentence_duration', 3.2529387), ('interstim_duration', 2.094339622641509), ('question_duration', 0), ('question_text', 'Who did the gardener speak with?'), ('answer_index', 'None'), ('option_1', 'A) The patient'), ('option_2', 'B) The patient'), ('option_3', 'C) The psychologist'), ('option_4', 'D) The doctor')])
+183.5021 	EXP 	inter_stim_text: autoDraw = False
+183.5021 	EXP 	inter_stim_text: autoDraw = False
+183.5021 	EXP 	sentence: autoDraw = True
+184.2208 	DATA 	Keypress: lshift
+184.2208 	DATA 	Keypress: t
+185.8206 	DATA 	Keypress: lshift
+185.8207 	DATA 	Keypress: t
+186.7600 	EXP 	sentence: autoDraw = False
+186.7600 	EXP 	sentence: autoDraw = False
+186.7600 	EXP 	question_fulltext: autoDraw = True
+186.7600 	EXP 	question_fulltext: autoDraw = False
+186.7600 	EXP 	question_option_1: autoDraw = True
+186.7600 	EXP 	question_option_1: autoDraw = False
+186.7600 	EXP 	question_option_2: autoDraw = True
+186.7600 	EXP 	question_option_2: autoDraw = False
+186.7600 	EXP 	question_option_3: autoDraw = True
+186.7600 	EXP 	question_option_3: autoDraw = False
+186.7600 	EXP 	question_option_4: autoDraw = True
+186.7600 	EXP 	question_option_4: autoDraw = False
+186.7600 	EXP 	question_fulltext: autoDraw = False
+186.7600 	EXP 	question_option_1: autoDraw = False
+186.7600 	EXP 	question_option_2: autoDraw = False
+186.7600 	EXP 	question_option_3: autoDraw = False
+186.7600 	EXP 	question_option_4: autoDraw = False
+186.7600 	EXP 	inter_stim_text: text = '+'
+186.7600 	EXP 	inter_stim_text: autoDraw = True
+187.4196 	DATA 	Keypress: lshift
+187.4197 	DATA 	Keypress: t
+188.8520 	EXP 	New trial (rep=0, index=17): OrderedDict([('sentence_id', 33), ('sentence_text', 'The secretary sometimes spoke rudely to patients about the psychologist.'), ('sentence_duration', 4.1481791999999995), ('interstim_duration', 6.528301886792453), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+188.8600 	EXP 	inter_stim_text: autoDraw = False
+188.8600 	EXP 	inter_stim_text: autoDraw = False
+188.8600 	EXP 	sentence: autoDraw = True
+189.0200 	DATA 	Keypress: lshift
+189.0202 	DATA 	Keypress: t
+190.6200 	DATA 	Keypress: lshift
+190.6200 	DATA 	Keypress: t
+192.2191 	DATA 	Keypress: lshift
+192.2191 	DATA 	Keypress: t
+193.0093 	EXP 	sentence: autoDraw = False
+193.0093 	EXP 	sentence: autoDraw = False
+193.0093 	EXP 	question_fulltext: autoDraw = True
+193.0093 	EXP 	question_fulltext: autoDraw = False
+193.0093 	EXP 	question_option_1: autoDraw = True
+193.0093 	EXP 	question_option_1: autoDraw = False
+193.0093 	EXP 	question_option_2: autoDraw = True
+193.0093 	EXP 	question_option_2: autoDraw = False
+193.0093 	EXP 	question_option_3: autoDraw = True
+193.0093 	EXP 	question_option_3: autoDraw = False
+193.0093 	EXP 	question_option_4: autoDraw = True
+193.0093 	EXP 	question_option_4: autoDraw = False
+193.0093 	EXP 	question_fulltext: autoDraw = False
+193.0093 	EXP 	question_option_1: autoDraw = False
+193.0093 	EXP 	question_option_2: autoDraw = False
+193.0093 	EXP 	question_option_3: autoDraw = False
+193.0093 	EXP 	question_option_4: autoDraw = False
+193.0093 	EXP 	inter_stim_text: text = '+'
+193.0093 	EXP 	inter_stim_text: autoDraw = True
+193.8189 	DATA 	Keypress: lshift
+193.8190 	DATA 	Keypress: t
+195.4184 	DATA 	Keypress: lshift
+195.4185 	DATA 	Keypress: t
+197.0187 	DATA 	Keypress: lshift
+197.0188 	DATA 	Keypress: t
+198.6184 	DATA 	Keypress: lshift
+198.6185 	DATA 	Keypress: t
+199.5341 	EXP 	New trial (rep=0, index=18): OrderedDict([('sentence_id', 32), ('sentence_text', 'The secretary spoke to the patient about the cleaner.'), ('sentence_duration', 3.0169667000000002), ('interstim_duration', 4.169811320754717), ('question_duration', 0), ('question_text', 'What did the secretary and patient speak about?'), ('answer_index', 'None'), ('option_1', 'A) The cleaner'), ('option_2', 'B) The cleaner'), ('option_3', 'C) The receptionist'), ('option_4', 'D) The psychologist')])
+199.5418 	EXP 	inter_stim_text: autoDraw = False
+199.5418 	EXP 	inter_stim_text: autoDraw = False
+199.5418 	EXP 	sentence: autoDraw = True
+200.2187 	DATA 	Keypress: lshift
+200.2188 	DATA 	Keypress: t
+201.8181 	DATA 	Keypress: lshift
+201.8182 	DATA 	Keypress: t
+202.5580 	EXP 	sentence: autoDraw = False
+202.5580 	EXP 	sentence: autoDraw = False
+202.5580 	EXP 	question_fulltext: autoDraw = True
+202.5580 	EXP 	question_fulltext: autoDraw = False
+202.5580 	EXP 	question_option_1: autoDraw = True
+202.5580 	EXP 	question_option_1: autoDraw = False
+202.5580 	EXP 	question_option_2: autoDraw = True
+202.5580 	EXP 	question_option_2: autoDraw = False
+202.5580 	EXP 	question_option_3: autoDraw = True
+202.5580 	EXP 	question_option_3: autoDraw = False
+202.5580 	EXP 	question_option_4: autoDraw = True
+202.5580 	EXP 	question_option_4: autoDraw = False
+202.5580 	EXP 	question_fulltext: autoDraw = False
+202.5580 	EXP 	question_option_1: autoDraw = False
+202.5580 	EXP 	question_option_2: autoDraw = False
+202.5580 	EXP 	question_option_3: autoDraw = False
+202.5580 	EXP 	question_option_4: autoDraw = False
+202.5580 	EXP 	inter_stim_text: text = '+'
+202.5580 	EXP 	inter_stim_text: autoDraw = True
+203.4178 	DATA 	Keypress: lshift
+203.4179 	DATA 	Keypress: t
+205.0172 	DATA 	Keypress: lshift
+205.0173 	DATA 	Keypress: t
+206.6173 	DATA 	Keypress: lshift
+206.6174 	DATA 	Keypress: t
+206.7247 	EXP 	New trial (rep=0, index=19): OrderedDict([('sentence_id', 74), ('sentence_text', 'The lobbyist wrote to the politician about the journalist.'), ('sentence_duration', 3.3121131999999998), ('interstim_duration', 2.943396226415094), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+206.7325 	EXP 	inter_stim_text: autoDraw = False
+206.7325 	EXP 	inter_stim_text: autoDraw = False
+206.7325 	EXP 	sentence: autoDraw = True
+208.2177 	DATA 	Keypress: lshift
+208.2178 	DATA 	Keypress: t
+209.8172 	DATA 	Keypress: lshift
+209.8172 	DATA 	Keypress: t
+210.0488 	EXP 	sentence: autoDraw = False
+210.0488 	EXP 	sentence: autoDraw = False
+210.0488 	EXP 	question_fulltext: autoDraw = True
+210.0488 	EXP 	question_fulltext: autoDraw = False
+210.0488 	EXP 	question_option_1: autoDraw = True
+210.0488 	EXP 	question_option_1: autoDraw = False
+210.0488 	EXP 	question_option_2: autoDraw = True
+210.0488 	EXP 	question_option_2: autoDraw = False
+210.0488 	EXP 	question_option_3: autoDraw = True
+210.0488 	EXP 	question_option_3: autoDraw = False
+210.0488 	EXP 	question_option_4: autoDraw = True
+210.0488 	EXP 	question_option_4: autoDraw = False
+210.0488 	EXP 	question_fulltext: autoDraw = False
+210.0488 	EXP 	question_option_1: autoDraw = False
+210.0488 	EXP 	question_option_2: autoDraw = False
+210.0488 	EXP 	question_option_3: autoDraw = False
+210.0488 	EXP 	question_option_4: autoDraw = False
+210.0488 	EXP 	inter_stim_text: text = '+'
+210.0488 	EXP 	inter_stim_text: autoDraw = True
+211.4169 	DATA 	Keypress: lshift
+211.4170 	DATA 	Keypress: t
+212.9908 	EXP 	New trial (rep=0, index=20): OrderedDict([('sentence_id', 24), ('sentence_text', 'The psychologist sometimes spoke to\nher secretary about the problematic patient.'), ('sentence_duration', 4.63232), ('interstim_duration', 5.2075471698113205), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+212.9985 	EXP 	inter_stim_text: autoDraw = False
+212.9985 	EXP 	inter_stim_text: autoDraw = False
+212.9985 	EXP 	sentence: autoDraw = True
+213.0167 	DATA 	Keypress: lshift
+213.0168 	DATA 	Keypress: t
+214.6167 	DATA 	Keypress: lshift
+214.6167 	DATA 	Keypress: t
+216.2166 	DATA 	Keypress: lshift
+216.2167 	DATA 	Keypress: t
+217.6313 	EXP 	sentence: autoDraw = False
+217.6313 	EXP 	sentence: autoDraw = False
+217.6313 	EXP 	question_fulltext: autoDraw = True
+217.6313 	EXP 	question_fulltext: autoDraw = False
+217.6313 	EXP 	question_option_1: autoDraw = True
+217.6313 	EXP 	question_option_1: autoDraw = False
+217.6313 	EXP 	question_option_2: autoDraw = True
+217.6313 	EXP 	question_option_2: autoDraw = False
+217.6313 	EXP 	question_option_3: autoDraw = True
+217.6313 	EXP 	question_option_3: autoDraw = False
+217.6313 	EXP 	question_option_4: autoDraw = True
+217.6313 	EXP 	question_option_4: autoDraw = False
+217.6313 	EXP 	question_fulltext: autoDraw = False
+217.6313 	EXP 	question_option_1: autoDraw = False
+217.6313 	EXP 	question_option_2: autoDraw = False
+217.6313 	EXP 	question_option_3: autoDraw = False
+217.6313 	EXP 	question_option_4: autoDraw = False
+217.6313 	EXP 	inter_stim_text: text = '+'
+217.6313 	EXP 	inter_stim_text: autoDraw = True
+217.8164 	DATA 	Keypress: lshift
+217.8164 	DATA 	Keypress: t
+219.4156 	DATA 	Keypress: lshift
+219.4158 	DATA 	Keypress: t
+221.0153 	DATA 	Keypress: lshift
+221.0154 	DATA 	Keypress: t
+222.6153 	DATA 	Keypress: lshift
+222.6153 	DATA 	Keypress: t
+222.8315 	EXP 	New trial (rep=0, index=21): OrderedDict([('sentence_id', 46), ('sentence_text', 'The family blocked the purchase\nof the apartment by the company.'), ('sentence_duration', 3.6686848), ('interstim_duration', 5.867924528301886), ('question_duration', 0), ('question_text', 'What was the company trying to buy?'), ('answer_index', 'None'), ('option_1', 'A) The apartment'), ('option_2', 'B) The apartment'), ('option_3', 'C) The house'), ('option_4', 'D) The painting')])
+222.8390 	EXP 	inter_stim_text: autoDraw = False
+222.8390 	EXP 	inter_stim_text: autoDraw = False
+222.8390 	EXP 	sentence: autoDraw = True
+224.2156 	DATA 	Keypress: lshift
+224.2156 	DATA 	Keypress: t
+225.8152 	DATA 	Keypress: lshift
+225.8152 	DATA 	Keypress: t
+226.5135 	EXP 	sentence: autoDraw = False
+226.5135 	EXP 	sentence: autoDraw = False
+226.5135 	EXP 	question_fulltext: autoDraw = True
+226.5135 	EXP 	question_fulltext: autoDraw = False
+226.5135 	EXP 	question_option_1: autoDraw = True
+226.5135 	EXP 	question_option_1: autoDraw = False
+226.5135 	EXP 	question_option_2: autoDraw = True
+226.5135 	EXP 	question_option_2: autoDraw = False
+226.5135 	EXP 	question_option_3: autoDraw = True
+226.5135 	EXP 	question_option_3: autoDraw = False
+226.5135 	EXP 	question_option_4: autoDraw = True
+226.5135 	EXP 	question_option_4: autoDraw = False
+226.5135 	EXP 	question_fulltext: autoDraw = False
+226.5135 	EXP 	question_option_1: autoDraw = False
+226.5135 	EXP 	question_option_2: autoDraw = False
+226.5135 	EXP 	question_option_3: autoDraw = False
+226.5135 	EXP 	question_option_4: autoDraw = False
+226.5135 	EXP 	inter_stim_text: text = '+'
+226.5135 	EXP 	inter_stim_text: autoDraw = True
+227.4149 	DATA 	Keypress: lshift
+227.4149 	DATA 	Keypress: t
+229.0145 	DATA 	Keypress: lshift
+229.0145 	DATA 	Keypress: t
+230.6144 	DATA 	Keypress: lshift
+230.6145 	DATA 	Keypress: t
+232.2143 	DATA 	Keypress: lshift
+232.2143 	DATA 	Keypress: t
+232.3800 	EXP 	New trial (rep=0, index=22): OrderedDict([('sentence_id', 69), ('sentence_text', "The children rarely objected to the\nunpleasant smell of their neighbour's dog."), ('sentence_duration', 4.5108492), ('interstim_duration', 4.452830188679245), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+232.4023 	EXP 	inter_stim_text: autoDraw = False
+232.4023 	EXP 	inter_stim_text: autoDraw = False
+232.4023 	EXP 	sentence: autoDraw = True
+233.8142 	DATA 	Keypress: lshift
+233.8143 	DATA 	Keypress: t
+235.4140 	DATA 	Keypress: lshift
+235.4141 	DATA 	Keypress: t
+236.9122 	EXP 	sentence: autoDraw = False
+236.9122 	EXP 	sentence: autoDraw = False
+236.9122 	EXP 	question_fulltext: autoDraw = True
+236.9122 	EXP 	question_fulltext: autoDraw = False
+236.9122 	EXP 	question_option_1: autoDraw = True
+236.9122 	EXP 	question_option_1: autoDraw = False
+236.9122 	EXP 	question_option_2: autoDraw = True
+236.9122 	EXP 	question_option_2: autoDraw = False
+236.9122 	EXP 	question_option_3: autoDraw = True
+236.9122 	EXP 	question_option_3: autoDraw = False
+236.9122 	EXP 	question_option_4: autoDraw = True
+236.9122 	EXP 	question_option_4: autoDraw = False
+236.9122 	EXP 	question_fulltext: autoDraw = False
+236.9122 	EXP 	question_option_1: autoDraw = False
+236.9122 	EXP 	question_option_2: autoDraw = False
+236.9122 	EXP 	question_option_3: autoDraw = False
+236.9122 	EXP 	question_option_4: autoDraw = False
+236.9122 	EXP 	inter_stim_text: text = '+'
+236.9122 	EXP 	inter_stim_text: autoDraw = True
+237.0138 	DATA 	Keypress: lshift
+237.0138 	DATA 	Keypress: t
+238.6133 	DATA 	Keypress: lshift
+238.6134 	DATA 	Keypress: t
+240.2132 	DATA 	Keypress: lshift
+240.2133 	DATA 	Keypress: t
+241.3622 	EXP 	New trial (rep=0, index=23): OrderedDict([('sentence_id', 75), ('sentence_text', 'The nonprofit organisation wrote to the politician about the reporter.'), ('sentence_duration', 4.02787), ('interstim_duration', 6.150943396226416), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+241.3700 	EXP 	inter_stim_text: autoDraw = False
+241.3700 	EXP 	inter_stim_text: autoDraw = False
+241.3700 	EXP 	sentence: autoDraw = True
+241.8136 	DATA 	Keypress: lshift
+241.8137 	DATA 	Keypress: t
+243.4125 	DATA 	Keypress: lshift
+243.4211 	DATA 	Keypress: t
+245.0127 	DATA 	Keypress: lshift
+245.0127 	DATA 	Keypress: t
+245.4028 	EXP 	sentence: autoDraw = False
+245.4028 	EXP 	sentence: autoDraw = False
+245.4028 	EXP 	question_fulltext: autoDraw = True
+245.4028 	EXP 	question_fulltext: autoDraw = False
+245.4028 	EXP 	question_option_1: autoDraw = True
+245.4028 	EXP 	question_option_1: autoDraw = False
+245.4028 	EXP 	question_option_2: autoDraw = True
+245.4028 	EXP 	question_option_2: autoDraw = False
+245.4028 	EXP 	question_option_3: autoDraw = True
+245.4028 	EXP 	question_option_3: autoDraw = False
+245.4028 	EXP 	question_option_4: autoDraw = True
+245.4028 	EXP 	question_option_4: autoDraw = False
+245.4028 	EXP 	question_fulltext: autoDraw = False
+245.4028 	EXP 	question_option_1: autoDraw = False
+245.4028 	EXP 	question_option_2: autoDraw = False
+245.4028 	EXP 	question_option_3: autoDraw = False
+245.4028 	EXP 	question_option_4: autoDraw = False
+245.4028 	EXP 	inter_stim_text: text = '+'
+245.4028 	EXP 	inter_stim_text: autoDraw = True
+246.6124 	DATA 	Keypress: lshift
+246.6125 	DATA 	Keypress: t
+248.2126 	DATA 	Keypress: lshift
+248.2132 	DATA 	Keypress: t
+249.8202 	DATA 	Keypress: lshift
+249.8202 	DATA 	Keypress: t
+251.4198 	DATA 	Keypress: lshift
+251.4199 	DATA 	Keypress: t
+251.5526 	EXP 	New trial (rep=0, index=24): OrderedDict([('sentence_id', 101), ('sentence_text', 'A customer watched over the display for the shopkeeper.'), ('sentence_duration', 3.1348075), ('interstim_duration', 4.264150943396227), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+251.5605 	EXP 	inter_stim_text: autoDraw = False
+251.5605 	EXP 	inter_stim_text: autoDraw = False
+251.5605 	EXP 	sentence: autoDraw = True
+253.0201 	DATA 	Keypress: lshift
+253.0201 	DATA 	Keypress: t
+254.6115 	DATA 	Keypress: lshift
+254.6196 	DATA 	Keypress: t
+254.7016 	EXP 	sentence: autoDraw = False
+254.7016 	EXP 	sentence: autoDraw = False
+254.7016 	EXP 	question_fulltext: autoDraw = True
+254.7016 	EXP 	question_fulltext: autoDraw = False
+254.7016 	EXP 	question_option_1: autoDraw = True
+254.7016 	EXP 	question_option_1: autoDraw = False
+254.7016 	EXP 	question_option_2: autoDraw = True
+254.7016 	EXP 	question_option_2: autoDraw = False
+254.7016 	EXP 	question_option_3: autoDraw = True
+254.7016 	EXP 	question_option_3: autoDraw = False
+254.7016 	EXP 	question_option_4: autoDraw = True
+254.7016 	EXP 	question_option_4: autoDraw = False
+254.7016 	EXP 	question_fulltext: autoDraw = False
+254.7016 	EXP 	question_option_1: autoDraw = False
+254.7016 	EXP 	question_option_2: autoDraw = False
+254.7016 	EXP 	question_option_3: autoDraw = False
+254.7016 	EXP 	question_option_4: autoDraw = False
+254.7016 	EXP 	inter_stim_text: text = '+'
+254.7016 	EXP 	inter_stim_text: autoDraw = True
+256.2200 	DATA 	Keypress: lshift
+256.2201 	DATA 	Keypress: t
+257.8196 	DATA 	Keypress: lshift
+257.8197 	DATA 	Keypress: t
+258.9601 	EXP 	New trial (rep=0, index=25): OrderedDict([('sentence_id', 81), ('sentence_text', 'The lobbyist composed an eloquent message to the\npolitician on behalf of his client about the reporter.'), ('sentence_duration', 6.0501067), ('interstim_duration', 3.8867924528301887), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+258.9679 	EXP 	inter_stim_text: autoDraw = False
+258.9679 	EXP 	inter_stim_text: autoDraw = False
+258.9679 	EXP 	sentence: autoDraw = True
+259.4193 	DATA 	Keypress: lshift
+259.4194 	DATA 	Keypress: t
+261.0191 	DATA 	Keypress: lshift
+261.0192 	DATA 	Keypress: t
+262.6189 	DATA 	Keypress: lshift
+262.6190 	DATA 	Keypress: t
+264.2188 	DATA 	Keypress: lshift
+264.2189 	DATA 	Keypress: t
+265.0171 	EXP 	sentence: autoDraw = False
+265.0171 	EXP 	sentence: autoDraw = False
+265.0171 	EXP 	question_fulltext: autoDraw = True
+265.0171 	EXP 	question_fulltext: autoDraw = False
+265.0171 	EXP 	question_option_1: autoDraw = True
+265.0171 	EXP 	question_option_1: autoDraw = False
+265.0171 	EXP 	question_option_2: autoDraw = True
+265.0171 	EXP 	question_option_2: autoDraw = False
+265.0171 	EXP 	question_option_3: autoDraw = True
+265.0171 	EXP 	question_option_3: autoDraw = False
+265.0171 	EXP 	question_option_4: autoDraw = True
+265.0171 	EXP 	question_option_4: autoDraw = False
+265.0171 	EXP 	question_fulltext: autoDraw = False
+265.0171 	EXP 	question_option_1: autoDraw = False
+265.0171 	EXP 	question_option_2: autoDraw = False
+265.0171 	EXP 	question_option_3: autoDraw = False
+265.0171 	EXP 	question_option_4: autoDraw = False
+265.0171 	EXP 	inter_stim_text: text = '+'
+265.0171 	EXP 	inter_stim_text: autoDraw = True
+265.8184 	DATA 	Keypress: lshift
+265.8184 	DATA 	Keypress: t
+267.4183 	DATA 	Keypress: lshift
+267.4183 	DATA 	Keypress: t
+268.9005 	EXP 	New trial (rep=0, index=26): OrderedDict([('sentence_id', 67), ('sentence_text', 'The children noticed the unpleasant smell of the dog.'), ('sentence_duration', 3.0169667000000002), ('interstim_duration', 4.547169811320755), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+268.9083 	EXP 	inter_stim_text: autoDraw = False
+268.9083 	EXP 	inter_stim_text: autoDraw = False
+268.9083 	EXP 	sentence: autoDraw = True
+269.0181 	DATA 	Keypress: lshift
+269.0182 	DATA 	Keypress: t
+270.6184 	DATA 	Keypress: lshift
+270.6184 	DATA 	Keypress: t
+271.9246 	EXP 	sentence: autoDraw = False
+271.9246 	EXP 	sentence: autoDraw = False
+271.9246 	EXP 	question_fulltext: autoDraw = True
+271.9246 	EXP 	question_fulltext: autoDraw = False
+271.9246 	EXP 	question_option_1: autoDraw = True
+271.9246 	EXP 	question_option_1: autoDraw = False
+271.9246 	EXP 	question_option_2: autoDraw = True
+271.9246 	EXP 	question_option_2: autoDraw = False
+271.9246 	EXP 	question_option_3: autoDraw = True
+271.9246 	EXP 	question_option_3: autoDraw = False
+271.9246 	EXP 	question_option_4: autoDraw = True
+271.9246 	EXP 	question_option_4: autoDraw = False
+271.9246 	EXP 	question_fulltext: autoDraw = False
+271.9246 	EXP 	question_option_1: autoDraw = False
+271.9246 	EXP 	question_option_2: autoDraw = False
+271.9246 	EXP 	question_option_3: autoDraw = False
+271.9246 	EXP 	question_option_4: autoDraw = False
+271.9246 	EXP 	inter_stim_text: text = '+'
+271.9246 	EXP 	inter_stim_text: autoDraw = True
+272.2176 	DATA 	Keypress: lshift
+272.2176 	DATA 	Keypress: t
+273.8175 	DATA 	Keypress: lshift
+273.8175 	DATA 	Keypress: t
+275.4173 	DATA 	Keypress: lshift
+275.4174 	DATA 	Keypress: t
+276.4662 	EXP 	New trial (rep=0, index=27): OrderedDict([('sentence_id', 44), ('sentence_text', 'Shortly before the election the company unwittingly\npurchased a defective apartment block from the family.'), ('sentence_duration', 6.2378668), ('interstim_duration', 4.0754716981132075), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+276.4740 	EXP 	inter_stim_text: autoDraw = False
+276.4740 	EXP 	inter_stim_text: autoDraw = False
+276.4740 	EXP 	sentence: autoDraw = True
+277.0169 	DATA 	Keypress: lshift
+277.0170 	DATA 	Keypress: t
+278.6170 	DATA 	Keypress: lshift
+278.6170 	DATA 	Keypress: t
+280.2168 	DATA 	Keypress: lshift
+280.2168 	DATA 	Keypress: t
+281.8166 	DATA 	Keypress: lshift
+281.8166 	DATA 	Keypress: t
+282.7149 	EXP 	sentence: autoDraw = False
+282.7149 	EXP 	sentence: autoDraw = False
+282.7149 	EXP 	question_fulltext: autoDraw = True
+282.7149 	EXP 	question_fulltext: autoDraw = False
+282.7149 	EXP 	question_option_1: autoDraw = True
+282.7149 	EXP 	question_option_1: autoDraw = False
+282.7149 	EXP 	question_option_2: autoDraw = True
+282.7149 	EXP 	question_option_2: autoDraw = False
+282.7149 	EXP 	question_option_3: autoDraw = True
+282.7149 	EXP 	question_option_3: autoDraw = False
+282.7149 	EXP 	question_option_4: autoDraw = True
+282.7149 	EXP 	question_option_4: autoDraw = False
+282.7149 	EXP 	question_fulltext: autoDraw = False
+282.7149 	EXP 	question_option_1: autoDraw = False
+282.7149 	EXP 	question_option_2: autoDraw = False
+282.7149 	EXP 	question_option_3: autoDraw = False
+282.7149 	EXP 	question_option_4: autoDraw = False
+282.7149 	EXP 	inter_stim_text: text = '+'
+282.7149 	EXP 	inter_stim_text: autoDraw = True
+283.4164 	DATA 	Keypress: lshift
+283.4164 	DATA 	Keypress: t
+285.0161 	DATA 	Keypress: lshift
+285.0162 	DATA 	Keypress: t
+286.6160 	DATA 	Keypress: lshift
+286.6160 	DATA 	Keypress: t
+286.7816 	EXP 	New trial (rep=0, index=28): OrderedDict([('sentence_id', 78), ('sentence_text', 'In response to recent events the lobbyist\nquickly wrote to the politician about the reporter.'), ('sentence_duration', 5.4289587), ('interstim_duration', 6.622641509433962), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+286.8035 	EXP 	inter_stim_text: autoDraw = False
+286.8035 	EXP 	inter_stim_text: autoDraw = False
+286.8035 	EXP 	sentence: autoDraw = True
+288.2155 	DATA 	Keypress: lshift
+288.2156 	DATA 	Keypress: t
+289.8157 	DATA 	Keypress: lshift
+289.8158 	DATA 	Keypress: t
+291.4153 	DATA 	Keypress: lshift
+291.4154 	DATA 	Keypress: t
+292.2388 	EXP 	sentence: autoDraw = False
+292.2388 	EXP 	sentence: autoDraw = False
+292.2388 	EXP 	question_fulltext: autoDraw = True
+292.2388 	EXP 	question_fulltext: autoDraw = False
+292.2388 	EXP 	question_option_1: autoDraw = True
+292.2388 	EXP 	question_option_1: autoDraw = False
+292.2388 	EXP 	question_option_2: autoDraw = True
+292.2388 	EXP 	question_option_2: autoDraw = False
+292.2388 	EXP 	question_option_3: autoDraw = True
+292.2388 	EXP 	question_option_3: autoDraw = False
+292.2388 	EXP 	question_option_4: autoDraw = True
+292.2388 	EXP 	question_option_4: autoDraw = False
+292.2388 	EXP 	question_fulltext: autoDraw = False
+292.2388 	EXP 	question_option_1: autoDraw = False
+292.2388 	EXP 	question_option_2: autoDraw = False
+292.2388 	EXP 	question_option_3: autoDraw = False
+292.2388 	EXP 	question_option_4: autoDraw = False
+292.2388 	EXP 	inter_stim_text: text = '+'
+292.2388 	EXP 	inter_stim_text: autoDraw = True
+293.0149 	DATA 	Keypress: lshift
+293.0150 	DATA 	Keypress: t
+294.6147 	DATA 	Keypress: lshift
+294.6147 	DATA 	Keypress: t
+296.2147 	DATA 	Keypress: lshift
+296.2148 	DATA 	Keypress: t
+297.8145 	DATA 	Keypress: lshift
+297.8145 	DATA 	Keypress: t
+298.8551 	EXP 	New trial (rep=0, index=29): OrderedDict([('sentence_id', 80), ('sentence_text', "The experienced lobbyist wrote a painstakingly detailed email\nto the politician about the reporter's recent activities."), ('sentence_duration', 7.0590443), ('interstim_duration', 6.056603773584905), ('question_duration', 0), ('question_text', 'What did the lobbyist write about?'), ('answer_index', 'None'), ('option_1', 'A) The disgraced reporter'), ('option_2', 'B) The disgraced reporter'), ('option_3', 'C) The journalist'), ('option_4', 'D) The politician')])
+298.8630 	EXP 	inter_stim_text: autoDraw = False
+298.8630 	EXP 	inter_stim_text: autoDraw = False
+298.8630 	EXP 	sentence: autoDraw = True
+299.4144 	DATA 	Keypress: lshift
+299.4145 	DATA 	Keypress: t
+301.0142 	DATA 	Keypress: lshift
+301.0142 	DATA 	Keypress: t
+302.6140 	DATA 	Keypress: lshift
+302.6140 	DATA 	Keypress: t
+304.2139 	DATA 	Keypress: lshift
+304.2140 	DATA 	Keypress: t
+305.8136 	DATA 	Keypress: lshift
+305.8137 	DATA 	Keypress: t
+305.9288 	EXP 	sentence: autoDraw = False
+305.9288 	EXP 	sentence: autoDraw = False
+305.9288 	EXP 	question_fulltext: autoDraw = True
+305.9288 	EXP 	question_fulltext: autoDraw = False
+305.9288 	EXP 	question_option_1: autoDraw = True
+305.9288 	EXP 	question_option_1: autoDraw = False
+305.9288 	EXP 	question_option_2: autoDraw = True
+305.9288 	EXP 	question_option_2: autoDraw = False
+305.9288 	EXP 	question_option_3: autoDraw = True
+305.9288 	EXP 	question_option_3: autoDraw = False
+305.9288 	EXP 	question_option_4: autoDraw = True
+305.9288 	EXP 	question_option_4: autoDraw = False
+305.9288 	EXP 	question_fulltext: autoDraw = False
+305.9288 	EXP 	question_option_1: autoDraw = False
+305.9288 	EXP 	question_option_2: autoDraw = False
+305.9288 	EXP 	question_option_3: autoDraw = False
+305.9288 	EXP 	question_option_4: autoDraw = False
+305.9288 	EXP 	inter_stim_text: text = '+'
+305.9288 	EXP 	inter_stim_text: autoDraw = True
+307.4132 	DATA 	Keypress: lshift
+307.4133 	DATA 	Keypress: t
+309.0131 	DATA 	Keypress: lshift
+309.0131 	DATA 	Keypress: t
+310.6129 	DATA 	Keypress: lshift
+310.6130 	DATA 	Keypress: t
+311.9785 	EXP 	New trial (rep=0, index=30): OrderedDict([('sentence_id', 53), ('sentence_text', 'After a long court battle the family finally blocked\nthe purchase of the apartment by the unscrupulous corporation.'), ('sentence_duration', 6.8050675), ('interstim_duration', 2.2830188679245285), ('question_duration', 0), ('question_text', 'What did the corporation want to purchase?'), ('answer_index', 'None'), ('option_1', 'A) The apartment'), ('option_2', 'B) The apartment'), ('option_3', 'C) The shop'), ('option_4', 'D) The park')])
+311.9863 	EXP 	inter_stim_text: autoDraw = False
+311.9863 	EXP 	inter_stim_text: autoDraw = False
+311.9863 	EXP 	sentence: autoDraw = True
+312.2132 	DATA 	Keypress: lshift
+312.2133 	DATA 	Keypress: t
+313.8128 	DATA 	Keypress: lshift
+313.8129 	DATA 	Keypress: t
+315.4126 	DATA 	Keypress: lshift
+315.4126 	DATA 	Keypress: t
+317.0123 	DATA 	Keypress: lshift
+317.0124 	DATA 	Keypress: t
+318.6121 	DATA 	Keypress: lshift
+318.6121 	DATA 	Keypress: t
+318.7939 	EXP 	sentence: autoDraw = False
+318.7939 	EXP 	sentence: autoDraw = False
+318.7939 	EXP 	question_fulltext: autoDraw = True
+318.7939 	EXP 	question_fulltext: autoDraw = False
+318.7939 	EXP 	question_option_1: autoDraw = True
+318.7939 	EXP 	question_option_1: autoDraw = False
+318.7939 	EXP 	question_option_2: autoDraw = True
+318.7939 	EXP 	question_option_2: autoDraw = False
+318.7939 	EXP 	question_option_3: autoDraw = True
+318.7939 	EXP 	question_option_3: autoDraw = False
+318.7939 	EXP 	question_option_4: autoDraw = True
+318.7939 	EXP 	question_option_4: autoDraw = False
+318.7939 	EXP 	question_fulltext: autoDraw = False
+318.7939 	EXP 	question_option_1: autoDraw = False
+318.7939 	EXP 	question_option_2: autoDraw = False
+318.7939 	EXP 	question_option_3: autoDraw = False
+318.7939 	EXP 	question_option_4: autoDraw = False
+318.7939 	EXP 	inter_stim_text: text = '+'
+318.7939 	EXP 	inter_stim_text: autoDraw = True
+320.2115 	DATA 	Keypress: lshift
+320.2115 	DATA 	Keypress: t
+321.0692 	EXP 	New trial (rep=0, index=31): OrderedDict([('sentence_id', 36), ('sentence_text', 'The concerned secretary spoke gently to the anxious\npatient in a private consultation room about the psychologist.'), ('sentence_duration', 6.741754800000001), ('interstim_duration', 3.7924528301886795), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+321.0769 	EXP 	inter_stim_text: autoDraw = False
+321.0769 	EXP 	inter_stim_text: autoDraw = False
+321.0769 	EXP 	sentence: autoDraw = True
+321.8120 	DATA 	Keypress: lshift
+321.8121 	DATA 	Keypress: t
+323.4116 	DATA 	Keypress: lshift
+323.4116 	DATA 	Keypress: t
+325.0110 	DATA 	Keypress: lshift
+325.0196 	DATA 	Keypress: t
+326.6112 	DATA 	Keypress: lshift
+326.6113 	DATA 	Keypress: t
+327.8177 	EXP 	sentence: autoDraw = False
+327.8177 	EXP 	sentence: autoDraw = False
+327.8177 	EXP 	question_fulltext: autoDraw = True
+327.8177 	EXP 	question_fulltext: autoDraw = False
+327.8177 	EXP 	question_option_1: autoDraw = True
+327.8177 	EXP 	question_option_1: autoDraw = False
+327.8177 	EXP 	question_option_2: autoDraw = True
+327.8177 	EXP 	question_option_2: autoDraw = False
+327.8177 	EXP 	question_option_3: autoDraw = True
+327.8177 	EXP 	question_option_3: autoDraw = False
+327.8177 	EXP 	question_option_4: autoDraw = True
+327.8177 	EXP 	question_option_4: autoDraw = False
+327.8177 	EXP 	question_fulltext: autoDraw = False
+327.8177 	EXP 	question_option_1: autoDraw = False
+327.8177 	EXP 	question_option_2: autoDraw = False
+327.8177 	EXP 	question_option_3: autoDraw = False
+327.8177 	EXP 	question_option_4: autoDraw = False
+327.8177 	EXP 	inter_stim_text: text = '+'
+327.8177 	EXP 	inter_stim_text: autoDraw = True
+328.2192 	DATA 	Keypress: lshift
+328.2192 	DATA 	Keypress: t
+329.8188 	DATA 	Keypress: lshift
+329.8189 	DATA 	Keypress: t
+331.4184 	DATA 	Keypress: lshift
+331.4184 	DATA 	Keypress: t
+331.6096 	EXP 	New trial (rep=0, index=32): OrderedDict([('sentence_id', 45), ('sentence_text', 'The foreign company purchased a decrepit apartment block\nfrom the wealthy family for an outrageous price.'), ('sentence_duration', 6.1752075), ('interstim_duration', 3.2264150943396226), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+331.6173 	EXP 	inter_stim_text: autoDraw = False
+331.6173 	EXP 	inter_stim_text: autoDraw = False
+331.6173 	EXP 	sentence: autoDraw = True
+333.0102 	DATA 	Keypress: lshift
+333.0186 	DATA 	Keypress: t
+334.6101 	DATA 	Keypress: lshift
+334.6187 	DATA 	Keypress: t
+336.2186 	DATA 	Keypress: lshift
+336.2187 	DATA 	Keypress: t
+337.7915 	EXP 	sentence: autoDraw = False
+337.7915 	EXP 	sentence: autoDraw = False
+337.7915 	EXP 	question_fulltext: autoDraw = True
+337.7915 	EXP 	question_fulltext: autoDraw = False
+337.7915 	EXP 	question_option_1: autoDraw = True
+337.7915 	EXP 	question_option_1: autoDraw = False
+337.7915 	EXP 	question_option_2: autoDraw = True
+337.7915 	EXP 	question_option_2: autoDraw = False
+337.7915 	EXP 	question_option_3: autoDraw = True
+337.7915 	EXP 	question_option_3: autoDraw = False
+337.7915 	EXP 	question_option_4: autoDraw = True
+337.7915 	EXP 	question_option_4: autoDraw = False
+337.7915 	EXP 	question_fulltext: autoDraw = False
+337.7915 	EXP 	question_option_1: autoDraw = False
+337.7915 	EXP 	question_option_2: autoDraw = False
+337.7915 	EXP 	question_option_3: autoDraw = False
+337.7915 	EXP 	question_option_4: autoDraw = False
+337.7915 	EXP 	inter_stim_text: text = '+'
+337.7915 	EXP 	inter_stim_text: autoDraw = True
+337.8182 	DATA 	Keypress: lshift
+337.8182 	DATA 	Keypress: t
+339.4177 	DATA 	Keypress: lshift
+339.4177 	DATA 	Keypress: t
+341.0171 	EXP 	New trial (rep=0, index=33): OrderedDict([('sentence_id', 72), ('sentence_text', 'After five long days the disappointed children finally objected\nto the unpleasant smell of their favourite new dog.'), ('sentence_duration', 6.8050675), ('interstim_duration', 3.981132075471698), ('question_duration', 0), ('question_text', 'How did the children feel?'), ('answer_index', 'None'), ('option_1', 'A) Disappointed'), ('option_2', 'B) Disappointed'), ('option_3', 'C) Excited'), ('option_4', 'D) Bored')])
+341.0197 	DATA 	Keypress: lshift
+341.0198 	DATA 	Keypress: t
+341.0245 	EXP 	inter_stim_text: autoDraw = False
+341.0245 	EXP 	inter_stim_text: autoDraw = False
+341.0245 	EXP 	sentence: autoDraw = True
+342.6175 	DATA 	Keypress: lshift
+342.6175 	DATA 	Keypress: t
+344.2091 	DATA 	Keypress: lshift
+344.2170 	DATA 	Keypress: t
+345.8169 	DATA 	Keypress: lshift
+345.8169 	DATA 	Keypress: t
+347.4166 	DATA 	Keypress: lshift
+347.4166 	DATA 	Keypress: t
+347.8319 	EXP 	sentence: autoDraw = False
+347.8319 	EXP 	sentence: autoDraw = False
+347.8319 	EXP 	question_fulltext: autoDraw = True
+347.8319 	EXP 	question_fulltext: autoDraw = False
+347.8319 	EXP 	question_option_1: autoDraw = True
+347.8319 	EXP 	question_option_1: autoDraw = False
+347.8319 	EXP 	question_option_2: autoDraw = True
+347.8319 	EXP 	question_option_2: autoDraw = False
+347.8319 	EXP 	question_option_3: autoDraw = True
+347.8319 	EXP 	question_option_3: autoDraw = False
+347.8319 	EXP 	question_option_4: autoDraw = True
+347.8319 	EXP 	question_option_4: autoDraw = False
+347.8319 	EXP 	question_fulltext: autoDraw = False
+347.8319 	EXP 	question_option_1: autoDraw = False
+347.8319 	EXP 	question_option_2: autoDraw = False
+347.8319 	EXP 	question_option_3: autoDraw = False
+347.8319 	EXP 	question_option_4: autoDraw = False
+347.8319 	EXP 	inter_stim_text: text = '+'
+347.8319 	EXP 	inter_stim_text: autoDraw = True
+349.0169 	DATA 	Keypress: lshift
+349.0170 	DATA 	Keypress: t
+350.6164 	DATA 	Keypress: lshift
+350.6165 	DATA 	Keypress: t
+351.8071 	EXP 	New trial (rep=0, index=34): OrderedDict([('sentence_id', 87), ('sentence_text', 'On her new laptop the reporter wrote a\nshort blog post for the lobbyist regarding the politician.'), ('sentence_duration', 5.6765467), ('interstim_duration', 6.339622641509434), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+351.8310 	EXP 	inter_stim_text: autoDraw = False
+351.8310 	EXP 	inter_stim_text: autoDraw = False
+351.8310 	EXP 	sentence: autoDraw = True
+352.2162 	DATA 	Keypress: lshift
+352.2163 	DATA 	Keypress: t
+353.8161 	DATA 	Keypress: lshift
+353.8161 	DATA 	Keypress: t
+355.4161 	DATA 	Keypress: lshift
+355.4161 	DATA 	Keypress: t
+357.0159 	DATA 	Keypress: lshift
+357.0160 	DATA 	Keypress: t
+357.5141 	EXP 	sentence: autoDraw = False
+357.5141 	EXP 	sentence: autoDraw = False
+357.5141 	EXP 	question_fulltext: autoDraw = True
+357.5141 	EXP 	question_fulltext: autoDraw = False
+357.5141 	EXP 	question_option_1: autoDraw = True
+357.5141 	EXP 	question_option_1: autoDraw = False
+357.5141 	EXP 	question_option_2: autoDraw = True
+357.5141 	EXP 	question_option_2: autoDraw = False
+357.5141 	EXP 	question_option_3: autoDraw = True
+357.5141 	EXP 	question_option_3: autoDraw = False
+357.5141 	EXP 	question_option_4: autoDraw = True
+357.5141 	EXP 	question_option_4: autoDraw = False
+357.5141 	EXP 	question_fulltext: autoDraw = False
+357.5141 	EXP 	question_option_1: autoDraw = False
+357.5141 	EXP 	question_option_2: autoDraw = False
+357.5141 	EXP 	question_option_3: autoDraw = False
+357.5141 	EXP 	question_option_4: autoDraw = False
+357.5141 	EXP 	inter_stim_text: text = '+'
+357.5141 	EXP 	inter_stim_text: autoDraw = True
+358.6155 	DATA 	Keypress: lshift
+358.6156 	DATA 	Keypress: t
+360.2153 	DATA 	Keypress: lshift
+360.2153 	DATA 	Keypress: t
+361.8147 	DATA 	Keypress: lshift
+361.8147 	DATA 	Keypress: t
+363.4151 	DATA 	Keypress: lshift
+363.4151 	DATA 	Keypress: t
+363.8471 	EXP 	New trial (rep=0, index=35): OrderedDict([('sentence_id', 91), ('sentence_text', 'The shopkeeper displayed the watch for customers.'), ('sentence_duration', 2.7821563), ('interstim_duration', 6.433962264150943), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+363.8550 	EXP 	inter_stim_text: autoDraw = False
+363.8550 	EXP 	inter_stim_text: autoDraw = False
+363.8550 	EXP 	sentence: autoDraw = True
+365.0147 	DATA 	Keypress: lshift
+365.0148 	DATA 	Keypress: t
+366.6146 	DATA 	Keypress: lshift
+366.6147 	DATA 	Keypress: t
+366.6380 	EXP 	sentence: autoDraw = False
+366.6380 	EXP 	sentence: autoDraw = False
+366.6380 	EXP 	question_fulltext: autoDraw = True
+366.6380 	EXP 	question_fulltext: autoDraw = False
+366.6380 	EXP 	question_option_1: autoDraw = True
+366.6380 	EXP 	question_option_1: autoDraw = False
+366.6380 	EXP 	question_option_2: autoDraw = True
+366.6380 	EXP 	question_option_2: autoDraw = False
+366.6380 	EXP 	question_option_3: autoDraw = True
+366.6380 	EXP 	question_option_3: autoDraw = False
+366.6380 	EXP 	question_option_4: autoDraw = True
+366.6380 	EXP 	question_option_4: autoDraw = False
+366.6380 	EXP 	question_fulltext: autoDraw = False
+366.6380 	EXP 	question_option_1: autoDraw = False
+366.6380 	EXP 	question_option_2: autoDraw = False
+366.6380 	EXP 	question_option_3: autoDraw = False
+366.6380 	EXP 	question_option_4: autoDraw = False
+366.6380 	EXP 	inter_stim_text: text = '+'
+366.6380 	EXP 	inter_stim_text: autoDraw = True
+368.2142 	DATA 	Keypress: lshift
+368.2142 	DATA 	Keypress: t
+369.8139 	DATA 	Keypress: lshift
+369.8139 	DATA 	Keypress: t
+371.4137 	DATA 	Keypress: lshift
+371.4137 	DATA 	Keypress: t
+373.0135 	DATA 	Keypress: lshift
+373.0136 	DATA 	Keypress: t
+373.0710 	EXP 	New trial (rep=0, index=36): OrderedDict([('sentence_id', 1), ('sentence_text', 'The cameraman brought the equipment to the director.'), ('sentence_duration', 2.9581551999999998), ('interstim_duration', 5.018867924528302), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+373.0790 	EXP 	inter_stim_text: autoDraw = False
+373.0790 	EXP 	inter_stim_text: autoDraw = False
+373.0790 	EXP 	sentence: autoDraw = True
+374.6136 	DATA 	Keypress: lshift
+374.6137 	DATA 	Keypress: t
+376.0368 	EXP 	sentence: autoDraw = False
+376.0368 	EXP 	sentence: autoDraw = False
+376.0368 	EXP 	question_fulltext: autoDraw = True
+376.0368 	EXP 	question_fulltext: autoDraw = False
+376.0368 	EXP 	question_option_1: autoDraw = True
+376.0368 	EXP 	question_option_1: autoDraw = False
+376.0368 	EXP 	question_option_2: autoDraw = True
+376.0368 	EXP 	question_option_2: autoDraw = False
+376.0368 	EXP 	question_option_3: autoDraw = True
+376.0368 	EXP 	question_option_3: autoDraw = False
+376.0368 	EXP 	question_option_4: autoDraw = True
+376.0368 	EXP 	question_option_4: autoDraw = False
+376.0368 	EXP 	question_fulltext: autoDraw = False
+376.0368 	EXP 	question_option_1: autoDraw = False
+376.0368 	EXP 	question_option_2: autoDraw = False
+376.0368 	EXP 	question_option_3: autoDraw = False
+376.0368 	EXP 	question_option_4: autoDraw = False
+376.0368 	EXP 	inter_stim_text: text = '+'
+376.0368 	EXP 	inter_stim_text: autoDraw = True
+376.2134 	DATA 	Keypress: lshift
+376.2135 	DATA 	Keypress: t
+377.8127 	DATA 	Keypress: lshift
+377.8127 	DATA 	Keypress: t
+379.4130 	DATA 	Keypress: lshift
+379.4131 	DATA 	Keypress: t
+381.0124 	DATA 	Keypress: lshift
+381.0125 	DATA 	Keypress: t
+381.0534 	EXP 	New trial (rep=0, index=37): OrderedDict([('sentence_id', 19), ('sentence_text', 'The psychologist spoke to the secretary about the patient.'), ('sentence_duration', 3.3121131999999998), ('interstim_duration', 5.962264150943396), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+381.0612 	EXP 	inter_stim_text: autoDraw = False
+381.0612 	EXP 	inter_stim_text: autoDraw = False
+381.0612 	EXP 	sentence: autoDraw = True
+382.6128 	DATA 	Keypress: lshift
+382.6128 	DATA 	Keypress: t
+384.2124 	DATA 	Keypress: lshift
+384.2125 	DATA 	Keypress: t
+384.3774 	EXP 	sentence: autoDraw = False
+384.3774 	EXP 	sentence: autoDraw = False
+384.3774 	EXP 	question_fulltext: autoDraw = True
+384.3774 	EXP 	question_fulltext: autoDraw = False
+384.3774 	EXP 	question_option_1: autoDraw = True
+384.3774 	EXP 	question_option_1: autoDraw = False
+384.3774 	EXP 	question_option_2: autoDraw = True
+384.3774 	EXP 	question_option_2: autoDraw = False
+384.3774 	EXP 	question_option_3: autoDraw = True
+384.3774 	EXP 	question_option_3: autoDraw = False
+384.3774 	EXP 	question_option_4: autoDraw = True
+384.3774 	EXP 	question_option_4: autoDraw = False
+384.3774 	EXP 	question_fulltext: autoDraw = False
+384.3774 	EXP 	question_option_1: autoDraw = False
+384.3774 	EXP 	question_option_2: autoDraw = False
+384.3774 	EXP 	question_option_3: autoDraw = False
+384.3774 	EXP 	question_option_4: autoDraw = False
+384.3774 	EXP 	inter_stim_text: text = '+'
+384.3774 	EXP 	inter_stim_text: autoDraw = True
+385.8122 	DATA 	Keypress: lshift
+385.8123 	DATA 	Keypress: t
+387.4119 	DATA 	Keypress: lshift
+387.4120 	DATA 	Keypress: t
+389.0115 	DATA 	Keypress: lshift
+389.0116 	DATA 	Keypress: t
+390.3357 	EXP 	New trial (rep=0, index=38): OrderedDict([('sentence_id', 52), ('sentence_text', 'The family from across town blocked the purchase\nof the modern apartment by the unpopular company.'), ('sentence_duration', 5.7386251999999995), ('interstim_duration', 3.1320754716981134), ('question_duration', 0), ('question_text', 'Where was the family from?'), ('answer_index', 'None'), ('option_1', 'A) Across town'), ('option_2', 'B) Across town'), ('option_3', 'C) Overseas'), ('option_4', 'D) The nearby suburb')])
+390.3434 	EXP 	inter_stim_text: autoDraw = False
+390.3434 	EXP 	inter_stim_text: autoDraw = False
+390.3434 	EXP 	sentence: autoDraw = True
+390.6114 	DATA 	Keypress: lshift
+390.6115 	DATA 	Keypress: t
+392.2116 	DATA 	Keypress: lshift
+392.2116 	DATA 	Keypress: t
+393.8113 	DATA 	Keypress: lshift
+393.8114 	DATA 	Keypress: t
+395.4111 	DATA 	Keypress: lshift
+395.4111 	DATA 	Keypress: t
+396.0845 	EXP 	sentence: autoDraw = False
+396.0845 	EXP 	sentence: autoDraw = False
+396.0845 	EXP 	question_fulltext: autoDraw = True
+396.0845 	EXP 	question_fulltext: autoDraw = False
+396.0845 	EXP 	question_option_1: autoDraw = True
+396.0845 	EXP 	question_option_1: autoDraw = False
+396.0845 	EXP 	question_option_2: autoDraw = True
+396.0845 	EXP 	question_option_2: autoDraw = False
+396.0845 	EXP 	question_option_3: autoDraw = True
+396.0845 	EXP 	question_option_3: autoDraw = False
+396.0845 	EXP 	question_option_4: autoDraw = True
+396.0845 	EXP 	question_option_4: autoDraw = False
+396.0845 	EXP 	question_fulltext: autoDraw = False
+396.0845 	EXP 	question_option_1: autoDraw = False
+396.0845 	EXP 	question_option_2: autoDraw = False
+396.0845 	EXP 	question_option_3: autoDraw = False
+396.0845 	EXP 	question_option_4: autoDraw = False
+396.0845 	EXP 	inter_stim_text: text = '+'
+396.0845 	EXP 	inter_stim_text: autoDraw = True
+397.0107 	DATA 	Keypress: lshift
+397.0107 	DATA 	Keypress: t
+398.6102 	DATA 	Keypress: lshift
+398.6186 	DATA 	Keypress: t
+399.2095 	EXP 	New trial (rep=0, index=39): OrderedDict([('sentence_id', 13), ('sentence_text', "The director sold the cameraman's equipment."), ('sentence_duration', 2.4902767999999997), ('interstim_duration', 4.830188679245284), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+399.2174 	EXP 	inter_stim_text: autoDraw = False
+399.2174 	EXP 	inter_stim_text: autoDraw = False
+399.2174 	EXP 	sentence: autoDraw = True
+400.2102 	DATA 	Keypress: lshift
+400.2184 	DATA 	Keypress: t
+401.7087 	EXP 	sentence: autoDraw = False
+401.7087 	EXP 	sentence: autoDraw = False
+401.7087 	EXP 	question_fulltext: autoDraw = True
+401.7087 	EXP 	question_fulltext: autoDraw = False
+401.7087 	EXP 	question_option_1: autoDraw = True
+401.7087 	EXP 	question_option_1: autoDraw = False
+401.7087 	EXP 	question_option_2: autoDraw = True
+401.7087 	EXP 	question_option_2: autoDraw = False
+401.7087 	EXP 	question_option_3: autoDraw = True
+401.7087 	EXP 	question_option_3: autoDraw = False
+401.7087 	EXP 	question_option_4: autoDraw = True
+401.7087 	EXP 	question_option_4: autoDraw = False
+401.7087 	EXP 	question_fulltext: autoDraw = False
+401.7087 	EXP 	question_option_1: autoDraw = False
+401.7087 	EXP 	question_option_2: autoDraw = False
+401.7087 	EXP 	question_option_3: autoDraw = False
+401.7087 	EXP 	question_option_4: autoDraw = False
+401.7087 	EXP 	inter_stim_text: text = '+'
+401.7087 	EXP 	inter_stim_text: autoDraw = True
+401.8103 	DATA 	Keypress: lshift
+401.8104 	DATA 	Keypress: t
+403.4097 	DATA 	Keypress: lshift
+403.4098 	DATA 	Keypress: t
+405.0097 	DATA 	Keypress: lshift
+405.0097 	DATA 	Keypress: t
+406.5337 	EXP 	New trial (rep=0, index=40): OrderedDict([('sentence_id', 73), ('sentence_text', 'The lobbyist wrote to the politician about the reporter.'), ('sentence_duration', 3.1938368), ('interstim_duration', 6.90566037735849), ('question_duration', 0), ('question_text', 'Whom did the lobbyist write about?'), ('answer_index', 'None'), ('option_1', 'A) The reporter'), ('option_2', 'B) The reporter'), ('option_3', 'C) The politician'), ('option_4', 'D) The corporation')])
+406.5416 	EXP 	inter_stim_text: autoDraw = False
+406.5416 	EXP 	inter_stim_text: autoDraw = False
+406.5416 	EXP 	sentence: autoDraw = True
+406.6100 	DATA 	Keypress: lshift
+406.6101 	DATA 	Keypress: t
+408.2097 	DATA 	Keypress: lshift
+408.2099 	DATA 	Keypress: t
+409.7412 	EXP 	sentence: autoDraw = False
+409.7412 	EXP 	sentence: autoDraw = False
+409.7412 	EXP 	question_fulltext: autoDraw = True
+409.7412 	EXP 	question_fulltext: autoDraw = False
+409.7412 	EXP 	question_option_1: autoDraw = True
+409.7412 	EXP 	question_option_1: autoDraw = False
+409.7412 	EXP 	question_option_2: autoDraw = True
+409.7412 	EXP 	question_option_2: autoDraw = False
+409.7412 	EXP 	question_option_3: autoDraw = True
+409.7412 	EXP 	question_option_3: autoDraw = False
+409.7412 	EXP 	question_option_4: autoDraw = True
+409.7412 	EXP 	question_option_4: autoDraw = False
+409.7412 	EXP 	question_fulltext: autoDraw = False
+409.7412 	EXP 	question_option_1: autoDraw = False
+409.7412 	EXP 	question_option_2: autoDraw = False
+409.7412 	EXP 	question_option_3: autoDraw = False
+409.7412 	EXP 	question_option_4: autoDraw = False
+409.7412 	EXP 	inter_stim_text: text = '+'
+409.7412 	EXP 	inter_stim_text: autoDraw = True
+409.8088 	DATA 	Keypress: lshift
+409.8171 	DATA 	Keypress: t
+411.4086 	DATA 	Keypress: lshift
+411.4175 	DATA 	Keypress: t
+413.0084 	DATA 	Keypress: lshift
+413.0166 	DATA 	Keypress: t
+414.6167 	DATA 	Keypress: lshift
+414.6167 	DATA 	Keypress: t
+416.2168 	DATA 	Keypress: lshift
+416.2168 	DATA 	Keypress: t
+416.6407 	EXP 	New trial (rep=0, index=41): OrderedDict([('sentence_id', 76), ('sentence_text', 'The lobbyist warned the politician about the reporter.'), ('sentence_duration', 3.0758508000000004), ('interstim_duration', 4.6415094339622645), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+416.6485 	EXP 	inter_stim_text: autoDraw = False
+416.6485 	EXP 	inter_stim_text: autoDraw = False
+416.6485 	EXP 	sentence: autoDraw = True
+417.8167 	DATA 	Keypress: lshift
+417.8167 	DATA 	Keypress: t
+419.4163 	DATA 	Keypress: lshift
+419.4164 	DATA 	Keypress: t
+419.7315 	EXP 	sentence: autoDraw = False
+419.7315 	EXP 	sentence: autoDraw = False
+419.7315 	EXP 	question_fulltext: autoDraw = True
+419.7315 	EXP 	question_fulltext: autoDraw = False
+419.7315 	EXP 	question_option_1: autoDraw = True
+419.7315 	EXP 	question_option_1: autoDraw = False
+419.7315 	EXP 	question_option_2: autoDraw = True
+419.7315 	EXP 	question_option_2: autoDraw = False
+419.7315 	EXP 	question_option_3: autoDraw = True
+419.7315 	EXP 	question_option_3: autoDraw = False
+419.7315 	EXP 	question_option_4: autoDraw = True
+419.7315 	EXP 	question_option_4: autoDraw = False
+419.7315 	EXP 	question_fulltext: autoDraw = False
+419.7315 	EXP 	question_option_1: autoDraw = False
+419.7315 	EXP 	question_option_2: autoDraw = False
+419.7315 	EXP 	question_option_3: autoDraw = False
+419.7315 	EXP 	question_option_4: autoDraw = False
+419.7315 	EXP 	inter_stim_text: text = '+'
+419.7315 	EXP 	inter_stim_text: autoDraw = True
+421.0160 	DATA 	Keypress: lshift
+421.0161 	DATA 	Keypress: t
+422.6157 	DATA 	Keypress: lshift
+422.6157 	DATA 	Keypress: t
+424.2158 	DATA 	Keypress: lshift
+424.2158 	DATA 	Keypress: t
+424.3648 	EXP 	New trial (rep=0, index=42): OrderedDict([('sentence_id', 89), ('sentence_text', 'Using pen and paper the reporter meticulously wrote\na personal letter to the lobbyist about the politician.'), ('sentence_duration', 6.3005987), ('interstim_duration', 4.9245283018867925), ('question_duration', 5), ('question_text', 'Whom did the reporter write to?'), ('answer_index', 'D'), ('option_1', 'A) Another journalist'), ('option_2', 'B) The newspaper editor'), ('option_3', 'C) The powerful politician'), ('option_4', 'D) The lobbyist')])
+424.3886 	EXP 	inter_stim_text: autoDraw = False
+424.3886 	EXP 	inter_stim_text: autoDraw = False
+424.3886 	EXP 	sentence: autoDraw = True
+425.8156 	DATA 	Keypress: lshift
+425.8156 	DATA 	Keypress: t
+427.4152 	DATA 	Keypress: lshift
+427.4153 	DATA 	Keypress: t
+429.0155 	DATA 	Keypress: lshift
+429.0155 	DATA 	Keypress: t
+430.6149 	DATA 	Keypress: lshift
+430.6149 	DATA 	Keypress: t
+430.6891 	EXP 	sentence: autoDraw = False
+430.6891 	EXP 	sentence: autoDraw = False
+430.6891 	EXP 	question_fulltext: autoDraw = True
+430.6891 	EXP 	question_option_1: autoDraw = True
+430.6891 	EXP 	question_option_2: autoDraw = True
+430.6891 	EXP 	question_option_3: autoDraw = True
+430.6891 	EXP 	question_option_4: autoDraw = True
+432.2083 	DATA 	Keypress: lshift
+432.2172 	DATA 	Keypress: t
+433.8169 	DATA 	Keypress: lshift
+433.8170 	DATA 	Keypress: t
+435.3339 	DATA 	Keypress: c
+435.4081 	DATA 	Keypress: lshift
+435.4170 	DATA 	Keypress: t
+435.6962 	EXP 	question_fulltext: autoDraw = False
+435.6962 	EXP 	question_option_1: autoDraw = False
+435.6962 	EXP 	question_option_2: autoDraw = False
+435.6962 	EXP 	question_option_3: autoDraw = False
+435.6962 	EXP 	question_option_4: autoDraw = False
+435.6962 	EXP 	question_fulltext: autoDraw = False
+435.6962 	EXP 	question_option_1: autoDraw = False
+435.6962 	EXP 	question_option_2: autoDraw = False
+435.6962 	EXP 	question_option_3: autoDraw = False
+435.6962 	EXP 	question_option_4: autoDraw = False
+435.6962 	EXP 	inter_stim_text: text = '+'
+435.6962 	EXP 	inter_stim_text: autoDraw = True
+437.0143 	DATA 	Keypress: lshift
+437.0144 	DATA 	Keypress: t
+438.6141 	DATA 	Keypress: lshift
+438.6143 	DATA 	Keypress: t
+440.2140 	DATA 	Keypress: lshift
+440.2141 	DATA 	Keypress: t
+440.6128 	EXP 	New trial (rep=0, index=43): OrderedDict([('sentence_id', 98), ('sentence_text', 'The incompetent shopkeeper foolishly displayed the\nwatch to customers in an obscure location.'), ('sentence_duration', 5.4289587), ('interstim_duration', 6.811320754716982), ('question_duration', 0), ('question_text', 'Where was the watch displayed?'), ('answer_index', 'None'), ('option_1', 'A) An obscure location'), ('option_2', 'B) An obscure location'), ('option_3', 'C) At the counter'), ('option_4', 'D) On a special stand')])
+440.6206 	EXP 	inter_stim_text: autoDraw = False
+440.6206 	EXP 	inter_stim_text: autoDraw = False
+440.6206 	EXP 	sentence: autoDraw = True
+441.8138 	DATA 	Keypress: lshift
+441.8138 	DATA 	Keypress: t
+443.4135 	DATA 	Keypress: lshift
+443.4136 	DATA 	Keypress: t
+445.0136 	DATA 	Keypress: lshift
+445.0137 	DATA 	Keypress: t
+446.0532 	EXP 	sentence: autoDraw = False
+446.0532 	EXP 	sentence: autoDraw = False
+446.0532 	EXP 	question_fulltext: autoDraw = True
+446.0532 	EXP 	question_fulltext: autoDraw = False
+446.0532 	EXP 	question_option_1: autoDraw = True
+446.0532 	EXP 	question_option_1: autoDraw = False
+446.0532 	EXP 	question_option_2: autoDraw = True
+446.0532 	EXP 	question_option_2: autoDraw = False
+446.0532 	EXP 	question_option_3: autoDraw = True
+446.0532 	EXP 	question_option_3: autoDraw = False
+446.0532 	EXP 	question_option_4: autoDraw = True
+446.0532 	EXP 	question_option_4: autoDraw = False
+446.0532 	EXP 	question_fulltext: autoDraw = False
+446.0532 	EXP 	question_option_1: autoDraw = False
+446.0532 	EXP 	question_option_2: autoDraw = False
+446.0532 	EXP 	question_option_3: autoDraw = False
+446.0532 	EXP 	question_option_4: autoDraw = False
+446.0532 	EXP 	inter_stim_text: text = '+'
+446.0532 	EXP 	inter_stim_text: autoDraw = True
+446.6130 	DATA 	Keypress: lshift
+446.6130 	DATA 	Keypress: t
+448.2127 	DATA 	Keypress: lshift
+448.2128 	DATA 	Keypress: t
+449.8124 	DATA 	Keypress: lshift
+449.8125 	DATA 	Keypress: t
+451.4124 	DATA 	Keypress: lshift
+451.4124 	DATA 	Keypress: t
+452.8613 	EXP 	New trial (rep=0, index=44): OrderedDict([('sentence_id', 12), ('sentence_text', 'The director brought his cameraman a hot lunch.'), ('sentence_duration', 2.6651867), ('interstim_duration', 2.849056603773585), ('question_duration', 5), ('question_text', 'What did the director bring?'), ('answer_index', 'C'), ('option_1', 'A) Special equipment'), ('option_2', 'B) An extra assistant'), ('option_3', 'C) A hot lunch'), ('option_4', 'D) His child')])
+452.8691 	EXP 	inter_stim_text: autoDraw = False
+452.8691 	EXP 	inter_stim_text: autoDraw = False
+452.8691 	EXP 	sentence: autoDraw = True
+453.0121 	DATA 	Keypress: lshift
+453.0122 	DATA 	Keypress: t
+454.6123 	DATA 	Keypress: lshift
+454.6124 	DATA 	Keypress: t
+455.5359 	EXP 	sentence: autoDraw = False
+455.5359 	EXP 	sentence: autoDraw = False
+455.5359 	EXP 	question_fulltext: autoDraw = True
+455.5359 	EXP 	question_option_1: autoDraw = True
+455.5359 	EXP 	question_option_2: autoDraw = True
+455.5359 	EXP 	question_option_3: autoDraw = True
+455.5359 	EXP 	question_option_4: autoDraw = True
+456.2141 	DATA 	Keypress: lshift
+456.2141 	DATA 	Keypress: t
+457.8140 	DATA 	Keypress: lshift
+457.8140 	DATA 	Keypress: t
+458.5890 	DATA 	Keypress: c
+459.4149 	DATA 	Keypress: lshift
+459.4150 	DATA 	Keypress: t
+460.5433 	EXP 	question_fulltext: autoDraw = False
+460.5433 	EXP 	question_option_1: autoDraw = False
+460.5433 	EXP 	question_option_2: autoDraw = False
+460.5433 	EXP 	question_option_3: autoDraw = False
+460.5433 	EXP 	question_option_4: autoDraw = False
+460.5433 	EXP 	question_fulltext: autoDraw = False
+460.5433 	EXP 	question_option_1: autoDraw = False
+460.5433 	EXP 	question_option_2: autoDraw = False
+460.5433 	EXP 	question_option_3: autoDraw = False
+460.5433 	EXP 	question_option_4: autoDraw = False
+460.5433 	EXP 	inter_stim_text: text = '+'
+460.5433 	EXP 	inter_stim_text: autoDraw = True
+461.0112 	DATA 	Keypress: lshift
+461.0112 	DATA 	Keypress: t
+462.6109 	DATA 	Keypress: lshift
+462.6109 	DATA 	Keypress: t
+463.3851 	EXP 	New trial (rep=0, index=45): OrderedDict([('sentence_id', 28), ('sentence_text', 'The secretary spoke to the patient about the psychologist.'), ('sentence_duration', 3.3121131999999998), ('interstim_duration', 2.7547169811320753), ('question_duration', 0), ('question_text', 'Who spoke to the patient?'), ('answer_index', 'None'), ('option_1', 'A) The secretary'), ('option_2', 'B) The secretary'), ('option_3', 'C) The psychologist'), ('option_4', 'D) Another patient')])
+463.3928 	EXP 	inter_stim_text: autoDraw = False
+463.3928 	EXP 	inter_stim_text: autoDraw = False
+463.3928 	EXP 	sentence: autoDraw = True
+464.2113 	DATA 	Keypress: lshift
+464.2114 	DATA 	Keypress: t
+465.8109 	DATA 	Keypress: lshift
+465.8109 	DATA 	Keypress: t
+466.7091 	EXP 	sentence: autoDraw = False
+466.7091 	EXP 	sentence: autoDraw = False
+466.7091 	EXP 	question_fulltext: autoDraw = True
+466.7091 	EXP 	question_fulltext: autoDraw = False
+466.7091 	EXP 	question_option_1: autoDraw = True
+466.7091 	EXP 	question_option_1: autoDraw = False
+466.7091 	EXP 	question_option_2: autoDraw = True
+466.7091 	EXP 	question_option_2: autoDraw = False
+466.7091 	EXP 	question_option_3: autoDraw = True
+466.7091 	EXP 	question_option_3: autoDraw = False
+466.7091 	EXP 	question_option_4: autoDraw = True
+466.7091 	EXP 	question_option_4: autoDraw = False
+466.7091 	EXP 	question_fulltext: autoDraw = False
+466.7091 	EXP 	question_option_1: autoDraw = False
+466.7091 	EXP 	question_option_2: autoDraw = False
+466.7091 	EXP 	question_option_3: autoDraw = False
+466.7091 	EXP 	question_option_4: autoDraw = False
+466.7091 	EXP 	inter_stim_text: text = '+'
+466.7091 	EXP 	inter_stim_text: autoDraw = True
+467.4104 	DATA 	Keypress: lshift
+467.4104 	DATA 	Keypress: t
+469.0101 	DATA 	Keypress: lshift
+469.0105 	DATA 	Keypress: t
+469.4593 	EXP 	New trial (rep=0, index=46): OrderedDict([('sentence_id', 42), ('sentence_text', 'In a calculated manoeuvre the company swiftly\npurchased the apartment block from the family.'), ('sentence_duration', 5.3672432), ('interstim_duration', 5.30188679245283), ('question_duration', 5), ('question_text', 'How was the purchase made?'), ('answer_index', 'B'), ('option_1', 'A) Illegally'), ('option_2', 'B) Swiftly'), ('option_3', 'C) Carefully'), ('option_4', 'D) Unnecessarily')])
+469.4671 	EXP 	inter_stim_text: autoDraw = False
+469.4671 	EXP 	inter_stim_text: autoDraw = False
+469.4671 	EXP 	sentence: autoDraw = True
+470.6102 	DATA 	Keypress: lshift
+470.6102 	DATA 	Keypress: t
+472.2103 	DATA 	Keypress: lshift
+472.2104 	DATA 	Keypress: t
+473.8099 	DATA 	Keypress: lshift
+473.8100 	DATA 	Keypress: t
+474.8415 	EXP 	sentence: autoDraw = False
+474.8415 	EXP 	sentence: autoDraw = False
+474.8415 	EXP 	question_fulltext: autoDraw = True
+474.8415 	EXP 	question_option_1: autoDraw = True
+474.8415 	EXP 	question_option_2: autoDraw = True
+474.8415 	EXP 	question_option_3: autoDraw = True
+474.8415 	EXP 	question_option_4: autoDraw = True
+475.4119 	DATA 	Keypress: lshift
+475.4121 	DATA 	Keypress: t
+476.3454 	DATA 	Keypress: b
+477.0115 	DATA 	Keypress: lshift
+477.0116 	DATA 	Keypress: t
+478.6116 	DATA 	Keypress: lshift
+478.6116 	DATA 	Keypress: t
+478.7863 	DATA 	Keypress: b
+479.8409 	EXP 	question_fulltext: autoDraw = False
+479.8409 	EXP 	question_option_1: autoDraw = False
+479.8409 	EXP 	question_option_2: autoDraw = False
+479.8409 	EXP 	question_option_3: autoDraw = False
+479.8409 	EXP 	question_option_4: autoDraw = False
+479.8409 	EXP 	question_fulltext: autoDraw = False
+479.8409 	EXP 	question_option_1: autoDraw = False
+479.8409 	EXP 	question_option_2: autoDraw = False
+479.8409 	EXP 	question_option_3: autoDraw = False
+479.8409 	EXP 	question_option_4: autoDraw = False
+479.8409 	EXP 	inter_stim_text: text = '+'
+479.8409 	EXP 	inter_stim_text: autoDraw = True
+480.2087 	DATA 	Keypress: lshift
+480.2172 	DATA 	Keypress: t
+481.8087 	DATA 	Keypress: lshift
+481.8087 	DATA 	Keypress: t
+483.4085 	DATA 	Keypress: lshift
+483.4085 	DATA 	Keypress: t
+485.0081 	DATA 	Keypress: lshift
+485.0082 	DATA 	Keypress: t
+485.1407 	EXP 	New trial (rep=0, index=47): OrderedDict([('sentence_id', 94), ('sentence_text', 'The shopkeeper marketed the watch to customers.'), ('sentence_duration', 2.6651867), ('interstim_duration', 7.0), ('question_duration', 0), ('question_text', 'What was the shopkeeper marketing?'), ('answer_index', 'None'), ('option_1', 'A) The watch'), ('option_2', 'B) The watch'), ('option_3', 'C) The laptop'), ('option_4', 'D) The shoes')])
+485.1485 	EXP 	inter_stim_text: autoDraw = False
+485.1485 	EXP 	inter_stim_text: autoDraw = False
+485.1485 	EXP 	sentence: autoDraw = True
+486.6161 	DATA 	Keypress: lshift
+486.6162 	DATA 	Keypress: t
+487.8148 	EXP 	sentence: autoDraw = False
+487.8148 	EXP 	sentence: autoDraw = False
+487.8148 	EXP 	question_fulltext: autoDraw = True
+487.8148 	EXP 	question_fulltext: autoDraw = False
+487.8148 	EXP 	question_option_1: autoDraw = True
+487.8148 	EXP 	question_option_1: autoDraw = False
+487.8148 	EXP 	question_option_2: autoDraw = True
+487.8148 	EXP 	question_option_2: autoDraw = False
+487.8148 	EXP 	question_option_3: autoDraw = True
+487.8148 	EXP 	question_option_3: autoDraw = False
+487.8148 	EXP 	question_option_4: autoDraw = True
+487.8148 	EXP 	question_option_4: autoDraw = False
+487.8148 	EXP 	question_fulltext: autoDraw = False
+487.8148 	EXP 	question_option_1: autoDraw = False
+487.8148 	EXP 	question_option_2: autoDraw = False
+487.8148 	EXP 	question_option_3: autoDraw = False
+487.8148 	EXP 	question_option_4: autoDraw = False
+487.8148 	EXP 	inter_stim_text: text = '+'
+487.8148 	EXP 	inter_stim_text: autoDraw = True
+488.2076 	DATA 	Keypress: lshift
+488.2159 	DATA 	Keypress: t
+489.8160 	DATA 	Keypress: lshift
+489.8161 	DATA 	Keypress: t
+491.4158 	DATA 	Keypress: lshift
+491.4159 	DATA 	Keypress: t
+493.0156 	DATA 	Keypress: lshift
+493.0157 	DATA 	Keypress: t
+494.6154 	DATA 	Keypress: lshift
+494.6155 	DATA 	Keypress: t
+494.8061 	EXP 	New trial (rep=0, index=48): OrderedDict([('sentence_id', 48), ('sentence_text', 'The family blocked the purchase of\ntheir vintage car by the company.'), ('sentence_duration', 3.9078512), ('interstim_duration', 6.716981132075472), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+494.8141 	EXP 	inter_stim_text: autoDraw = False
+494.8141 	EXP 	inter_stim_text: autoDraw = False
+494.8141 	EXP 	sentence: autoDraw = True
+496.2155 	DATA 	Keypress: lshift
+496.2156 	DATA 	Keypress: t
+497.8148 	DATA 	Keypress: lshift
+497.8149 	DATA 	Keypress: t
+498.7218 	EXP 	sentence: autoDraw = False
+498.7218 	EXP 	sentence: autoDraw = False
+498.7218 	EXP 	question_fulltext: autoDraw = True
+498.7218 	EXP 	question_fulltext: autoDraw = False
+498.7218 	EXP 	question_option_1: autoDraw = True
+498.7218 	EXP 	question_option_1: autoDraw = False
+498.7218 	EXP 	question_option_2: autoDraw = True
+498.7218 	EXP 	question_option_2: autoDraw = False
+498.7218 	EXP 	question_option_3: autoDraw = True
+498.7218 	EXP 	question_option_3: autoDraw = False
+498.7218 	EXP 	question_option_4: autoDraw = True
+498.7218 	EXP 	question_option_4: autoDraw = False
+498.7218 	EXP 	question_fulltext: autoDraw = False
+498.7218 	EXP 	question_option_1: autoDraw = False
+498.7218 	EXP 	question_option_2: autoDraw = False
+498.7218 	EXP 	question_option_3: autoDraw = False
+498.7218 	EXP 	question_option_4: autoDraw = False
+498.7218 	EXP 	inter_stim_text: text = '+'
+498.7218 	EXP 	inter_stim_text: autoDraw = True
+499.4147 	DATA 	Keypress: lshift
+499.4148 	DATA 	Keypress: t
+501.0142 	DATA 	Keypress: lshift
+501.0143 	DATA 	Keypress: t
+502.6145 	DATA 	Keypress: lshift
+502.6146 	DATA 	Keypress: t
+504.2145 	DATA 	Keypress: lshift
+504.2146 	DATA 	Keypress: t
+505.4383 	EXP 	New trial (rep=0, index=49): OrderedDict([('sentence_id', 41), ('sentence_text', 'The company purchased a valuable painting from the family.'), ('sentence_duration', 3.3121131999999998), ('interstim_duration', 6.245283018867925), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+505.4461 	EXP 	inter_stim_text: autoDraw = False
+505.4461 	EXP 	inter_stim_text: autoDraw = False
+505.4461 	EXP 	sentence: autoDraw = True
+505.8144 	DATA 	Keypress: lshift
+505.8144 	DATA 	Keypress: t
+507.4139 	DATA 	Keypress: lshift
+507.4140 	DATA 	Keypress: t
+508.7622 	EXP 	sentence: autoDraw = False
+508.7622 	EXP 	sentence: autoDraw = False
+508.7622 	EXP 	question_fulltext: autoDraw = True
+508.7622 	EXP 	question_fulltext: autoDraw = False
+508.7622 	EXP 	question_option_1: autoDraw = True
+508.7622 	EXP 	question_option_1: autoDraw = False
+508.7622 	EXP 	question_option_2: autoDraw = True
+508.7622 	EXP 	question_option_2: autoDraw = False
+508.7622 	EXP 	question_option_3: autoDraw = True
+508.7622 	EXP 	question_option_3: autoDraw = False
+508.7622 	EXP 	question_option_4: autoDraw = True
+508.7622 	EXP 	question_option_4: autoDraw = False
+508.7622 	EXP 	question_fulltext: autoDraw = False
+508.7622 	EXP 	question_option_1: autoDraw = False
+508.7622 	EXP 	question_option_2: autoDraw = False
+508.7622 	EXP 	question_option_3: autoDraw = False
+508.7622 	EXP 	question_option_4: autoDraw = False
+508.7622 	EXP 	inter_stim_text: text = '+'
+508.7622 	EXP 	inter_stim_text: autoDraw = True
+509.0133 	DATA 	Keypress: lshift
+509.0133 	DATA 	Keypress: t
+510.6134 	DATA 	Keypress: lshift
+510.6134 	DATA 	Keypress: t
+512.2129 	DATA 	Keypress: lshift
+512.2129 	DATA 	Keypress: t
+513.8133 	DATA 	Keypress: lshift
+513.8134 	DATA 	Keypress: t
+515.0035 	EXP 	New trial (rep=0, index=50): OrderedDict([('sentence_id', 2), ('sentence_text', 'The cameraman brought the new equipment to the director.'), ('sentence_duration', 3.1938368), ('interstim_duration', 3.6981132075471694), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+515.0115 	EXP 	inter_stim_text: autoDraw = False
+515.0115 	EXP 	inter_stim_text: autoDraw = False
+515.0115 	EXP 	sentence: autoDraw = True
+515.4135 	DATA 	Keypress: lshift
+515.4136 	DATA 	Keypress: t
+517.0129 	DATA 	Keypress: lshift
+517.0129 	DATA 	Keypress: t
+518.2111 	EXP 	sentence: autoDraw = False
+518.2111 	EXP 	sentence: autoDraw = False
+518.2111 	EXP 	question_fulltext: autoDraw = True
+518.2111 	EXP 	question_fulltext: autoDraw = False
+518.2111 	EXP 	question_option_1: autoDraw = True
+518.2111 	EXP 	question_option_1: autoDraw = False
+518.2111 	EXP 	question_option_2: autoDraw = True
+518.2111 	EXP 	question_option_2: autoDraw = False
+518.2111 	EXP 	question_option_3: autoDraw = True
+518.2111 	EXP 	question_option_3: autoDraw = False
+518.2111 	EXP 	question_option_4: autoDraw = True
+518.2111 	EXP 	question_option_4: autoDraw = False
+518.2111 	EXP 	question_fulltext: autoDraw = False
+518.2111 	EXP 	question_option_1: autoDraw = False
+518.2111 	EXP 	question_option_2: autoDraw = False
+518.2111 	EXP 	question_option_3: autoDraw = False
+518.2111 	EXP 	question_option_4: autoDraw = False
+518.2111 	EXP 	inter_stim_text: text = '+'
+518.2111 	EXP 	inter_stim_text: autoDraw = True
+518.6126 	DATA 	Keypress: lshift
+518.6127 	DATA 	Keypress: t
+520.2123 	DATA 	Keypress: lshift
+520.2123 	DATA 	Keypress: t
+521.8120 	DATA 	Keypress: lshift
+521.8121 	DATA 	Keypress: t
+521.9030 	EXP 	New trial (rep=0, index=51): OrderedDict([('sentence_id', 20), ('sentence_text', 'The psychologist often spoke to the secretary about the patient.'), ('sentence_duration', 3.6686848), ('interstim_duration', 4.735849056603773), ('question_duration', 0), ('question_text', 'Whom did the psychologist speak to?'), ('answer_index', 'None'), ('option_1', 'A) The secretary'), ('option_2', 'B) The secretary'), ('option_3', 'C) The patient'), ('option_4', 'D) The doctor')])
+521.9107 	EXP 	inter_stim_text: autoDraw = False
+521.9107 	EXP 	inter_stim_text: autoDraw = False
+521.9107 	EXP 	sentence: autoDraw = True
+523.4119 	DATA 	Keypress: lshift
+523.4120 	DATA 	Keypress: t
+525.0115 	DATA 	Keypress: lshift
+525.0116 	DATA 	Keypress: t
+525.5851 	EXP 	sentence: autoDraw = False
+525.5851 	EXP 	sentence: autoDraw = False
+525.5851 	EXP 	question_fulltext: autoDraw = True
+525.5851 	EXP 	question_fulltext: autoDraw = False
+525.5851 	EXP 	question_option_1: autoDraw = True
+525.5851 	EXP 	question_option_1: autoDraw = False
+525.5851 	EXP 	question_option_2: autoDraw = True
+525.5851 	EXP 	question_option_2: autoDraw = False
+525.5851 	EXP 	question_option_3: autoDraw = True
+525.5851 	EXP 	question_option_3: autoDraw = False
+525.5851 	EXP 	question_option_4: autoDraw = True
+525.5851 	EXP 	question_option_4: autoDraw = False
+525.5851 	EXP 	question_fulltext: autoDraw = False
+525.5851 	EXP 	question_option_1: autoDraw = False
+525.5851 	EXP 	question_option_2: autoDraw = False
+525.5851 	EXP 	question_option_3: autoDraw = False
+525.5851 	EXP 	question_option_4: autoDraw = False
+525.5851 	EXP 	inter_stim_text: text = '+'
+525.5851 	EXP 	inter_stim_text: autoDraw = True
+526.6115 	DATA 	Keypress: lshift
+526.6116 	DATA 	Keypress: t
+528.2111 	DATA 	Keypress: lshift
+528.2111 	DATA 	Keypress: t
+529.8112 	DATA 	Keypress: lshift
+529.8113 	DATA 	Keypress: t
+530.3185 	EXP 	New trial (rep=0, index=52): OrderedDict([('sentence_id', 27), ('sentence_text', 'One per week the psychologist spoke delicately to\nher experienced secretary about her most difficult patients.'), ('sentence_duration', 6.48923), ('interstim_duration', 3.415094339622642), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+530.3263 	EXP 	inter_stim_text: autoDraw = False
+530.3263 	EXP 	inter_stim_text: autoDraw = False
+530.3263 	EXP 	sentence: autoDraw = True
+531.4117 	DATA 	Keypress: lshift
+531.4118 	DATA 	Keypress: t
+533.0106 	DATA 	Keypress: lshift
+533.0107 	DATA 	Keypress: t
+534.6108 	DATA 	Keypress: lshift
+534.6109 	DATA 	Keypress: t
+536.2105 	DATA 	Keypress: lshift
+536.2106 	DATA 	Keypress: t
+536.8172 	EXP 	sentence: autoDraw = False
+536.8172 	EXP 	sentence: autoDraw = False
+536.8172 	EXP 	question_fulltext: autoDraw = True
+536.8172 	EXP 	question_fulltext: autoDraw = False
+536.8172 	EXP 	question_option_1: autoDraw = True
+536.8172 	EXP 	question_option_1: autoDraw = False
+536.8172 	EXP 	question_option_2: autoDraw = True
+536.8172 	EXP 	question_option_2: autoDraw = False
+536.8172 	EXP 	question_option_3: autoDraw = True
+536.8172 	EXP 	question_option_3: autoDraw = False
+536.8172 	EXP 	question_option_4: autoDraw = True
+536.8172 	EXP 	question_option_4: autoDraw = False
+536.8172 	EXP 	question_fulltext: autoDraw = False
+536.8172 	EXP 	question_option_1: autoDraw = False
+536.8172 	EXP 	question_option_2: autoDraw = False
+536.8172 	EXP 	question_option_3: autoDraw = False
+536.8172 	EXP 	question_option_4: autoDraw = False
+536.8172 	EXP 	inter_stim_text: text = '+'
+536.8172 	EXP 	inter_stim_text: autoDraw = True
+537.8101 	DATA 	Keypress: lshift
+537.8104 	DATA 	Keypress: t
+539.4102 	DATA 	Keypress: lshift
+539.4103 	DATA 	Keypress: t
+540.2258 	EXP 	New trial (rep=0, index=53): OrderedDict([('sentence_id', 54), ('sentence_text', 'For no good reason the family blocked the purchase of\nan old apartment by the local company for six months.'), ('sentence_duration', 6.3005987), ('interstim_duration', 5.490566037735849), ('question_duration', 0), ('question_text', 'None'), ('answer_index', 'None'), ('option_1', 'A) None'), ('option_2', 'B) None'), ('option_3', 'C) None'), ('option_4', 'D) None')])
+540.2334 	EXP 	inter_stim_text: autoDraw = False
+540.2334 	EXP 	inter_stim_text: autoDraw = False
+540.2334 	EXP 	sentence: autoDraw = True
+541.0097 	DATA 	Keypress: lshift
+541.0098 	DATA 	Keypress: t
+542.6098 	DATA 	Keypress: lshift
+542.6099 	DATA 	Keypress: t
+544.2097 	DATA 	Keypress: lshift
+544.2098 	DATA 	Keypress: t
+545.8092 	DATA 	Keypress: lshift
+545.8093 	DATA 	Keypress: t
+546.5410 	EXP 	sentence: autoDraw = False
+546.5410 	EXP 	sentence: autoDraw = False
+546.5410 	EXP 	question_fulltext: autoDraw = True
+546.5410 	EXP 	question_fulltext: autoDraw = False
+546.5410 	EXP 	question_option_1: autoDraw = True
+546.5410 	EXP 	question_option_1: autoDraw = False
+546.5410 	EXP 	question_option_2: autoDraw = True
+546.5410 	EXP 	question_option_2: autoDraw = False
+546.5410 	EXP 	question_option_3: autoDraw = True
+546.5410 	EXP 	question_option_3: autoDraw = False
+546.5410 	EXP 	question_option_4: autoDraw = True
+546.5410 	EXP 	question_option_4: autoDraw = False
+546.5410 	EXP 	question_fulltext: autoDraw = False
+546.5410 	EXP 	question_option_1: autoDraw = False
+546.5410 	EXP 	question_option_2: autoDraw = False
+546.5410 	EXP 	question_option_3: autoDraw = False
+546.5410 	EXP 	question_option_4: autoDraw = False
+546.5410 	EXP 	inter_stim_text: text = '+'
+546.5410 	EXP 	inter_stim_text: autoDraw = True
+547.4087 	DATA 	Keypress: lshift
+547.4091 	DATA 	Keypress: t
+549.0086 	DATA 	Keypress: lshift
+549.0086 	DATA 	Keypress: t
+550.6085 	DATA 	Keypress: lshift
+550.6088 	DATA 	Keypress: t
+552.0336 	EXP 	inter_stim_text: autoDraw = False
+552.0336 	EXP 	inter_stim_text: autoDraw = False
+552.0336 	EXP 	end_run_fixation: height = 0.05
+552.0336 	EXP 	end_run_fixation: height = 0.05
+552.0336 	EXP 	end_run_fixation: height = 0.05
+552.0336 	EXP 	end_run_fixation: text = '+'
+552.0336 	EXP 	end_text: height = 0.07
+552.0336 	EXP 	end_text: height = 0.07
+552.0336 	EXP 	end_text: height = 0.07
+552.0336 	EXP 	end_text: text = 'Run complete!'
+552.0336 	EXP 	end_run_fixation: autoDraw = True
+552.2087 	DATA 	Keypress: lshift
+552.2087 	DATA 	Keypress: t
+553.8080 	DATA 	Keypress: lshift
+553.8081 	DATA 	Keypress: t
+555.4077 	DATA 	Keypress: lshift
+555.4079 	DATA 	Keypress: t
+557.0074 	DATA 	Keypress: lshift
+557.0161 	DATA 	Keypress: t
+558.6075 	DATA 	Keypress: lshift
+558.6076 	DATA 	Keypress: t
+560.0726 	EXP 	end_text: autoDraw = True
+560.0809 	EXP 	end_run_fixation: autoDraw = False
+562.0645 	EXP 	New trial (rep=0, index=1): OrderedDict([('run_file', 'C:\\Users\\psychopy\\Desktop\\2024 Fodor Dataset\\subject_15\\run_2.csv'), ('intro_text', 'Run 2 of 8 will begin shortly.'), ('final_fixation_time', 9.068695000000048)])
+562.0724 	EXP 	end_text: autoDraw = False
+562.0724 	EXP 	end_run_fixation: autoDraw = False
+562.0724 	EXP 	end_text: autoDraw = False
+562.0724 	EXP 	next_run_text: height = 0.05
+562.0724 	EXP 	next_run_text: height = 0.05
+562.0724 	EXP 	next_run_text: height = 0.05
+562.0724 	EXP 	next_run_text: text = 'Run 2 of 8 will begin shortly.'
+562.0724 	EXP 	next_run_text: autoDraw = True
+567.0718 	EXP 	next_run_text: autoDraw = False
+567.0718 	EXP 	next_run_text: autoDraw = False
+567.0718 	EXP 	fixation_text_trigger: text = '+'
+567.0718 	EXP 	fixation_text_trigger: autoDraw = True
+954.5922 	DATA 	Keypress: escape
+955.0117 	EXP 	window1: mouseVisible = True
