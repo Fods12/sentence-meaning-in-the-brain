@@ -87,6 +87,7 @@ def get_pairs_in_diag(stimuli_indices_all, num_sets):
 
     return sent_pair_ids
 
+
 # Calculate cosine similarity between two embeddings
 def cosine_sim(embed_1: list, embed_2: list):
     """ Returns the cosine similarity (-1 to 1) between two embeddings, inputted as vectors.
@@ -104,6 +105,7 @@ def cosine_sim(embed_1: list, embed_2: list):
         similarity = np.dot(embed_1,embed_2)/(np.linalg.norm(embed_1)*np.linalg.norm(embed_2))
         #similarity, _ = spearmanr(embed_1, embed_2)
     return similarity
+
 
 # Function to split stimuli indices into random train/dev/test sets
 def train_dev_test_split(stimuli_indexes, dataset_name, train_prop, dev_prop):
@@ -850,65 +852,41 @@ def mask_based_utri2mat(upper_triangle, ntotal):
     return out 
 
 
-# Function to load sentences or pairs of sentences from text file
-def load_sentences(file_path: str, pairs: bool):
-    """ Loads a set of sentences into a dictionary.
-
-    Args:
-        file_path (str): path to sentences file
-        pairs (bool): load paired (True) or unpaired (False) sentences
-
-    Returns:
-        dict: dictionary of sentence pairs
-    """
-    
-    # Open dataset file
-    data_dict = {}
-    with open(file_path, encoding='utf-8') as file:
-        lines = file.readlines()
-
-    # Load data into dictionary
-    if pairs==True: # for pairs of sentences
-        # Save all sentence pairs into dictionary
-        data_dict = {}
-        i=1
-        for item in lines: 
-            item = item.strip()
-            item_list = item.split(';')
-            similarity = float(item_list[2])
-            sent_pair = (item_list[0],item_list[1])
-            data_dict[i] = [item_list[0],item_list[1],similarity]
-            i=i+1
-    elif pairs==False: # for single sentences
-        data_dict = {}
-        i=1
-        for item in lines: 
-            item = item.strip()
-            data_dict[i] = item
-            i=i+1
-    
-    return data_dict
-
-
-# Loads a set of sentence similarities, with the right code depending on whether it is a paired or non-paired list
-def load_set_of_sentences(dataset_name: str, pairs: bool):
+# Loads a set of sentence similarities, depending on whether it is a paired or non-paired list
+def load_set_of_sentences(dataset_path: str, pairs: bool):
     """ Loads a full set of sentence similarities
 
     Args:
-        dataset_name (str): name of dataset to load
+        dataset_path (str): path to dataset to load
         pairs (bool): load sentence pairs or a list of sentences
 
     Returns:
         dict: dictionary of embeddings
     """
     
-    # paired data
-    if pairs==True:
-        try:
-            sentences_dict = load_sentences(dataset_name+'.csv', pairs)
-        except FileNotFoundError:
-            sentences_dict = load_sentences(dataset_name+'.txt', pairs)
-    # non-paired data
-    elif pairs==False:
-        sentences_dict = load_sentences(dataset_name+'.txt', pairs)
+    # Open dataset file
+    sentences_dict = {}
+    with open(dataset_path, encoding='utf-8') as file:
+        lines = file.readlines()
+
+    # Load data into dictionary
+    if pairs==True: # for pairs of sentences
+        # Save all sentence pairs into dictionary
+        sentences_dict = {}
+        i=1
+        for item in lines: 
+            item = item.strip()
+            item_list = item.split(';')
+            similarity = float(item_list[2])
+            sent_pair = (item_list[0],item_list[1])
+            sentences_dict[i] = [item_list[0],item_list[1],similarity]
+            i=i+1
+    elif pairs==False: # for single sentences
+        sentences_dict = {}
+        i=1
+        for item in lines: 
+            item = item.strip()
+            sentences_dict[i] = item
+            i=i+1
+    
     return sentences_dict
